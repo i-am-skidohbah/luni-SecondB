@@ -15,22 +15,22 @@ import appleLaptop2 from "../Assests/products/jcns-solarator.jpg";
 import wardrobe1 from "../Assests/images/babycostume.jpg";
 import gamingLaptop1 from "../Assests/images/gamingLaptop1.jpg";
 import gamingLaptop2 from "../Assests/images/gamingLaptop2.jpg";
-import codingLaptop1 from "../Assests/images/codingLaptop1.jpg";
+import codingLaptop1 from "../Assests/products/solar-controllers.jpeg";
 import iphonXR1 from "../Assests/products/floodlight-300w.jpg";
 import iphone12M1 from "../Assests/images/iphone12M1.jpg";
 import SamsungM311 from "../Assests/products/jikokoa-charcoal-stove.jpg";
-import miphone1 from "../Assests/images/miphone1.jpg";
+import miphone1 from "../Assests/products/solar-chargers.jpeg";
 import desk from "../Assests/images/oneplusN1.jpg";
 import kidvest1 from "../Assests/images/vivo1.jpg";
 import Vivo from "../Assests/products/500W-YELLOW-BOX.jpg";
 import sofa1 from "../Assests/images/redmi9A1.jpg";
-import oppophone1 from "../Assests/images/oppophone1.jpg";
+import oppophone1 from "../Assests/products/solar-freezer-318l.jpg";
 import saaree from "../Assests/products/P2-Solar-Power-bank.jpg";
 import kidvest from "../Assests/images/meluha.jpg";
 import shirt from "../Assests/images/shirt.jpg";
 import ip from "../Assests/images/iphone12M1.jpg";
 import phirmeriyaad from "../Assests/images/phirmeriyaad.jpg";
-import womentop from "../Assests/images/womentop.jpg";
+import womentop from "../Assests/products/solar-chargers.jpeg";
 import mensjeans from "../Assests/images/mensjeans.jpg";
 import bedwithstorage from "../Assests/images/bedwithstorage.jpg";
 import pumatshirt2 from "../Assests/images/pumatshirt2.jpg";
@@ -446,12 +446,12 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Realme",
+    Brand: "DC Smart Switch",
     RAM: "6 GB",
-    title: "realme narzo 30 (Racing Blue, 6GB RAM, 128GB Storage)",
+    title: "CDC Smart Switch",
     category: "Mobiles",
     price: 14999,
-    imgs: [oppophone1, codingLaptop1],
+    imgs: [ codingLaptop1],
     quantity: 1,
     specs: [
       "6 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
@@ -482,9 +482,9 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Oppo",
+    Brand: "solar Freezer",
     RAM: "4 GB",
-    title: "OPPO A54 (Starry Blue, 4GB RAM, 128GB Storage)",
+    title: "solar Freezer 318l",
     category: "Mobiles",
     price: 15490,
     imgs: [oppophone1, oppophone2],
@@ -517,12 +517,12 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Vivo",
+    Brand: "Solar Chargers",
     RAM: "8 GB",
-    title: "Vivo S1 Pro (Jazzy Blue, 8GB RAM, 128GB Storage)",
+    title: "Solar Chargers",
     category: "Mobiles",
     price: 29999,
-    imgs: [vivo1],
+    imgs: [womentop],
     quantity: 1,
     specs: [
       "48+8+2+2MP rear camera | 32MP front camera Front camera",
@@ -545,9 +545,9 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Mi",
+    Brand: "Solar Chargers",
     RAM: "8 GB",
-    title: "Mi 11X 5G Cosmic Black 8GB RAM 128GB ROM",
+    title: "Solar chargers",
     category: "Mobiles",
     price: 31999,
     imgs: [miphone1],
