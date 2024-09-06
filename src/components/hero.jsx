@@ -54,9 +54,9 @@ const Hero = () => {
       </Slider>
       <HeroHome />
       <ProductBanner />
-      <Headings tips="special offer" title="choose the best" />
+      <Headings  title="Special Offers" />
       <BestOffer />
-      <Headings tips="new Arrivals" title="something new for you" />
+      <Headings title="Our Products" />
       <NewProducts />
       <Banner />
       <Headings tips="Accessories" title="choosing in one style" />

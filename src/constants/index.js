@@ -6,9 +6,9 @@ import image from "../Assests//products/1500W SOLARATOR.png";
 import photos from "../Assests/assets/brand//br-1.png";
 
 import photos1 from "../Assests/assets/brand/br-2.png";
-import photos2 from "../Assests/assets/brand/br-3.png";
-import photos3 from "../Assests/assets/brand/br-4.png";
-import photos4 from "../Assests/assets/brand/br-5.png";
+import photos2 from "../Assests/assets/brand/br-3.jpg";
+import photos3 from "../Assests/assets/brand/br-4.jpg";
+import photos4 from "../Assests/assets/brand/br-5.jpg";
 
 import appleLaptop1 from "../Assests/images/appleLaptop1.jpg";
 import appleLaptop2 from "../Assests/images/appleLaptop2.jpg";
@@ -1057,46 +1057,40 @@ export const ProductData = [
 export const productCarousel = [
   {
     _id: 1,
-    title1: "sunlight Power",
-    title2: "real power Supply",
-    details: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-              reiciendis rerum Lorem ipsum dolor sit amet. Lorem ipsum dolor
-              sit.`,
+    title1: "Compact Lithium Solarator",
+    title2: "SMALL BODY BIG ENGINE!",
+    details: `Get Solar Rest of Mind`,
     qualities: [
-      "20,000h of high votage",
-      "20,000h of high votage",
-      "20,000h of high votage",
+      "1.2 kilo watt hour",
+      "1.2 Back Up Battery",
+      "DC & AC Output",
     ],
-    price: "$50",
+    price: "#660.000",
     image: image,
   },
 
   {
     _id: 2,
-    title1: "sunlight Power",
-    title2: "real power Supply",
-    details: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-              reiciendis rerum Lorem ipsum dolor sit amet. Lorem ipsum dolor
-              sit.`,
+    title1: "Compact Lithium Solarator",
+    title2: "SMALL BODY BIG ENGINE!",
+    details: `Get Solar Rest of Mind`,
     qualities: [
-      "20,000h of high votage",
-      "20,000h of high votage",
-      "20,000h of high votage",
+      "1.2 kilo watt hour",
+      "1.2 Back Up Battery",
+      "DC & AC Output",
     ],
     price: "$50",
     image: image,
   },
   {
     _id: 3,
-    title1: "sunlight Power",
-    title2: "real power Supply",
-    details: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-              reiciendis rerum Lorem ipsum dolor sit amet. Lorem ipsum dolor
-              sit.`,
+    title1: "Compact Lithium Solarator",
+    title2: "SMALL BODY BIG ENGINE!",
+    details: `Get Solar Rest of Mind`,
     qualities: [
-      "20,000h of high votage",
-      "20,000h of high votage",
-      "20,000h of high votage",
+      "1.2 kilo watt hour",
+      "1.2 Back Up Battery",
+      "DC & AC Output",
     ],
     price: "$50",
     image: image,
@@ -1107,11 +1101,11 @@ export const productCarousel = [
 export const BestOffer = [
   {
     image: offer,
-    advert: "solar Pannel + lead Inveter + free delivery",
-    price: "$200",
+    advert: "solar Pannel + LiFePO4 Solarator + free delivery",
+    price: "#660,000",
 
     Details:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quis",
+    "1.2 kilo watt hour, 1.2 Back Up Battery, DC & AC Output",
   },
   {
     image: image,
