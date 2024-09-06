@@ -44,15 +44,18 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink to="/about" className="nav-item">
-            About
+            About Us
           </NavLink>
           <NavLink to="/products" className="nav-item">
             Products
           </NavLink>
-
-          <NavLink to="/carts" className="nav-item">
-            Carts
+          <NavLink to="/products" className="nav-item">
+            Projects
           </NavLink>
+          <NavLink to="/products" className="nav-item">
+            Training
+          </NavLink>
+          
           <NavLink to="/contact" className="nav-item">
             Contact Us
           </NavLink>

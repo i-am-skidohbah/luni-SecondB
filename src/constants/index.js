@@ -1,5 +1,5 @@
-import offer from "../Assests/solar 3.jpg";
-import image from "../Assests/assets/category/gaming.png";
+import offer from "../Assests/promo/promo1.jpg";
+import image from "../Assests//products/1500W SOLARATOR.png";
 
 // brands
 
