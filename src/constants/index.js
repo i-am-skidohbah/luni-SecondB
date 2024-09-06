@@ -11,21 +11,21 @@ import photos3 from "../Assests/assets/brand/br-4.jpg";
 import photos4 from "../Assests/assets/brand/br-5.jpg";
 
 import appleLaptop1 from "../Assests/images/appleLaptop1.jpg";
-import appleLaptop2 from "../Assests/images/appleLaptop2.jpg";
+import appleLaptop2 from "../Assests/products/jcns-solarator.jpg";
 import wardrobe1 from "../Assests/images/babycostume.jpg";
 import gamingLaptop1 from "../Assests/images/gamingLaptop1.jpg";
 import gamingLaptop2 from "../Assests/images/gamingLaptop2.jpg";
 import codingLaptop1 from "../Assests/images/codingLaptop1.jpg";
-import iphonXR1 from "../Assests/images/iphonXR1.jpg";
+import iphonXR1 from "../Assests/products/floodlight-300w.jpg";
 import iphone12M1 from "../Assests/images/iphone12M1.jpg";
-import SamsungM311 from "../Assests/images/SamsungM311.jpg";
+import SamsungM311 from "../Assests/products/jikokoa-charcoal-stove.jpg";
 import miphone1 from "../Assests/images/miphone1.jpg";
 import desk from "../Assests/images/oneplusN1.jpg";
 import kidvest1 from "../Assests/images/vivo1.jpg";
-import Vivo from "../Assests/images/oneplusN2.jpg";
+import Vivo from "../Assests/products/500W-YELLOW-BOX.jpg";
 import sofa1 from "../Assests/images/redmi9A1.jpg";
 import oppophone1 from "../Assests/images/oppophone1.jpg";
-import saaree from "../Assests/images/saaree.jpg";
+import saaree from "../Assests/products/P2-Solar-Power-bank.jpg";
 import kidvest from "../Assests/images/meluha.jpg";
 import shirt from "../Assests/images/shirt.jpg";
 import ip from "../Assests/images/iphone12M1.jpg";
@@ -40,7 +40,7 @@ import pumatshirt1 from "../Assests/images/pumatshirt1.jpg";
 import travelLaptop1 from "../Assests/images/travelLaptop1.jpg";
 import travelLaptop2 from "../Assests/images/travelLaptop2.jpg";
 import kabirkabir from "../Assests/images/kabirkabir.jpg";
-import oppophone2 from "../Assests/images/oppophone2.jpg";
+import oppophone2 from "../Assests/products/P2-Solar-Power-bank.jpg";
 import vivo1 from "../Assests/images/vivo1.jpg";
 import meluha from "../Assests/images/iphonXR1.jpg";
 import Wuthering from "../Assests/images/Wuthering.jpg";
@@ -230,9 +230,9 @@ const categories = {
 // Products
 export const ProductData = [
   {
-    Brand: "Redmi",
+    Brand: "SMS",
     RAM: "2 GB", // filters
-    title: "Redmi 9A (Nature Green, 2GB RAM, 32GB Storage)",
+    title: "Solar floodlight 300W",
     category: "Mobiles",
     price: 6999,
     imgs: [iphonXR1, appleLaptop1, iphonXR1, appleLaptop1],
@@ -279,9 +279,9 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Samsung",
+    Brand: "500W Yellow Box",
     RAM: "6 GB",
-    title: "Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)",
+    title: "500W Yellow Box",
     category: "Mobiles",
     price: 14999,
     imgs: [Vivo, gamingLaptop1],
@@ -321,9 +321,9 @@ export const ProductData = [
   },
   {
     popular: true,
-    Brand: "Apple",
+    Brand: "Jikokao",
     RAM: "6 GB",
-    title: "Apple iPhone 12 Pro Max (128GB)",
+    title: "Jikokao Charcoal Stove",
     category: "Mobiles",
     price: 119999,
     imgs: [SamsungM311, mensjeans],
@@ -363,9 +363,9 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "OnePlus",
+    Brand: "JCNS",
     RAM: "8 GB",
-    title: "OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)",
+    title: "Jcns Solarator",
     category: "Mobiles",
     price: 24999,
     imgs: [appleLaptop2, gamingLaptop2],
@@ -406,9 +406,9 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Jio",
+    Brand: "Compact Power",
     RAM: "4 MB",
-    title: "Jio Phone 3 (Black, 4 MB RAM, 4GB Storage)",
+    title: "P2 Solar Power bank",
     category: "Mobiles",
     price: 1999,
     imgs: [saaree, oppophone1],

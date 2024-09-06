@@ -26,7 +26,7 @@ const Navbar = () => {
         className={`navbar ${isMobileNavActive ? "mobile-nav" : ""} sticky `}
       >
         <img
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bluestar_%28bus_company%29_logo.svg/1280px-Bluestar_%28bus_company%29_logo.svg.png"
+          src="../Assests/luni_logo_124503.png"
           alt="Company Logo"
         />
         <button
