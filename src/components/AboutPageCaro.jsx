@@ -1,6 +1,6 @@
 import React from "react";
 import pannel from "../Assests/panel.jpg";
-import solar from "../Assests/solar 2.jpg";
+import solar from "../Assests/projects/morgue.jpeg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

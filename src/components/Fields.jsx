@@ -1,6 +1,6 @@
 import React from "react";
 import panel from "../Assests/panel.jpg";
-import panel2 from "../Assests/solar 2.jpg";
+import panel2 from "../Assests/projects/morgue.jpeg";
 import panel3 from "../Assests/solar 3.jpg";
 
 const Fields = () => {

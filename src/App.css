@@ -374,13 +374,13 @@ input {
 /*  step banner sections */
 
 .banner {
-  background-image: url("../src/Assests/solar\ 1.jpg");
+  background-image: url("../src/Assests/projects/dr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
 }
 .banner2 {
-  background-image: url("../src/Assests/solar\ 2.jpg");
+  background-image: url("../src/Assests/projects/morgue.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: 100%; */
