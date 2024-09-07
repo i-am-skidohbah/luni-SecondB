@@ -7,6 +7,20 @@ import "slick-carousel/slick/slick-theme.css";
 import Headings from "./Headings";
 import { Brand } from "../constants";
 
+// our teams images
+import image1 from "../Assests/team-1.jpg";
+import image2 from "../Assests/team-2.jpg";
+import image3 from "../Assests/team4.jpg";
+import image4 from "../Assests/team3.jpg";
+import image5 from "../Assests/team-5.jpg";
+import image6 from "../Assests/thei.jpg";
+import image7 from "../Assests/engr.jpg";
+import image8 from "../Assests/ALLWELL.jpg";
+import image9 from "../Assests/Ejike-director111.jpg";
+import image10 from "../Assests/mrs-adanna-director.jpg";
+import image11 from "../Assests/Capture.jpg";
+import image12 from "../Assests/anne.jpg";
+
 const AboutPageCaro = () => {
   return (
     <div className="w-full h-[650px]   relative">
@@ -20,11 +34,11 @@ const AboutPageCaro = () => {
       <div className="absolute top-36 left-0 right-0 bottom-0">
         <div className="flex flex-col items-center justify-center px-4 py-2">
           <h1 className="text-center text-white py-4 text-6xl uppercase">
-          LIGHTUP NIGERIA
+            LIGHTUP NIGERIA
           </h1>
           <hr className="w-32 bg-white h-1" />
           <p className="text-center text-white text-2xl py-4">
-          Welcome to Our World of Solar Power Excellence!
+            Welcome to Our World of Solar Power Excellence!
           </p>
         </div>
       </div>
@@ -41,15 +55,18 @@ export const AboutUs = () => {
           <h1 className="text-black text-5xl py-2 font-bold">Sun Power</h1>
           <hr className="w-24" />
           <p className="text-justify text-black  text-xl">
-          Lightup Nigeria Solar Power Ltd was incorporated in August 2020 with Corporate Affairs Commission under the Company and Allied Masters 
-          Act Laws of the Federation of Nigeria with RC No: 1700859. 
+            Lightup Nigeria Solar Power Ltd was incorporated in August 2020 with
+            Corporate Affairs Commission under the Company and Allied Masters
+            Act Laws of the Federation of Nigeria with RC No: 1700859.
           </p>
         </div>
 
         <div className=" w-full md:w-2/4 ">
           <p className=" text-justify text-black text-xl py-2">
-          We offer innovative, afforable, and sustainable solar energy solutions to power homes and businesses across Nigeria, 
-          reducing energy costs and promoting environmental responsibility with the use of lithium phosphate technology
+            We offer innovative, afforable, and sustainable solar energy
+            solutions to power homes and businesses across Nigeria, reducing
+            energy costs and promoting environmental responsibility with the use
+            of lithium phosphate technology
           </p>
         </div>
       </div>
