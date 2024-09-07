@@ -53,7 +53,7 @@ const Hero = () => {
         })}
       </Slider>
       <HeroHome />
-      <Headings  title="Special Offers" />
+
       <BestOffer />
       <Headings tips="" title="OUR PRODUCTS" />
       <ProductList />
