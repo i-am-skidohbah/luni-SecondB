@@ -12,7 +12,7 @@ const ProductList = () => {
   }, []);
   return (
     <div className="w-full flex justify-center items-center flex-col bg-white common-padding">
-      <div className="grid grid-cols-2 md:grid-cols-6  border place-items-center gap-x-0 gap-y-1 justify-center w-full ">
+      <div className="grid grid-cols-2 md:grid-cols-6  border place-items-center gap-x-0 gap-y-0 justify-center w-full ">
         {list.map((each, index) => {
           return (
             <ProductItems
