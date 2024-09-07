@@ -11,7 +11,7 @@ const BestOfferCarosel = ({
   image,
 }) => {
   return (
-    <div className="flex justify-around items-center  common-padding ">
+    <div className="flex justify-around items-center flex-col common-padding ">
       <Headings title="Special Offers" />
       <div className="flex w-full md:w-3/4 h-full  justify-center  items-center md:flex-row flex-col gap-0 md:gap-4 mt-12">
         <div className=" md:w-2/4  h-full   ">
