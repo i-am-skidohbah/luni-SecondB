@@ -55,7 +55,7 @@ const Hero = () => {
       <HeroHome />
       <Headings  title="Special Offers" />
       <BestOffer />
-      <Headings tips="Accessories" title="choosing in one style" />
+      <Headings tips="" title="OUR PRODUCTS" />
       <ProductList />
       <Banner />
       <Fields />

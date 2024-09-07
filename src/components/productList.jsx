@@ -8,11 +8,11 @@ const ProductList = () => {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    setList(ProductData.slice(0, 17));
+    setList(ProductData.slice(0, 12));
   }, []);
   return (
     <div className="w-full flex justify-center items-center flex-col bg-white common-padding">
-      <div className="grid grid-cols-1 md:grid-cols-6  border place-items-center gap-x-0 gap-y-1 justify-center w-full ">
+      <div className="grid grid-cols-2 md:grid-cols-6  border place-items-center gap-x-0 gap-y-1 justify-center w-full ">
         {list.map((each, index) => {
           return (
             <ProductItems
