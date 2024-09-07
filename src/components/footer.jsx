@@ -7,15 +7,15 @@ const Footer = () => {
   return (
     <div className="w-full flex justify-center h-full  md:h-[500px] bg_footer">
       <div className="w-3/4 grid grid-cols-1 md:grid-cols-4 h-[80%] place-items-start border-b border-green-100 py-5 px-4">
-        <div className="  px-6 py-4">
+        <div className="  px-4 py-4">
           <section>
             <div className="flex items-center  ">
               <img
                 src={logo}
-                className="w-44  h-44 object-contain px-6"
+                className="w-20  h-20 object-contain px-3"
                 alt=""
               />
-              <h2 className="text-white capitalize">light Up Nigerial LTD</h2>
+              <h2 className="text-white capitalize">light Up Nigerial Ltd</h2>
             </div>
             <div>
               <p className="font-extralight text-center italic text-white">
@@ -29,8 +29,8 @@ const Footer = () => {
         {/* the first */}
         <div className="flex  px-6 py-4  flex-col  ">
           <div>
-            <h2 className="text-white text-bold capitalize text-2xl py-4">
-              important LInks
+            <h2 className="text-white text-bold capitalize text-2xl py-2">
+              important Links
             </h2>
             <p className="text-xl leading-normal capitalize">product</p>
             <p className="text-xl leading-normal capitalize ">home</p>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="text-white text-bold capitalize text-2xl py-1">
+            <h2 className="text-white text-bold capitalize text-2xl py-2">
               services
             </h2>
             <p className="text-xl leading-normal capitalize ">product</p>
@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="flex r  px-6 py-4  flex-col ">
           <div>
             <h2 className="text-white text-bold capitalize text-2xl py-4">
-              Comapany LInks
+              Company LInks
             </h2>
             <p className="text-xl leading-normal capitalize ">installation</p>
             <p className="text-xl leading-normal capitalize ">fixing</p>

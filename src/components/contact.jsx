@@ -14,8 +14,7 @@ const Contact = () => {
               new offer every week + discount systerm + best prices
             </h1>
             <p className="text-center text-base text-black py-2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
-              assumenda nostrum ipsum sed.
+              Subscribe to our Newsletters and Solar manuals
             </p>
             <div className="flex justify-center items-center gap-0 py-4">
               <input
