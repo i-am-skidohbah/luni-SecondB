@@ -1,51 +1,57 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { TimeCountData } from "../constants";
 import Button from "./Button";
-import { Link } from "react-router-dom";
-
-const NewProductsItem = ({
+const BestOfferCarosel = ({
+  advert,
+  price,
+  Details,
+  time,
   category,
   image,
-  brand,
-  price,
-  title,
-  productId,
 }) => {
-  const LongDetails = (title) => {
-    if (title.length > 15) {
-      return title.slice(0, 25) + `` + `...`;
-    } else {
-      return title;
-    }
-  };
   return (
-    <Link to={`${productId}`}>
-      <div className="px-4 flex flex-col  group cursor-grab justify-center items-center py-6">
-        <div className="w-full group-hover:scale-110 transition ease-in-out ">
+    <div className="flex justify-around items-center  common-padding ">
+      <div className="flex w-full md:w-3/4 h-full  justify-center border items-center md:flex-row flex-col gap-0 md:gap-4">
+        <div className=" md:w-2/4  h-full   ">
           <img
-            src={image[0]}
-            className="w-3/4 object-contain  h-36"
-            alt="product image"
+            src={image}
+            alt="offer page"
+            className="w-full  h-auto object-contain rounded-xl   "
           />
         </div>
-        <div className="px-4">
-          <h3 className="text-base py-1 text-green-300 ">{category}</h3>
-          <h1 className="text-xl text-justify text-black font-semibold  capitalize">
-            {brand}
-          </h1>
-          <p className="text-justify  text-black  text-sm md:text-xl  font-normal">
-            {LongDetails(title)}
-          </p>
-          <p className="text-justify py-4 text-black text-xl font-semibold">
-            {price}
-          </p>
 
-          <div className="hidden group-hover:flex  transition ease-out duration-200 ">
-            {/* <Button /> */}
+        <div className="   md:w-2/4 w-full  ">
+          <div className=" h-full w-full px-4 ">
+            <h2 className="  text-black  text-2xl md:text-3xl  uppercase ">
+              {advert}{" "}
+            </h2>
+            <h2 className="text-black  capitalize font-normal">
+              best price:{" "}
+              <span className="text-green-500 font-thin"> {price}</span>
+            </h2>
+            <div className="flex items-center  justify-between gap-4">
+              {TimeCountData.map((time, i) => {
+                return (
+                  <div className="w-full h-auto  items-center py-4  " key={i}>
+                    <div className="flex text-white text-xl rounded-xl flex-col items-center border border-green-600 justify-center">
+                      <h1 className="text-black text-xl ">{time.time}</h1>
+                      <h1 className="text-green-300 text-sm">
+                        {time.category}
+                      </h1>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <p className="text-black  text-base md:text-xl  capitalize ">
+              {Details}
+            </p>
           </div>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
-export default NewProductsItem;
+export default BestOfferCarosel;
