@@ -2,7 +2,7 @@ import offer from "../Assests/promo/promo1.jpg";
 import image from "../Assests//products/1200W lithium blue box solarator.png";
 
 // brands
-
+import photos from "../Assests/assets/brand//br-1.png";
 import photos1 from "../Assests/assets/brand/br-2.png";
 import photos2 from "../Assests/assets/brand/br-3.jpg";
 import photos3 from "../Assests/assets/brand/br-4.jpg";
