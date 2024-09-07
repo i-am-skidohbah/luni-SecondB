@@ -1,5 +1,5 @@
 import offer from "../Assests/promo/promo1.jpg";
-import image from "../Assests//products/1500W SOLARATOR.png";
+import image from "../Assests//products/1200W lithium blue box solarator.png";
 
 // brands
 
@@ -11,26 +11,26 @@ import photos3 from "../Assests/assets/brand/br-4.jpg";
 import photos4 from "../Assests/assets/brand/br-5.jpg";
 
 import appleLaptop1 from "../Assests/images/appleLaptop1.jpg";
-import appleLaptop2 from "../Assests/products/jcns-solarator.jpg";
+import appleLaptop2 from "../Assests/images/appleLaptop1.jpg";
 import wardrobe1 from "../Assests/images/babycostume.jpg";
 import gamingLaptop1 from "../Assests/images/gamingLaptop1.jpg";
 import gamingLaptop2 from "../Assests/images/gamingLaptop2.jpg";
-import codingLaptop1 from "../Assests/products/solar-controllers.jpeg";
-import iphonXR1 from "../Assests/products/floodlight-300w.jpg";
+import codingLaptop1 from "../Assests/images/appleLaptop1.jpg";
+import iphonXR1 from "../Assests/images/appleLaptop1.jpg";
 import iphone12M1 from "../Assests/images/iphone12M1.jpg";
-import SamsungM311 from "../Assests/products/jikokoa-charcoal-stove.jpg";
-import miphone1 from "../Assests/products/solar-chargers.jpeg";
+import SamsungM311 from "../Assests/images/appleLaptop1.jpg";
+import miphone1 from "../Assests/images/appleLaptop1.jpg";
 import desk from "../Assests/images/oneplusN1.jpg";
 import kidvest1 from "../Assests/images/vivo1.jpg";
-import Vivo from "../Assests/products/500W-YELLOW-BOX.jpg";
+import Vivo from "../Assests/images/appleLaptop1.jpg";
 import sofa1 from "../Assests/images/redmi9A1.jpg";
-import oppophone1 from "../Assests/products/solar-freezer-318l.jpg";
-import saaree from "../Assests/products/P2-Solar-Power-bank.jpg";
+import oppophone1 from "../Assests/images/appleLaptop1.jpg";
+import saaree from "../Assests/images/appleLaptop1.jpg";
 import kidvest from "../Assests/images/meluha.jpg";
 import shirt from "../Assests/images/shirt.jpg";
 import ip from "../Assests/images/iphone12M1.jpg";
 import phirmeriyaad from "../Assests/images/phirmeriyaad.jpg";
-import womentop from "../Assests/products/solar-chargers.jpeg";
+import womentop from "../Assests/images/appleLaptop1.jpg";
 import mensjeans from "../Assests/images/mensjeans.jpg";
 import bedwithstorage from "../Assests/images/bedwithstorage.jpg";
 import pumatshirt2 from "../Assests/images/pumatshirt2.jpg";
@@ -40,7 +40,7 @@ import pumatshirt1 from "../Assests/images/pumatshirt1.jpg";
 import travelLaptop1 from "../Assests/images/travelLaptop1.jpg";
 import travelLaptop2 from "../Assests/images/travelLaptop2.jpg";
 import kabirkabir from "../Assests/images/kabirkabir.jpg";
-import oppophone2 from "../Assests/products/P2-Solar-Power-bank.jpg";
+import oppophone2 from "../Assests/images/appleLaptop1.jpg";
 import vivo1 from "../Assests/images/vivo1.jpg";
 import meluha from "../Assests/images/iphonXR1.jpg";
 import Wuthering from "../Assests/images/Wuthering.jpg";

@@ -25,10 +25,7 @@ const Navbar = () => {
       <nav
         className={`navbar ${isMobileNavActive ? "mobile-nav" : ""} sticky `}
       >
-        <img
-          src="../Assests/luni_logo_124503.png"
-          alt="Company Logo"
-        />
+        <img src="../Assests/luni_logo_124503.png" alt="Company Logo" />
         <button
           className={`menu-toggle ${isMobileNavActive ? "is-active" : ""}`}
           onClick={handleMenuToggleClick}
@@ -49,13 +46,13 @@ const Navbar = () => {
           <NavLink to="/products" className="nav-item">
             Products
           </NavLink>
-          <NavLink to="/products" className="nav-item">
+          <NavLink to="/projects" className="nav-item">
             Projects
           </NavLink>
-          <NavLink to="/products" className="nav-item">
+          <NavLink to="/training" className="nav-item">
             Training
           </NavLink>
-          
+
           <NavLink to="/contact" className="nav-item">
             Contact Us
           </NavLink>
