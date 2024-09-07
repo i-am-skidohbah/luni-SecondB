@@ -36,7 +36,7 @@ const Hero = () => {
   };
   //
   return (
-    <section className="z-0  px-0 md:px-36">
+    <section className="z-0  px-0 md:px-12">
       <Slider {...settings}>
         {caroData.map((i, index) => {
           return (
