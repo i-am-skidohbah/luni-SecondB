@@ -9,6 +9,7 @@ import photos1 from "../Assests/assets/brand/br-2.png";
 import photos2 from "../Assests/assets/brand/br-3.jpg";
 import photos3 from "../Assests/assets/brand/br-4.jpg";
 import photos4 from "../Assests/assets/brand/br-5.jpg";
+import photos5 from "../Assests/assets/brand/br-6.png";
 
 import appleLaptop1 from "../Assests/images/appleLaptop1.jpg";
 import appleLaptop2 from "../Assests/images/appleLaptop1.jpg";

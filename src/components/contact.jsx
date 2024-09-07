@@ -11,7 +11,7 @@ const Contact = () => {
               subscribers
             </h1>
             <h1 className="uppercase text-2xl text-black py-2 text-center ">
-              new offer every week + discount systerm + best prices
+              new offers + best prices
             </h1>
             <p className="text-center text-base text-black py-2">
               Subscribe to our Newsletters and Solar manuals

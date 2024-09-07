@@ -1,6 +1,6 @@
 import React from "react";
 import pannel from "../Assests/panel.jpg";
-import solar from "../Assests/projects/morgue.jpeg";
+import solar from "../Assests/projects/morgue.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -168,7 +168,7 @@ export const Brands = () => {
       {" "}
       <Headings tips="our brands" title="best of the bests" />
       <div className="bg-white w-full flex justify-center common-padding items-center ">
-        <div className=" w-3/4 md:grid hidden gap-6 place-items-center justify-center md:grid-cols-5">
+        <div className=" w-3/4 md:grid hidden gap-6 place-items-center justify-center md:grid-cols-6">
           {Brand.map((e, i) => {
             return (
               <div key={i} className="w-full">
