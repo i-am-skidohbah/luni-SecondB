@@ -5,7 +5,7 @@ import panel3 from "../Assests/solar 3.jpg";
 
 const Fields = () => {
   return (
-    <div className="common-padding  bg-white">
+    <div className="md:pt-32 md:pb-10 md:px-12 py-10 px-5  bg-white">
       <div className="grid grid-col-1 gap-x-4 gap-y-2 md:grid-cols-3  items-center justify-center w-full">
         <div className="h-[500px] hero   rounded-xl flex items-center relative justify-center py-6 px-2">
           <img

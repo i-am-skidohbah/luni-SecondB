@@ -21,7 +21,9 @@ a.active {
   .container {
     @apply p-6 flex items-center;
   }
-  .common-padding {
-    @apply sm:py-32 py-20 sm:px-10 px-5;
+ .common-padding {
+    @apply sm:py-14 py-10 sm:px-10 px-5;
   }
 }
+
+

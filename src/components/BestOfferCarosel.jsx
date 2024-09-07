@@ -1,5 +1,6 @@
 import React from "react";
 import { TimeCountData } from "../constants";
+import Headings from "./Headings";
 import Button from "./Button";
 const BestOfferCarosel = ({
   advert,
@@ -11,7 +12,8 @@ const BestOfferCarosel = ({
 }) => {
   return (
     <div className="flex justify-around items-center  common-padding ">
-      <div className="flex w-full md:w-3/4 h-full  justify-center border items-center md:flex-row flex-col gap-0 md:gap-4">
+      <Headings title="Special Offers" />
+      <div className="flex w-full md:w-3/4 h-full  justify-center  items-center md:flex-row flex-col gap-0 md:gap-4 mt-12">
         <div className=" md:w-2/4  h-full   ">
           <img
             src={image}

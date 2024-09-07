@@ -12,10 +12,8 @@ import { useContext, useEffect } from "react";
 import { useState } from "react";
 import NewProducts from "./newProducts";
 import ProductList from "./productList";
-import ViewAll from "./viewAll";
 import Fields from "./Fields";
 import Contact from "./contact";
-import Footer from "./footer";
 
 const Hero = () => {
   const { productCarousel } = useContext(ShopContext);
