@@ -114,9 +114,11 @@ export const Services = () => {
 export const Team = () => {
   return (
     <div className="bg-white common-padding  p-4 md:px-44">
-      <div className=" grid grid-cols-1 place-items-center gap-4 w-full justify-center md:grid-cols-3 ">
-        <div className="w-full h-[600px] ">
-          <div className=" w-full h-3/4 bg-green-300"></div>
+      <div className=" grid grid-cols-1 place-items-center gap-4 w-full justify-center md:grid-cols-4 ">
+        <div className="w-full h-[400px]  ">
+          <div className=" w-full h-[65%]">
+            <img src={image1} className="w-full h-full object-top" alt="" />
+          </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
               co founder
@@ -129,8 +131,10 @@ export const Team = () => {
             </p>
           </div>
         </div>
-        <div className="w-full h-[600px] ">
-          <div className=" w-full h-3/4 bg-green-300"></div>
+        <div className="w-full h-[400px]">
+          <div className=" w-full h-[65%] bg-green-300">
+            <img src={image2} className="w-full h-full object-top" alt="" />
+          </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
               co founder
@@ -144,8 +148,163 @@ export const Team = () => {
           </div>
         </div>
 
-        <div className="w-full h-[600px] ">
-          <div className=" w-full h-3/4 bg-green-300"></div>
+        <div className="w-full h-[400px]  ">
+          <div className=" w-full h-[65%] bg-green-300">
+            <img src={image3} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px] ">
+          <div className=" w-full h-[65%]">
+            <img src={image4} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px] ">
+          <div className=" w-full h-[65%] bg-green-300">
+            <img src={image5} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px]  ">
+          <div className=" w-full h-[65%] bg-green-300">
+            <img src={image6} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px] ">
+          <div className=" w-full h-[65%] ">
+            <img src={image7} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px] ">
+          <div className=" w-full h-[65%] ">
+            <img src={image8} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px] ">
+          <div className=" w-full h-[65%] ">
+            <img src={image9} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px]">
+          <div className=" w-full h-[65%] bg-green-300">
+            <img src={image10} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px]  ">
+          <div className=" w-full h-[65%] bg-green-300">
+            <img src={image11} className="w-full h-full object-top" alt="" />
+          </div>
+          <div className="flex flex-col w-full  items-center justify-center">
+            <h1 className="text-base uppercase font-bold text-green-600  py-2">
+              co founder
+            </h1>
+            <h1 className="text-2xl text-center uppercase py-1 font-bold">
+              Mr HisName
+            </h1>
+            <p className="text-center text-black text-xl font-normal tracking-normal">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full h-[400px]  ">
+          <div className=" w-full h-[65%] bg-green-300">
+            <img src={image12} className="w-full h-full object-top" alt="" />
+          </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
               co founder
@@ -162,6 +321,7 @@ export const Team = () => {
     </div>
   );
 };
+
 export const Brands = () => {
   return (
     <section className="common-padding md:block hidden bg-white  w-full ">

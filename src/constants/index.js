@@ -3,13 +3,18 @@ import image from "../Assests//products/1200W lithium blue box solarator.png";
 
 // brands
 
-import photos from "../Assests/assets/brand//br-1.png";
-
 import photos1 from "../Assests/assets/brand/br-2.png";
 import photos2 from "../Assests/assets/brand/br-3.jpg";
 import photos3 from "../Assests/assets/brand/br-4.jpg";
 import photos4 from "../Assests/assets/brand/br-5.jpg";
-import photos5 from "../Assests/assets/brand/br-6.png";
+import photos6 from "../Assests/assets/brand/br-6.png";
+import photos7 from "../Assests/assets/brand/br-7.gif";
+import photos8 from "../Assests/assets/brand/br-8.webp";
+import photos9 from "../Assests/assets/brand/br-9.jpg";
+import photos10 from "../Assests/assets/brand/br-10.jpg";
+import photos11 from "../Assests/assets/brand/br-11.jpg";
+import photos12 from "../Assests/assets/brand/ECOZEN.png";
+import photos5 from "../Assests/assets/brand/CWORTH LOGO.jpg";
 
 import appleLaptop1 from "../Assests/products/solar-PTZ-camera.jpg";
 import appleLaptop2 from "../Assests/products/xtra-power-floodlight-300w.jpg";
@@ -452,7 +457,7 @@ export const ProductData = [
     title: "CDC Smart Switch",
     category: "Mobiles",
     price: 14999,
-    imgs: [ codingLaptop1],
+    imgs: [codingLaptop1],
     quantity: 1,
     specs: [
       "6 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
@@ -1061,11 +1066,7 @@ export const productCarousel = [
     title1: "Compact Lithium Solarator",
     title2: "SMALL BODY BIG ENGINE!",
     details: `Get Solar Rest of Mind`,
-    qualities: [
-      "1.2 kilo watt hour",
-      "1.2 Back Up Battery",
-      "DC & AC Output",
-    ],
+    qualities: ["1.2 kilo watt hour", "1.2 Back Up Battery", "DC & AC Output"],
     price: "#660.000",
     image: image,
   },
@@ -1075,11 +1076,7 @@ export const productCarousel = [
     title1: "Compact Lithium Solarator",
     title2: "SMALL BODY BIG ENGINE!",
     details: `Get Solar Rest of Mind`,
-    qualities: [
-      "1.2 kilo watt hour",
-      "1.2 Back Up Battery",
-      "DC & AC Output",
-    ],
+    qualities: ["1.2 kilo watt hour", "1.2 Back Up Battery", "DC & AC Output"],
     price: "$50",
     image: image,
   },
@@ -1088,11 +1085,7 @@ export const productCarousel = [
     title1: "Compact Lithium Solarator",
     title2: "SMALL BODY BIG ENGINE!",
     details: `Get Solar Rest of Mind`,
-    qualities: [
-      "1.2 kilo watt hour",
-      "1.2 Back Up Battery",
-      "DC & AC Output",
-    ],
+    qualities: ["1.2 kilo watt hour", "1.2 Back Up Battery", "DC & AC Output"],
     price: "$50",
     image: image,
   },
@@ -1105,8 +1098,7 @@ export const BestOffer = [
     advert: "solar Pannel + LiFePO4 Solarator + free delivery",
     price: "#660,000",
 
-    Details:
-    "1.2 kilo watt hour, 1.2 Back Up Battery, DC & AC Output",
+    Details: "1.2 kilo watt hour, 1.2 Back Up Battery, DC & AC Output",
   },
   {
     image: image,
@@ -1148,4 +1140,18 @@ export const BannerData = [
   },
 ];
 
-export const Brand = [photos, photos1, photos2, photos3, photos4];
+export const Brand = [
+  photos,
+  photos1,
+  photos2,
+  photos3,
+  photos4,
+  photos5,
+  photos6,
+  photos7,
+  photos8,
+  photos9,
+  photos10,
+  photos11,
+  photos12,
+];
