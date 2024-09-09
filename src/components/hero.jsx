@@ -4,18 +4,18 @@ import Slider from "react-slick";
 import HeroHome from "./HeroHome";
 import Headings from "./Headings";
 import BestOffer from "./BestOffer";
-import ProductBanner from "./ProductBanner";
+
 import HeroCarousel from "./heroCarousel";
 import Banner from "./Banner";
 import { useContext, useEffect } from "react";
 
 import { useState } from "react";
-import NewProducts from "./newProducts";
+
 import ProductList from "./productList";
-import ViewAll from "./viewAll";
+
 import Fields from "./Fields";
 import Contact from "./contact";
-import Footer from "./footer";
+
 
 const Hero = () => {
   const { productCarousel } = useContext(ShopContext);

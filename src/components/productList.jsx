@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../Context/ShopContext";
-import ProductItems from "./ProductItems";
+import Products from "./ProductItems";
 import ViewAll from "./viewAll";
 
 const ProductList = () => {
@@ -15,7 +15,7 @@ const ProductList = () => {
       <div className="grid grid-cols-2 md:grid-cols-6  border place-items-center gap-x-0 gap-y-0 justify-center w-full ">
         {list.map((each, index) => {
           return (
-            <ProductItems
+            <Products
               key={index}
               category={each.category}
               image={each.imgs}
