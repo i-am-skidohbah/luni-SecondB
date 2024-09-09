@@ -257,7 +257,7 @@ export const ProductData = [
     id: "m1",
     rating: 4.2,
     reviews: [
-      {
+     /* {
         name: "Shubham",
         title: "Don't buy this phone",
         content: `Both 13 MP and 5MP Camera quality is good. Have lot of pre installed apps. 
@@ -282,7 +282,7 @@ export const ProductData = [
           Regarding battery is really huge and with normal daily usage it lasts for about 24 hrs as of my experience. With heavy usage and gaming it lasts for 7-10 hrs.
           Regarding gaming, since it has gaming processor helio G25 (equal to Snapdragon 625), and it's hyperdrive technology, no lag in gaming and better network connectivity makes games more aweful.`,
         rating: "5",
-      },
+      },*/
     ],
   },
   {
@@ -303,7 +303,7 @@ export const ProductData = [
     id: "m2",
     rating: 4.7,
     reviews: [
-      {
+      /*{
         name: "Rohit",
         title: "Best mobile in buget",
         content: "I higely recoomend this mobile",
@@ -322,7 +322,7 @@ export const ProductData = [
         content:
           "A Descent phone Definitely not for pro pubg player but can work fine Super amoled gives it best performance Descent camera Improved Selfie camera compared to M30 Long battery life Nice Security No ads unlike MI Works smoothly",
         rating: 5,
-      },
+      },*/
     ],
   },
   {
@@ -344,7 +344,7 @@ export const ProductData = [
     id: "m3",
     rating: 4.3,
     reviews: [
-      {
+     /* {
         name: "Johhny S",
         title: "This took one of my kidneys. But worth it",
         content:
@@ -364,7 +364,7 @@ export const ProductData = [
         content:
           "Just no words, what a beauty. Upgrading from iPhone X, this feels so big and heavy. But do not has much discomfort while using, you will get used to it.Make sure to get a decent Screen guard and clear case just to safeguard this beauty.",
         rating: "4",
-      },
+      },}*/
     ],
   },
   {
@@ -386,7 +386,7 @@ export const ProductData = [
     id: "m4",
     rating: 4.9,
     reviews: [
-      {
+      /*{
         name: "Bakwas",
         title: "Bakwas phone",
         content: "Bakwas phone",
@@ -407,7 +407,7 @@ export const ProductData = [
         content:
           "Very nice Phone with really nice features! I didn't even know I needed a phone but it is so good ",
         rating: "5",
-      },
+      },*/
     ],
   },
   {
@@ -428,7 +428,7 @@ export const ProductData = [
     id: "m5",
     rating: 3.5,
     reviews: [
-      {
+      /*{
         name: "BabaKun",
         title: "Good for My Dad",
         content:
@@ -446,7 +446,7 @@ export const ProductData = [
         title: "Ok",
         content: "ok for like daily use but not much",
         rating: 3,
-      },
+      },*/
     ],
   },
   {
@@ -467,7 +467,7 @@ export const ProductData = [
     id: "m6",
     rating: 4,
     reviews: [
-      {
+      /*{
         name: "Navin Kumar",
         title: "Amazing Product",
         content:
@@ -480,7 +480,7 @@ export const ProductData = [
         content:
           "Overall a good phone camera performance is decent enough in this price point the front camera though does a great job because of sony imx471 sensor ultrawide on the back would be great the macro and b/w sensor is not that useful battery life is good for an average user iam getting a screen on time of about 45-50 minutes using 10% battery so it can give you about 8-9 hours of screen time daily the charging is powerful and charges quickly In short its a gaming phone The antutu score os this device is around 350k which is greater than redmi note 10 pro max score of 300k",
         rating: 4,
-      },
+      },*/
     ],
   },
   {
@@ -501,7 +501,7 @@ export const ProductData = [
     id: "m7",
     rating: 4.2,
     reviews: [
-      {
+      /*{
         name: "Alwin",
         title: "Good Phone",
         content: "Good phone working fine good battery thanks",
@@ -513,7 +513,7 @@ export const ProductData = [
         content:
           "Okay so this product is not expensive, affordable and very beautiful, this is only good thing about it. Phone freezes a lot and when someone calls, it keeps vibrating without showing any number on the screen. I bought this phone in may 2021. And this is July 2021. I hate this phone already",
         rating: 2,
-      },
+      },*/
     ],
   },
   {
@@ -532,12 +532,12 @@ export const ProductData = [
     id: "m8",
     rating: 5,
     reviews: [
-      {
+      /*{
         name: "Blaze",
         title: "Fast and great deal",
         content: "Thanks, please manufacture more",
         rating: 5,
-      },
+      },*/
     ],
   },
   {
@@ -581,7 +581,7 @@ export const ProductData = [
     id: "m10",
     rating: 4.5,
     reviews: [
-      {
+      /*{
         name: "Darshan Sanghvi",
         title: "Fabulous!",
         content:
@@ -594,7 +594,7 @@ export const ProductData = [
         content:
           "The phone is not lacking in any sphere. The halmark quality of iPhone is telltale. The size is very handy and convenient. Charging cord is working only on one side like USB cord but then, the charging is very fast. Battery is very long lasting, better than 6000 mah batteries of Android. Picture quality better than so called 4 camera android. Go for it without a second thought. Charger not provided in the box, is freely available outside. Must buy a good bluetooth headset also to enjoy the phone.",
         rating: 5,
-      },
+      },*/
     ],
   },
  { 
@@ -613,7 +613,7 @@ export const ProductData = [
   id: "m6",
   rating: 4,
   reviews: [
-    {
+    /*{
       name: "Navin Kumar",
       title: "Amazing Product",
       content:
@@ -626,7 +626,7 @@ export const ProductData = [
       content:
         "Overall a good phone camera performance is decent enough in this price point the front camera though does a great job because of sony imx471 sensor ultrawide on the back would be great the macro and b/w sensor is not that useful battery life is good for an average user iam getting a screen on time of about 45-50 minutes using 10% battery so it can give you about 8-9 hours of screen time daily the charging is powerful and charges quickly In short its a gaming phone The antutu score os this device is around 350k which is greater than redmi note 10 pro max score of 300k",
       rating: 4,
-    },
+    },*/
   ],
 },
 {
@@ -645,7 +645,7 @@ export const ProductData = [
   id: "m7",
   rating: 4.2,
   reviews: [
-    {
+    /*{
       name: "Alwin",
       title: "Good Phone",
       content: "Good phone working fine good battery thanks",
@@ -657,7 +657,7 @@ export const ProductData = [
       content:
         "Okay so this product is not expensive, affordable and very beautiful, this is only good thing about it. Phone freezes a lot and when someone calls, it keeps vibrating without showing any number on the screen. I bought this phone in may 2021. And this is July 2021. I hate this phone already",
       rating: 2,
-    },
+    },*/
   ],
 },
 {
@@ -701,13 +701,13 @@ export const ProductData = [
   id: "m9",
   rating: 4,
   reviews: [
-    {
+    /*{
       name: "Nitea Ghosh",
       title: "Waste of money",
       content:
         "Very bad experience, i am going to return it, i am facing touch issue very much",
       rating: 1,
-    },
+    },*/
   ],
 },
 {
@@ -727,7 +727,7 @@ export const ProductData = [
   id: "m10",
   rating: 4.5,
   reviews: [
-    {
+    /*{
       name: "Darshan Sanghvi",
       title: "Fabulous!",
       content:
@@ -740,7 +740,7 @@ export const ProductData = [
       content:
         "The phone is not lacking in any sphere. The halmark quality of iPhone is telltale. The size is very handy and convenient. Charging cord is working only on one side like USB cord but then, the charging is very fast. Battery is very long lasting, better than 6000 mah batteries of Android. Picture quality better than so called 4 camera android. Go for it without a second thought. Charger not provided in the box, is freely available outside. Must buy a good bluetooth headset also to enjoy the phone.",
       rating: 5,
-    },
+    },*/
   ],
 },
 
@@ -766,7 +766,7 @@ export const ProductData = [
     id: "l1",
     rating: 3.8,
     reviews: [
-      {
+      /*{
         name: "Swag",
         title: "I really liked this product 👍",
         content:
@@ -786,7 +786,7 @@ export const ProductData = [
         content:
           "I purchased GR0011AU (1TB HDD no SSD, Ryzen 3 3250). Economical Laptop with decent performance. Battery backup around 5.5 to 6 hrs on streaming video via wifi and general browsing. I avoided purchasing extended warranty online. Instead buy from the HP helpline (number attached in photo). Registration and setup of MS Office Home and Student 2019 is tricky as the laptop has Office 365 installed as default. This (365) has to be uninstalled and the Office H&S 2019 image (3.5GB) has to be downloaded and set up. I am doing it all through the HP helpline and they are helpful.. Overall decent/good laptop for my basic requirements and very good customer support, atleast during setup.",
         rating: 4,
-      },
+      },*/
     ],
   },
   {
@@ -810,7 +810,7 @@ export const ProductData = [
     id: "l2",
     rating: 4.3,
     reviews: [
-      {
+      /*{
         name: "Adesh Gaurav",
         title: "Very good DELL laptop",
         content:
@@ -824,7 +824,7 @@ export const ProductData = [
         content:
           "Screen quality very nice, battery is good and camera quality is some good, I am perchase this laptop office work",
         rating: 4,
-      },
+      },*/
     ],
   },
   {
@@ -848,7 +848,7 @@ export const ProductData = [
     id: "l3",
     rating: 4.3,
     reviews: [
-      {
+      /*{
         name: "Sushabhan Biswas",
         title: "Good Product in a Handsome Budget, but Battery not so strong.",
         content: `I have been using this Product for 2 weeks. The Pros & Cons are following:
@@ -877,7 +877,7 @@ export const ProductData = [
             
             Overall, defn a good buy, and I'd recommend it for anyone who wants this config of laptop for their business/home purposes.`,
         rating: 4,
-      },
+      },*/
     ],
   },
   {
@@ -902,7 +902,7 @@ export const ProductData = [
     id: "l4",
     rating: 4.4,
     reviews: [
-      {
+      /*{
         name: "Abhinav Mehta",
         title: "Great Laptop, you can go for it, but …",
         content: `I am facing no issues as of now, a great laptop.
@@ -921,7 +921,7 @@ export const ProductData = [
         title: "Not good quality",
         content: `Very disappointed to let you all know that keyboard button came out within a month of purchase`,
         rating: 2,
-      },
+      },*/
     ],
   },
   {
@@ -946,7 +946,7 @@ export const ProductData = [
     id: "l5",
     rating: 4.3,
     reviews: [
-      {
+      /*{
         name: "Venkateesh",
         title: "Excellent Product from Apple",
         content: `After 3yrs of problems with Butterfly keyboard & Thermal Problem with Corei9 Apple Finally fixed those loop holes in this Model. It's almost perfect. Good for Professional use. I'm Little disappointed with Apple though., because there s no customization available for India. I hope In future they will introduce it. About the Product 5 Star Solid.
@@ -961,7 +961,7 @@ export const ProductData = [
           2. charging is disintegrating very fast (in cases like when you are doing some work on something like AutoDesk & simultaneously if a browser is running --- only for 2 apps running charge disintegration shouldn’t happen right)
           3. some times it's beach-balling even it's having octa core & 16 GB RAM`,
         rating: 4,
-      },
+      },*/
     ],
   },
 ];

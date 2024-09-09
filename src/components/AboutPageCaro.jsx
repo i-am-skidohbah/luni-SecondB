@@ -8,10 +8,10 @@ import Headings from "./Headings";
 import { Brand } from "../constants";
 
 // our teams images
-import image1 from "../Assests/team-1.jpg";
-import image2 from "../Assests/team-2.jpg";
-import image3 from "../Assests/team4.jpg";
-import image4 from "../Assests/grandpatron-LUNI.jpg";
+import image1 from "../Assests/grandpatron-LUNI.jpg";
+import image2 from "../Assests/team-1.jpg";
+import image3 from "../Assests/team-2.jpg";
+import image4 from "../Assests/team4.jpg";
 import image5 from "../Assests/team-5.jpg";
 import image6 from "../Assests/thei.jpg";
 import image7 from "../Assests/engr.jpg";
