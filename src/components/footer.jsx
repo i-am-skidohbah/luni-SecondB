@@ -15,12 +15,11 @@ const Footer = () => {
                 className="w-20  h-20 object-contain px-3"
                 alt=""
               />
-              <h2 className="text-white capitalize">light Up Nigerial Ltd</h2>
+              <h2 className="text-white capitalize">lightup Nigeria Solar Power Ltd</h2>
             </div>
             <div>
               <p className="font-extralight text-center italic text-white">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente voluptate
+              All Right Reserved, Lightup Nigeria Solar Power Ltd © 2024
               </p>
             </div>
           </section>

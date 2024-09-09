@@ -11,7 +11,7 @@ import { Brand } from "../constants";
 import image1 from "../Assests/team-1.jpg";
 import image2 from "../Assests/team-2.jpg";
 import image3 from "../Assests/team4.jpg";
-import image4 from "../Assests/team3.jpg";
+import image4 from "../Assests/grandpatron-LUNI.jpg";
 import image5 from "../Assests/team-5.jpg";
 import image6 from "../Assests/thei.jpg";
 import image7 from "../Assests/engr.jpg";
@@ -51,11 +51,11 @@ export const AboutUs = () => {
     <section className=" common-padding md:px-44 px-4 flex justify-center items-center bg-white ">
       <div className="flex items-center md:flex-row  flex-col gap-8 md:w-3/4 justify-center w-full">
         <div className=" w-full md:w-2/4">
-          <h1 className="text-balance text-base text-justify ">About us</h1>
-          <h1 className="text-black text-5xl py-2 font-bold">Sun Power</h1>
+          <h1 className="text-balance text-base text-justify "></h1>
+          <h1 className="text-black text-5xl py-2 font-bold">About Us</h1>
           <hr className="w-24" />
           <p className="text-justify text-black  text-xl">
-            Lightup Nigeria Solar Power Ltd was incorporated in August 2020 with
+            Lightup Nigeria Solar Power Ltd was incorporated in August 2020 with the
             Corporate Affairs Commission under the Company and Allied Masters
             Act Laws of the Federation of Nigeria with RC No: 1700859.
           </p>
@@ -90,7 +90,7 @@ export const Services = () => {
             <img src={solar} className="w-full rounded-xl" alt="" />
           </div>
           <div>
-            <h1 className="text-center py-2 text-2xl">Installation</h1>
+            <h1 className="text-center py-2 text-2xl">Installation & Maintainance</h1>
             <p className="text-center text-black text-xl text-normal">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto in
               cum ducimus fugiat magnam.
@@ -103,7 +103,7 @@ export const Services = () => {
             <img src={solar} className="w-full rounded-xl" alt="" />
           </div>
           <div>
-            <h1 className="text-center py-2 text-2xl">Vendor</h1>
+            <h1 className="text-center py-2 text-2xl">Products & Services</h1>
             <p className="text-center text-black text-xl text-normal">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto in
               cum ducimus fugiat magnam.
@@ -116,7 +116,7 @@ export const Services = () => {
             <img src={solar} className="w-full rounded-xl" alt="" />
           </div>
           <div>
-            <h1 className="text-center  py-2 text-2xl">Fixing</h1>
+            <h1 className="text-center  py-2 text-2xl">Training, Research & Innovation</h1>
             <p className="text-center text-black text-xl text-normal">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto in
               cum ducimus fugiat magnam.
@@ -138,7 +138,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Board Chairman
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -154,7 +154,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Excecutive Director
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -171,7 +171,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Excecutive Director
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -188,7 +188,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Grand Patron
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -199,22 +199,7 @@ export const Team = () => {
           </div>
         </div>
 
-        <div className="w-full h-[400px] ">
-          <div className=" w-full h-[65%] bg-green-300">
-            <img src={image5} className="w-full h-full object-top" alt="" />
-          </div>
-          <div className="flex flex-col w-full  items-center justify-center">
-            <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
-            </h1>
-            <h1 className="text-2xl text-center uppercase py-1 font-bold">
-              Mr HisName
-            </h1>
-            <p className="text-center text-black text-xl font-normal tracking-normal">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
+        
 
         <div className="w-full h-[400px]  ">
           <div className=" w-full h-[65%] bg-green-300">
@@ -222,7 +207,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Excecutive Director
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -239,7 +224,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Engineer
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -256,7 +241,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Project Director
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -273,7 +258,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Director
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -290,7 +275,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Director
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -307,7 +292,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Company secretary / Legal Advisor
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName
@@ -324,7 +309,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              co founder
+              Sales Supervisor
             </h1>
             <h1 className="text-2xl text-center uppercase py-1 font-bold">
               Mr HisName

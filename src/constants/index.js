@@ -16,31 +16,31 @@ import photos11 from "../Assests/assets/brand/br-11.jpg";
 import photos12 from "../Assests/assets/brand/ECOZEN.png";
 import photos5 from "../Assests/assets/brand/CWORTH LOGO.jpg";
 
-import appleLaptop1 from "../Assests/products/solar-PTZ-camera.jpg";
+import solarator from "../Assests/products/solarator.jpg";
 import appleLaptop2 from "../Assests/products/xtra-power-floodlight-300w.jpg";
-import wardrobe1 from "../Assests/products/solar-ice-maker1.jpg";
+import solarator2 from "../Assests/products/1.2kwh-solar-bluebox.jpg";
 import gamingLaptop1 from "../Assests/products/weidaisi-solar-kit.jpg";
 import gamingLaptop2 from "../Assests/products/Solar-baby-pro.jpg";
-import codingLaptop1 from "../Assests/products/sms-floodlight.jpg";
-import iphonXR1 from "../Assests/products/smart-switches.jpg";
-import iphone12M1 from "../Assests/products/DC-jump-starter.jpg";
-import SamsungM311 from "../Assests/products/grunfos-European-solar-sumo.jpg";
-import miphone1 from "../Assests/products/Solar-Charge-Controller.jpg";
-import desk from "../Assests/products/solar-dc-standing-fan.jpg";
-import kidvest1 from "../Assests/products/complete-solar-ice-makers.jpg";
-import Vivo from "../Assests/products/quality-LED-bulbs.jpg";
-import sofa1 from "../Assests/products/charcoal-stove.jpg";
-import oppophone1 from "../Assests/products/jikokoa-charcoal-stove.jpg";
-import saaree from "../Assests/products/mosquito-repelant-bulb.jpg";
-import kidvest from "../Assests/products/32inches-12w-solar-tv.jpg";
-import shirt from "../Assests/products/200W400WH-compact-lithium-solarator.jpg";
-import ip from "../Assests/products/solar-PTZ-camera.jpg";
-import phirmeriyaad from "../Assests/products/solar-cooker-activated.jpg";
-import womentop from "../Assests/products/S1-SOLAR-GENERATOR.jpg";
-import mensjeans from "../Assests/products/high-quality-Nigerian-cables.jpg";
-import bedwithstorage from "../Assests/products/solar-ice-maker1.jpg";
-import pumatshirt2 from "../Assests/products/solar-cooker-activated.jpg";
-import studentLaptophp1 from "../Assests/products/solar-cooker.jpg";
+import streetlight1 from "../Assests/products/CL4-solar-streetlights.jpg";
+import lighteningkit2 from "../Assests/products/50w-solarbaby.jpg";
+import solarator3 from "../Assests/products/1.5kw-scalable-hybrid-lithium-solarator.jpg";
+import solarator4 from "../Assests/products/1kw-compacy-solarator.jpg";
+import streetlight from "../Assests/products/100W-NDDC-standard-solar-streetlight.jpg";
+import solarator5 from "../Assests/products/2kva-3kwh-compact-solarator.jpg";
+import inverter from "../Assests/products/5kva-hybrid-growatts.jpg";
+import solarator6 from "../Assests/products/5kw-JCNS-lithium-solarator.jpg";
+import inverter2 from "../Assests/products/5kwh-EV-lithium-phosphate-battery.jpg";
+import solarator7 from "../Assests/products/128wh-DC-Solarator.jpg";
+import tv from "../Assests/products/32inches-12w-solar-tv.jpg";
+import lighteningkit from "../Assests/products/45W-solar-yellow-box.jpg";
+import lighteningkit1 from "../Assests/products/50w-lithium-solar-yelow-box.jpg";
+import solarator8 from "../Assests/products/200W400WH-compact-lithium-solarator.jpg";
+import solarator9 from "../Assests/products/300w-500w-JCNS-compact-solarators.jpg";
+import breaker from "../Assests/products/AC-DC-breakers.jpg";
+import charcoalstove from "../Assests/products/jikokoa-charcoal-stove.jpg";
+import phonecharger from "../Assests/products/commercial-DC-phone-charger.jpg";
+import icemakers from "../Assests/products/solar-ice-makers.jpg";
+import icemakers1 from "../Assests/products/solar-ice-maker.jpg";
 import studentLaptophp2 from "../Assests/products/5kwh-EV-lithium-phosphate-battery.jpg";
 import pumatshirt1 from "../Assests/products/solar-freezer-118l.jpg";
 import travelLaptop1 from "../Assests/products/solar-ice-makers.jpg";
@@ -236,20 +236,21 @@ const categories = {
 // Products
 export const ProductData = [
   {
-    Brand: "SMS",
-    RAM: "2 GB", // filters
-    title: "Solar floodlight 300W",
-    category: "Mobiles",
-    price: 6999,
-    imgs: [iphonXR1, appleLaptop1, iphonXR1, appleLaptop1],
+    Brand: "Solar bluebox",
+    RAM: "1.2kwh (1,200watts)", // filters
+    title: "1.2kwh (1,200watts) solar bluebox (with accessories)",
+    category: "Solarators",
+    price: "₦650,000 ",
+    imgs: [solarator, solarator2],
     quantity: 1,
     specs: [
       // Always check whether this is Array or String, if Array -> Bulleded List else if String -> Para
-      "13MP rear camera with AI portrait, AI scene recognition, HDR, pro mode | 5MP front camera.",
-      "16.58 centimeters (6.53 inch) HD+ multi-touch capacitive touchscreen with 1600 x 720 pixels resolution, 268 ppi pixel density and 20:9 aspect ratio",
-      "Memory, Storage & SIM: 2GB RAM, 32GB internal memory expandable up to 512GB | Dual SIM (nano+nano) + Dedicated SD card slot",
-      "Android v10 operating system with upto 2.0GHz clock speed Mediatek Helio G25 octa core processor",
-      "5000mAH lithium-polymer large battery with 10W wired charger in-box",
+      "1.2kwh all-in-one lithium solar generator with 6 DC power ports, AC power port, free 4 DC bulbs+310w foldable solar panel." ,
+      "This unit can power 6 lighting points + 118L DC freezer+laptop+deskjet printer+DC standing fan. ",
+      "1.2kwh all-in-one lithium solar generator with 6 DC power ports.",
+      "AC power port, free 4 DC bulbs+310w foldable solar panel. ",
+      "This unit can power 6 lighting points + 118L DC freezer+laptop+deskjet printer+DC standing fan. ",
+      "1.2kwh all-in-one lithium solar generator with 6 DC power ports, AC power port, free 4 DC bulbs+310w foldable solar panel. This unit can power 6 lighting points + 118L DC freezer+laptop+deskjet printer+DC standing fan. ",
     ],
     inStock: 40, // if less than 10, then display "Only {9} left!", else don't show anything.
     eta: 30, // in mins
@@ -285,18 +286,17 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "500W Yellow Box",
-    RAM: "6 GB",
-    title: "500W Yellow Box",
-    category: "Mobiles",
-    price: 14999,
-    imgs: [Vivo, gamingLaptop1],
+    Brand: "hybrid lithium solarator",
+    RAM: "1.5kw scalable",
+    title: "1.5kw scalable hybrid lithium solarator (unit only)",
+    category: "Solarator",
+    price: "₦980,000",
+    imgs: [solarator3],
     quantity: 1,
     specs: [
-      "Quad Camera Setup - 64MP (F1.8) Main Camera +8MP (F2.2) Ultra Wide Camera +5MP(F2.2) Depth Camera +5MP(F2.4) Macro Camera and 32MP (F2.0) front facing Camera",
-      "6.4-inch(16.21 centimeters) Super Amoled - Infinity U Cut Display , FHD+ Resolution (2340 x 1080) , 404 ppi pixel density and 16M color support",
-      "Android v10.0 operating system with 2.3GHz + 1.7GHz Exynos 9611 Octa core processor , 6GB RAM, 128GB internal memory expandable up to 512GB and dual SIM",
-      "6000 mAh Battery",
+      "Hybrid compact lithium solarator with 1,500watts of power. ",
+      "EV standard embedded lithium+external add-on port for system upgrade. Can use up to 1400w of solar panels. ",
+      "Very portable and mobile. Solar & AC charging function. AC/DC output function.",
     ],
     inStock: 50,
     eta: 20,
@@ -327,18 +327,17 @@ export const ProductData = [
   },
   {
     popular: true,
-    Brand: "Jikokao",
-    RAM: "6 GB",
-    title: "Jikokao Charcoal Stove",
-    category: "Mobiles",
-    price: 119999,
-    imgs: [SamsungM311, mensjeans],
+    Brand: "1kw compact solarator",
+    RAM: "1kw",
+    title: "1kw compact solarator (unit only)",
+    category: "Solarators",
+    price: "₦850,000 ",
+    imgs: [solarator4],
     quantity: 1,
     specs: [
-      "6.7-inch (17 cm diagonal) Super Retina XDR display",
-      "Ceramic Shield, tougher than any smartphone glass",
-      "A14 Bionic chip, the fastest chip ever in a smartphone",
-      "Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras; 5x optical zoom range; Night mode, Deep Fusion, Smart HDR 3, Apple ProRAW, 4K Dolby Vision HDR recording",
+      "1000kw all-in-one lithium solar generator with 4 DC power ports, AC power port. ",
+      "Can use a maximum of 300watts of solar panel. ",
+      "This unit can power 6 lighting points + 118L DC freezer when sunny+laptop charging+deskjet printer+DC standing fan.",
     ],
     inStock: 1,
     eta: 5,
@@ -369,18 +368,18 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "JCNS",
-    RAM: "8 GB",
-    title: "Jcns Solarator",
-    category: "Mobiles",
-    price: 24999,
-    imgs: [appleLaptop2, gamingLaptop2],
+    Brand: "3.2kwh/2kva compact solarator",
+    RAM: ".2kwh/2kva",
+    title: "3.2kwh/2kva compact solarator",
+    category: "Solarator",
+    price: "₦1,980,000",
+    imgs: [solarator5],
     quantity: 1,
     specs: [
-      "64MP+8MP+2MP triple rear camera with 1080p video at 30/60 fps, 4k 30 fps | 16MP front camera with 1080p video at 30/60 fps",
-      "6.43-inch, 90Hz fluid AMOLED display with 2400 x 1080 pixels resolution | 410ppi",
-      "Memory, Storage & SIM: 8GB RAM | 128GB internal memory on UFS 2.1 storage system",
-      "Dual SIM (nano + nano) | OnePlus Nord CE currently supports dual 4G SIM Cards or a single 5G SIM + 4G SIM",
+      "Hybrid compact lithium solarator with double BMS. | Has robust embedded 3.2kwh lithium phosphate battery with embedded 3,200 watts-hour lithium+external add-on port for system upgrade.",
+      ". Can use up to 1,800w of solar panels. Solar & AC charging function.",
+      "AC/DC output function. This solar module can power a duplex with 12 lighting points + 218L DC freezer ",
+      "when sunny+inverter blender+inverter pressing iron+laptop charging+deskjet printer+DC 2 ceiling/standing fans+32inches LED tv.",
     ],
     inStock: 5,
     eta: 10,
@@ -412,18 +411,17 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Compact Power",
-    RAM: "4 MB",
-    title: "P2 Solar Power bank",
-    category: "Mobiles",
-    price: 1999,
-    imgs: [saaree, oppophone1],
+    Brand: "5kva hybrid growatts",
+    RAM: "5kva",
+    title: "high efficiency inverters (unit only)",
+    category: "Inverter",
+    price: "₦850,000",
+    imgs: [inverter],
     quantity: 1,
     specs: [
-      "2MP rear and 0.3MP front camera",
-      "Internal Storage 4GB",
-      "1500mAh battery",
-      "Access to Jio apps 1 cr+ songs with JioMusic, 6000+ movies with JioCinema",
+      "Transformerless high voltage, high efficiency 5000watts hybrid inverter ",
+      "with inbuilt 120w MPPT controller and remote monitoring function.",
+      "Can take up to 5000watts of solar panels. Money back guarantee.",
     ],
     inStock: 50,
     eta: 2,
@@ -452,19 +450,17 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "DC Smart Switch",
-    RAM: "6 GB",
-    title: "CDC Smart Switch",
-    category: "Mobiles",
-    price: 14999,
-    imgs: [codingLaptop1],
+    Brand: "JCNS lithium solarator",
+    RAM: "5kw ",
+    title: "5kw JCNS lithium solarator (unit only)",
+    category: "Solarator",
+    price: "₦2,500,000",
+    imgs: [solarator6],
     quantity: 1,
     specs: [
-      "6 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
-      "16.51 cm (6.5 inch) Full HD+ Display",
-      "48MP + 2MP + 2MP | 16MP Front Camera",
-      "5000 mAh Battery",
-      "MediaTek Helio G95 Processor",
+      "High voltage, high efficiency 5000watts hybrid inverter ",
+      "with inbuilt 120w MPPT controller and remote monitoring function. ",
+      "Can take up to 5000watts of solar panels. Money back guarantee.",
     ],
     inStock: 20,
     eta: 30,
@@ -488,19 +484,17 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "solar Freezer",
-    RAM: "4 GB",
-    title: "solar Freezer 318l",
-    category: "Mobiles",
-    price: 15490,
-    imgs: [oppophone1, oppophone2],
+    Brand: "EV lithium phosphate battery",
+    RAM: "5kwh",
+    title: "5kwh EV lithium phosphate battery",
+    category: "Inverter",
+    price: "₦1,400,000",
+    imgs: [inverter2],
     quantity: 1,
     specs: [
-      "6.51' Inch (16.5cm) HD+ Puch-hole Display with 1600x720 pixels. Larger screen to body ratio of 89.2%.|Side Fingerprint Sensor.",
-      "MediaTek Helio P35 GPU IMG GE8320 @ 680 MHz| Powerful 2.3 GHz Octa-core processor, support LPDDR4X memory",
-      "13MP Quad Camera ( 13MP Main + 2MP Macro + 2MP Bokeh Lens) | 16MP Front Camera.",
+      "48v/5000watts-hour lithium battery with inbuilt BMS (battery management system). ",
       "5000 mAh lithium polymer battery",
-      "Memory, Storage & SIM: 4GB RAM | 128GB internal memory expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G).| Color OS 7.2 based on Android 10.0 operating system.",
+      "Long lasting with 90% DoD. Money back guarantee",
     ],
     inStock: 2,
     eta: 15,
@@ -523,19 +517,15 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Solar Chargers",
-    RAM: "8 GB",
-    title: "Solar Chargers",
-    category: "Mobiles",
-    price: 29999,
-    imgs: [womentop],
+    Brand: "12w solar tv",
+    RAM: "32inches",
+    title: "32inches 12w solar tv",
+    category: "tv",
+    price: "₦0000",
+    imgs: [tv],
     quantity: 1,
     specs: [
-      "48+8+2+2MP rear camera | 32MP front camera Front camera",
-      "Memory, Storage & SIM: 8GB RAM, 128GB internal memory | Dual SIM (nano+nano) dual-standby (4G+4G)",
-      "Android v9 based on OS 9.1 operating system with Qualcomm Snapdragon 665AIE octa core processor",
-      "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase",
-      "In display fingerprint",
+      "32inches 12w solar tv",
     ],
     inStock: 0,
     eta: 50,
@@ -551,19 +541,15 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Solar Chargers",
-    RAM: "8 GB",
-    title: "Solar chargers",
-    category: "Mobiles",
-    price: 31999,
-    imgs: [miphone1],
+    Brand: "Solar yellow box",
+    RAM: "45W",
+    title: "45W solar yellow box",
+    category: "solar lightening kit",
+    price: "₦65,000",
+    imgs: [lighteningkit],
     quantity: 1,
     specs: [
-      "Processor: Qualcomm Snapdragon 870 5G with Kryo 585 Octa-core; 7nm process; Up to 3.2GHz clock speed; Liquidcool technology",
-      "Camera: 48 MP Triple Rear camera with 8MP Ultra-wide and 5MP Super macro | 20 MP Front camera",
-      "Display: 120Hz high refresh rate FHD+ (1080x2400) AMOLED Dot display; 16.9 centimeters (6.67 inch); 2.76mm ultra tiny punch hole; HDR 10+ support; 360Hz touch sampling, MEMC technology",
-      "Battery: 4520 mAH large battery with 33W fast charger in-box and Type-C connectivity",
-      "Hands-Free access to Alexa: Alexa on your phone lets you make phone calls, open apps, control smart home devices, access the library of Alexa skills, and more using just your voice while on-the-go. Download the Alexa app and complete hands-free setup to get started. Just ask - and Alexa will respond instantly",
+      "DC lighting kit + 15w solar panel+4 DC bulbs",
     ],
     inStock: 8,
     eta: 50,
@@ -580,20 +566,15 @@ export const ProductData = [
     ],
   },
   {
-    Brand: "Apple",
-    RAM: "6 GB",
-    title: "Apple iPhone XR (64GB) - White",
-    category: "Mobiles",
-    price: 41999,
-    imgs: [iphonXR1, iphonXR2],
+    Brand: "lithium solar yelow box",
+    RAM: "50w ",
+    title: "50w lithium solar yelow box",
+    category: "solar lightening kit",
+    price: "₦00000",
+    imgs: [lighteningkit1],
     quantity: 1,
     specs: [
-      "6.1-inch (15.5 cm diagonal) Liquid Retina HD LCD display",
-      "Water and dust resistant (1 meter for up to 30 minutes, IP67)",
-      "Single 12MP Wide camera with Portrait mode, Portrait Lighting, Depth Control, Smart HDR, and 4K video up to 60fps",
-      "7MP TrueDepth front camera system with Portrait mode, Portrait Lighting, Depth Control, and 1080p video",
-      "Face ID for secure authentication",
-      "A12 Bionic with second-generation Neural Engine",
+      "50w lithium solar yelow box",
     ],
     inStock: 8,
     eta: 20,
@@ -616,220 +597,169 @@ export const ProductData = [
       },
     ],
   },
-  {
-    popular: true,
-    Language: "English",
-    Genre: "Fiction",
-    title: "The Monk Who Sold His Ferrari",
-    category: "Books",
-    price: 159,
-    imgs: [oppophone1],
-    quantity: 1,
-    specs:
-      "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer’s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India.",
-    inStock: 50,
-    eta: 5,
-    id: "b1",
-    rating: 4.0,
-    reviews: [
-      {
-        name: "Takumi",
-        title: "I sold my ae86 after this",
-        content:
-          "Very nice thriller story It inspired me to sell my car like the monk.",
-        rating: 5,
-      },
-      {
-        name: "Om",
-        title: "My kids liked It",
-        content:
-          "Was fine as my kids liked it thats all it matters ultimately, however i would say its a little overpriced for its quality and",
-        rating: 3,
-      },
-      {
-        name: "Shyam",
-        title: "Very nice read",
-        content: "I thourougly enjoyed the content of this",
-        rating: 4,
-      },
-    ],
-  },
-  {
-    Language: "English",
-    Genre: "Historical",
-    title: "The Immortals of Meluha (Shiva Trilogy)",
-    category: "Books",
-    price: 299,
-    imgs: [meluha],
-    quantity: 1,
-    specs:
-      "The Immortals of Meluha is a series of short stories by the Indian author, K. S. Shukla, that tell the story of the Immortals of Meluha, who are the most powerful and powerful figures in the history of the Indian subcontinent.",
-    inStock: 50,
-    eta: 5,
-    id: "b2",
-    rating: 4.1,
-    reviews: [
-      {
-        name: "Himanshu",
-        title: "Amazing",
-        content: `We'll I'm not a great critic but here's my honest review about what I felt after reading this book.
-        At first I was hesitant to buy the book thinking that it would contain the same unbelievable fictional aspects where the gods can fly and cure the incurable diseases by their touch. I was blown away by the simplicity of the protagonist. He didn't have any powers, instead he had the skill and intelligence which led to his rise to become a Mahadev.
-        The story is well narrated with twists and turns of comedy, drama, rage and emotions which leaves you hooked till you read the last chapter and then, the other two books. The characters are well developed making you feel their pain and happiness.
-        10/10`,
-        rating: 4,
-      },
-      {
-        name: "Divyani",
-        title: "Too much like a dramatic Script of a TV show",
-        content: `I got this thanks to its popularity but unfortunately its a little too dramatic for me, it reads like a script for a Zee TV show which I don't watch but know about thanks to some family members fascinations.......
-        There is no character development, poor scripting, no historical research has gone into this I can presume since their are facts that don't match with what's written along with others........
-        Also Lord Shiva is not an angry God but when he will get angry its the end or so say the Purans but Lord Shiva is perpetually angry in this book, vendetta is raging in his veins, revenge is his middle name and for what......`,
-        rating: 1,
-      },
-      {
-        name: "Vaishnavi",
-        title: "Could have been better",
-        content:
-          "Mediocre writing at best. Hindu mythology is quite rich and author benifits from choosing it. Besides one trick of imputing a benign, logical rationale (which i can hope were the case in reality) to hindu customs, the author doesnt have much to write about. Its feels like just another hero's journey.",
-        rating: 2,
-      },
-    ],
-  },
-  {
-    Language: "English",
-    Genre: "Romance",
-    title: "Wuthering Heights (Emily Brontë)",
-    category: "Books",
-    price: 69,
-    imgs: [Wuthering],
-    quantity: 1,
-    specs:
-      "Wuthering Heights is a story of love, hate, social status, and revenge set in the moorlands of Northern England at the end of the 18th century. The novel follows the repercussions of the ill-fated love between the impetuous, strong-willed protagonists Catherine “Cathy” Earnshaw and Heathcliff. The story is narrated in diary-like entries by Lockwood, a tenant of one of Heathcliff’s estates. Lockwood annotates and gathers the story told to him by Nelly Dean, the housekeeper, and also records his present-day interactions to create the frame of the story. The events taking place in Wuthering Heights span a 40-year period.",
-    inStock: 50,
-    eta: 1,
-    id: "b3",
-    rating: 4.0,
-    reviews: [
-      {
-        name: "Elle",
-        title: "I Tried it But,",
-        content: `I never expected this book to be as flagrantly, unforgivably bad as it was.
-  
-        To start, Bronte's technical choice of narrating the story of the primary characters by having the housekeeper explain everything to a tenant 20 years after it happened completely kills suspense and intimacy.`,
-        rating: 1,
-      },
-      {
-        name: "Sophie",
-        title: "Interestingly enough",
-        content:
-          "Ah the classics. Everybody can read their own agenda in them. So, first a short plot guide for dinner conversations when one needs to fake acculturation, and then on to the critics’ view.",
-        rating: 2,
-      },
-      {
-        name: "American Dragon",
-        title: "Childhood Memory",
-        content: `I first read this in AP English Literature - senior year of high school. This book is dense and thick and confusing, and with a class full of haters, it was hard to wrap my head around it. I subsequently read it three or four more times for classes in college and every time I read it, I loved it more.`,
-        rating: 5,
-      },
-    ],
-  },
-  {
-    Language: "Hindi",
-    Genre: "Mystery",
-    title: "Byomkesh Bakshi ki Rahasyamayi Kahaniyan",
-    category: "Books",
-    price: 139,
-    imgs: [bumkeshbakshi],
-    quantity: 1,
-    specs:
-      "सारदेंदु बंद्योपाध्याय की विशिष्टता उनके जासूसी लेखन के अतिरिक्त उनकी अद्वितीय लेखन-शैली के साथ-साथ उनके चरित्रों का सूक्ष्म जीवंत चित्रण है। बीसवीं सदी के प्रारंभ के बंगाल में लेखक और पाठक समान रूप से अपराध और जासूसी साहित्य को नीची निगाहों से देखते थे। सारदेंदु बंद्योपाध्याय ने पहली बार उस लेखन को सम्मानीय स्थान दिलाया। इसका एक बड़ा कारण यह था कि उनके पूर्व के लेखक पंचकोरी दे और दिनेंद्र कुमार अंग्रेजी के जासूसी लेखक आर्थर कोनान, डोएल, एडगर एलन पो, जी.के. चेस्टरसन तथा अगाथा क्रिस्टी से प्रभावित होकर लिखते थे, जबकि सारदेंदु के चरित्र और स्थान अन्य जासूसी उपन्यासों के विपरीत, भारतीय मूल और स्थल के परिवेश में जीते हैं। उनके लेखन का विनोदी स्वभाव पाठक को अनायास कथा के दौरान गुदगुदाता रहता है। ब्योमकेश का साहित्य न केवल अभूतपूर्व जासूसी साहित्य है बल्कि सभी समय और काल में, समाज के सभी वर्गों के युवाओं और वृद्धों में समान रूप से सदैव लोकप्रिय बना रहा है। पाठक इन रहस्य भरी कहानियों को उनके जीवंत लेखन के लिए, अंत जानने के बावजूद, बार-बार पढ़ने के लिए लालायित रहता है। किसी भी लोकप्रिय साहित्य में यह एक अद्वितीय उपलब्धि मानी जाती है और यही उपलब्धि सारदेंदु के ब्योमकेश बक्शी साहित्य को सत्यजीत राय के प्रसिद्ध उपन्यास ‘फेलूदा के कारनामे’ के समान हमारे समय के ‘क्लासिक’ का स्थान दिलाती है।",
-    inStock: 50,
-    eta: 1,
-    id: "b4",
-    rating: 4.6,
-    reviews: [
-      {
-        name: "Tony",
-        title: "One of the best detective stories book ever.",
-        content: `Fantastic. Simply superb. I thought after watching it's series on TV I might not like reading it. But, it was an amazing experience. Due to the above-mentioned fear, I couldn't buy it in the first time but only after a couple of days after thinking a couple of times. But, once I bought it, I couldn't stop. Finished it in less than a week's time. Totally enjoyed it. Highly recommended. Don't miss for anything. Wish I could write something like this!`,
-        rating: 4,
-      },
-      {
-        name: "Ram Singh",
-        title: " One of the Best Story Book",
-        content:
-          "It is an honour to review the Story book of Byomkesh Sir. He was fantastic and Wise. His assumptions were so accurate. The main theme of the book is successful. Nice book.",
-        rating: 3,
-      },
-      {
-        name: "Shizuka",
-        title: "Don't trust seller.",
-        content: `I ordered it at low price from Amazon but when the book reached, what i seen was one page miss print. So i reordered the book but second time they confirmed the order at high price. But as i was buying it to gift someone on her birthday, i ordered it. When i opened to check the miss prints, all the pages were well printed. But when the person to whom i gifted it, opened the book what she seen was missing pages. Example - after 112 page number you jump to direct page no. 129. I mean where are the pages? It all destroyed the emotions of the gift. I will not buy any product from seller 'Cloudtale' at all cost.`,
-        rating: 4,
-      },
-    ],
-  },
-  {
-    Language: "English",
-    Genre: "Historical",
-    title: "Pride and Prejudice",
-    category: "Books",
-    price: 79,
-    imgs: [miphone1],
-    quantity: 1,
-    specs:
-      "The story follows the main character Elizabeth Bennet as she deals with issues of manners, upbringing, morality, education, and marriage in the society of the landed gentry of early 19th-century England. Elizabeth is the second of five daughters of country gentleman living near the fictional town of meryton in Hertfordshire, near London. The story begins as the people of rural meryton scurry to marry their daughters off to Charles Bingley, a dashing and eligible Bachelor who has taken an estate near the Bennet. At the villagers welcoming ball, Elizabeth meets up with a formidable adversary: bingley’s closest friend, the Cold, prideful, extremely wealthy Fitzwilliam Darcy, who piques her to new heights of antagonism. When Darcy arrogantly urges Bingley to give up his burgeoning courtship of Elizabeth sister, misunderstanding threatens to bury all he loves in turmoil and regret",
-    inStock: 50,
-    eta: 1,
-    id: "b5",
-    rating: 4.3,
-    reviews: [
-      {
-        name: "raze",
-        title: "Boom",
-        content:
-          "Imagine having a pride when you get blown up and shattered like a bot",
-        rating: 4,
-      },
-      {
-        name: "Max Walters",
-        title: "Simply Amazing",
-        content:
-          "My partner really loved it , she said that its really potrays the issues which you might need to face but might not be able to solve cause of pride. I say it was like a really good investment for my partner as she liked it.",
-        rating: 4,
-      },
-      {
-        name: "Robert Williams",
-        title: "Imagine Dealing with",
-        content:
-          "Issues potrayed in the book, can really be disturbing right ? It can be really hard on you sometimes, as it can be really real sometimes",
-        rating: 4,
-      },
-    ],
-  },
+ { 
+  Brand: "solar baby",
+  RAM: "50kw ",
+  title: "50w solar baby",
+  category: "solar lightening kit",
+  price: "₦70,000",
+  imgs: [lighteningkit2],
+  quantity: 1,
+  specs: [
+    "DC lighting kit+ 50w solar panel+2 DC bulbs",
+  ],
+  inStock: 20,
+  eta: 30,
+  id: "m6",
+  rating: 4,
+  reviews: [
+    {
+      name: "Navin Kumar",
+      title: "Amazing Product",
+      content:
+        "Like really I was looking for a phone in which I can be always connected with my family but they didn't want a smartphone. So really good for filling the nicheAll the things are nice. Only macro camera is not powerful. Good product go for it. Gorgeous. And the charger is also very heavy.",
+      rating: 5,
+    },
+    {
+      name: "Manish",
+      title: "THE PROCESSING POWER IS PHENOMENAL HELIO G95 IS A BEAST",
+      content:
+        "Overall a good phone camera performance is decent enough in this price point the front camera though does a great job because of sony imx471 sensor ultrawide on the back would be great the macro and b/w sensor is not that useful battery life is good for an average user iam getting a screen on time of about 45-50 minutes using 10% battery so it can give you about 8-9 hours of screen time daily the charging is powerful and charges quickly In short its a gaming phone The antutu score os this device is around 350k which is greater than redmi note 10 pro max score of 300k",
+      rating: 4,
+    },
+  ],
+},
+{
+  Brand: "NDDC standard solar streetlight",
+  RAM: "00000",
+  title: "100W NDDC standard solar streetlight",
+  category: "street Lght",
+  price: "₦00000",
+  imgs: [streetlight],
+  quantity: 1,
+  specs: [
+    "3 in 1 100W NDDC standard solar streetlight",
+  ],
+  inStock: 2,
+  eta: 15,
+  id: "m7",
+  rating: 4.2,
+  reviews: [
+    {
+      name: "Alwin",
+      title: "Good Phone",
+      content: "Good phone working fine good battery thanks",
+      rating: 5,
+    },
+    {
+      name: "Ankita",
+      title: "Extremely slow.",
+      content:
+        "Okay so this product is not expensive, affordable and very beautiful, this is only good thing about it. Phone freezes a lot and when someone calls, it keeps vibrating without showing any number on the screen. I bought this phone in may 2021. And this is July 2021. I hate this phone already",
+      rating: 2,
+    },
+  ],
+},
+{
+  Brand: "DC-Solarator",
+  RAM: "128wh",
+  title: "128wh-DC-Solarator",
+  category: "solarator",
+  price: "₦180,000",
+  imgs: [solarator7],
+  quantity: 1,
+  specs: [
+    "DC lighting kit+ 15w solar panel+4 DC bulbs",
+  ],
+  inStock: 0,
+  eta: 50,
+  id: "m8",
+  rating: 5,
+  reviews: [
+    {
+      name: "Blaze",
+      title: "Fast and great deal",
+      content: "Thanks, please manufacture more",
+      rating: 5,
+    },
+  ],
+},
+{
+  Brand: "compact lithium solarator",
+  RAM: "200W/400WH",
+  title: "200W/400WH compact lithium solarator (with accessories)",
+  category: "solarator",
+  price: "₦380,000",
+  imgs: [solarator8],
+  quantity: 1,
+  specs: [
+    "AC/DC lighting lit with 4 bulbs. ",
+    "power 6 lighting points +laptop+deskjet printer+DC standing fan. ",
+  ],
+  inStock: 8,
+  eta: 50,
+  id: "m9",
+  rating: 4,
+  reviews: [
+    {
+      name: "Nitea Ghosh",
+      title: "Waste of money",
+      content:
+        "Very bad experience, i am going to return it, i am facing touch issue very much",
+      rating: 1,
+    },
+  ],
+},
+{
+  Brand: "300w-500w JCNS compact solarators",
+  RAM: "300w-500w ",
+  title: "300w-500w JCNS compact solarators",
+  category: "solarator",
+  price: "₦400,000",
+  imgs: [solarator9],
+  quantity: 1,
+  specs: [
+    "AC/DC lighting lit with 4 bulbs. ",
+    "This unit can power 6 lighting points +laptop+deskjet printer+DC standing fan."
+  ],
+  inStock: 8,
+  eta: 20,
+  id: "m10",
+  rating: 4.5,
+  reviews: [
+    {
+      name: "Darshan Sanghvi",
+      title: "Fabulous!",
+      content:
+        "Thanks, the device was received well packed and before time! The device is fabulous, it's like love at first sight! It doesn't feel like a 2018 device, the speed, the sensors, the touch is pretty amazing! A12 Bionic works well! 3GB RAM is sufficient to run the phone, COD, BGMI and NFS can be played without lag. Face ID is fast and accurate to unlock the device in dark! In low to moderate usage, battery supports 30+ hours and in heavy usage, battery supports 20+ hours. This one doesn't have Adapter and Earphones, but you can buy them separately! Bought for 43K (128GB) during Prime Day Sale! Overall a value for money device! A good device to start if you’re moving to Apple from Android or upgrading from previous generation iPhones. Thank You Apple!",
+      rating: 5,
+    },
+    {
+      name: "Sushma",
+      title: "Economical Phone",
+      content:
+        "The phone is not lacking in any sphere. The halmark quality of iPhone is telltale. The size is very handy and convenient. Charging cord is working only on one side like USB cord but then, the charging is very fast. Battery is very long lasting, better than 6000 mah batteries of Android. Picture quality better than so called 4 camera android. Go for it without a second thought. Charger not provided in the box, is freely available outside. Must buy a good bluetooth headset also to enjoy the phone.",
+      rating: 5,
+    },
+  ],
+},
 
   {
     For: "Students",
-    Brand: "HP",
-    RAM: "8 GB",
+    Brand: "AC-DC breakers",
+    RAM: "AC-DC",
     Processor: "AMD",
     DisplaySize: "15.6",
     HasSSD: "No",
     title:
-      "HP 15 (2021) Thin & Light Ryzen 3-3250 Laptop, 8 GB RAM, 1TB HDD, 39.62 cms (15.6`) FHD Screen, Windows 10, MS Office (15s-gr0011AU)",
-    category: "Laptops",
-    price: 37590,
-    imgs: [studentLaptophp1, studentLaptophp2],
+      "AC-DC breakers",
+    category: "circuit breakers",
+    price: "From N10,000",
+    imgs: [breaker],
     quantity: 1,
 
     specs: [
-      "Display: 15.6-inch FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC",
-      "Processor: AMD ‎Ryzen 3",
-      "Processor Speed: ‎2.6 GHz",
-      "RAM Size: ‎8 GB",
-      "Hard Drive Size: 1 TB",
-      "Graphics Chipset: AMD Radeon Vega 6 Graphics",
-      "Operating System: ‎Windows 10 Home",
+      "Original AC/DC breakers for installation",
     ],
     inStock: 11,
     eta: 120,
@@ -861,24 +791,19 @@ export const ProductData = [
   },
   {
     For: "Travel",
-    Brand: "Dell",
-    RAM: "4 GB",
+    Brand: "Jikokoa charcoal stove",
+    RAM: "smokeless",
     Processor: "Intel",
     DisplaySize: "15.6",
     HasSSD: "Yes",
     title:
-      "Dell Inspiron 3501 15.6` FHD Display Laptop (i3-1115G4 / 4GB / 256GB SSD / Integrated Graphics / Win10 + MSO / Accent Black)",
-    category: "Laptops",
-    price: 38890,
-    imgs: [travelLaptop1, travelLaptop2],
+      "jikokoa-charcoal-stove",
+    category: "Home gadgets",
+    price: "₦45000",
+    imgs: [charcoalstove],
     quantity: 1,
     specs: [
-      "Processor:11th Generation Intel Core i3-1115G4 Processor (6MB Cache, up to 4.1 GHz)",
-      "Memory & Storage: 4GB, 4Gx1, DDR4, 2666MHz | 256GB M.2 PCIe NVMe Solid State Drive",
-      "Display: 15.6-inch FHD (1920 x 1080) Anti-glare LED Backlight Narrow Border WVA Display",
-      "Graphics: Intel UHD Graphics with shared graphics memory",
-      "Operating System & Software: Windows 10 Home Single Language | Microsoft Office Home and Student 2019",
-      "I/O ports: USB 3.2 Gen 1 (x2), USB2.0 (x1), HDMI 1.4(x1),One SD-card slot ,RJ45 - 10/100Mbps",
+      "------------",
     ],
     inStock: 19,
     eta: 180,
@@ -903,26 +828,20 @@ export const ProductData = [
     ],
   },
   {
-    For: "Coding",
-    Brand: "Lenovo",
-    RAM: "8 GB",
+    For: "CL4 solar streetlights",
+    Brand: "CL4 solar streetlights",
+    RAM: "All in one",
     Processor: "Intel",
     DisplaySize: "15.6",
     HasSSD: "Yes",
     title:
-      "Lenovo IdeaPad Slim 3 10th Gen Intel Core i5 15.6` (39.62cms) Full HD IPS Thin and Light Laptop (8GB/512GB SSD/Windows 10/MS Office 2019/Fingerprint Reader/Platinum Grey/1.85Kg)",
-    category: "Laptops",
-    price: 57200,
-    imgs: [codingLaptop1.jpg],
+      "CL4 solar streetlights",
+    category: "street light",
+    price: "₦89,000",
+    imgs: [streetlight1],
     quantity: 1,
     specs: [
-      "Processor: 10th Gen Intel Core i5-1035G1 | Speed: 1.0 GHz (Base) - 3.6 GHz (Max) | 4 Cores | 6MB Cache",
-      "OS: Pre-Loaded Windows 10 Home with Lifetime Validity",
-      "Pre-Installed: MS Office Home and Student 2019",
-      "Memory and Storage: 8GB RAM DDR4-2666, Upgradable up to 12GB | 512 GB SSD",
-      "Display: 15.` Full HD (1920x1080) | Brightness: 250 nits | Anti-Glare | IPS Technology",
-      "Design: 1.99 cm Thin and 1.85 kg Light | Narrow Bezel | Fingerprint Reader",
-      "Battery Life: 6 Hours | Rapid Charge (Up to 80% in 1 Hour)",
+      "Aluminum alloy lithium light ",
     ],
     inStock: 29,
     eta: 60,
@@ -964,25 +883,19 @@ export const ProductData = [
   {
     popular: true,
     For: "Gaming",
-    Brand: "Asus",
+    Brand: "commercial DC phone charger",
     RAM: "16 GB",
     Processor: "AMD",
     DisplaySize: "14",
     HasSSD: "Yes",
     title:
-      "ASUS ROG Zephyrus G14, 14` (35.56 cms) QHD, Ryzen 9 4900HS, GTX 1660Ti Max-Q 6GB GDDR6 Graphics, Gaming Laptop (16GB/1TB SSD/MS Office 2019/Windows 10/ White/Anime Matrix/1.7 Kg)",
-    category: "Laptops",
-    price: 111990,
-    imgs: [gamingLaptop1, gamingLaptop2],
+      "commercial DC phone charger",
+    category: "Gadgets",
+    price: "₦65,000",
+    imgs: [phonecharger],
     quantity: 1,
     specs: [
-      "Processor: AMD Ryzen 9 4900HS Processor, 3.0 GHz (8MB Cache, up to 4.3 GHz, 8 Cores, 16 Threads)",
-      "Memory: 16GB (2x 8GB) DDR4 3200MHz Dual-Channel RAM, Upgradeable up to 24GB using 1x SO-DIMM Slot",
-      "Storage: 1TB M.2 NVMe PCIe 3.0 SSD",
-      "Graphics: Dedicated NVIDIA GeForce GTX 1660Ti Max-Q GDDR6 6GB VRAM",
-      "Display: 14-inch (16:9) QHD (2560x1440), 300 nits Brightness, Anti-Glare IPS-level panel, 100% sRGB, Pantone Validated, Adaptive sync, 85% screen-to-body ratio",
-      "Software Included: Pre-installed MS Office Home and Student 2019 | Operating System: Pre-loaded Windows 10 Home (64bit) with lifetime validity",
-      "Design & battery: NanoEdge bezels | Metallic Body | with AniMe Matrix display| 6,536 CNC Milled Dot Matrix Design| Honeycomb Reinforcement Chassis | Thin and Light Laptop| 19.9mm Thin | Laptop Weight: 1.70 Kg | 76WHrs, 4-cell Lithium-Polymer Battery",
+      "Commercial DC phone charger",
     ],
     inStock: 9,
     eta: 270,
@@ -1014,24 +927,19 @@ export const ProductData = [
   {
     popular: true,
     For: "Content Creation",
-    Brand: "Apple",
+    Brand: "Solar Ice Makers",
     RAM: "16 GB",
     Processor: "Intel",
     DisplaySize: "16",
     HasSSD: "No",
     title:
-      "Apple MacBook Pro 2019 (16-inch/40.65 cm, 16GB RAM, 1TB Storage, 2.3GHz 9th Gen Intel Core i9) - Space Grey",
-    category: "Laptops",
-    price: 215490,
-    imgs: [appleLaptop1, appleLaptop2],
+      "Solar ice makers",
+    category: "solar freezers",
+    price: "₦1,300,000",
+    imgs: [ icemakers, icemakers1],
     quantity: 1,
     specs: [
-      "Processor: Ninth-generation 8-core Intel Core i9 processor",
-      "Memory: Stunning 40.65cm (16-inch) Retina display with True Tone technology",
-      "Storage: 1TB M.2 NVMe PCIe 3.0 SSD",
-      "Graphics: AMD Radeon Pro 5500M graphics with GDDR6 memory",
-      "Display: Stunning 40.65cm (16-inch) Retina display with True Tone technology",
-      "Battery: Up to 11 hours of battery life",
+      "Solar freezers with AC adaptor",
     ],
     inStock: 2,
     eta: 30,
