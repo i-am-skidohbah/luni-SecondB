@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import ProductsDetails from "./pages/ProductDetails";
 import Carts from "./pages/Carts";
-import Services from "./pages/Services";
+import Services from "./pages/Traning";
 import Contact from "./pages/Contact";
 import Checkout from "./pages/Checkout";
 import { Routes, Route } from "react-router-dom";
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/products" element={<Products />} />
         <Route path="/products/:productId" element={<ProductsDetails />} />
         <Route path="/carts" element={<Carts />} />
-        <Route path="/service" element={<Services />} />
+        <Route path="/traning" element={<Traning />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/checkout" element={<Checkout />} />
       </Routes>

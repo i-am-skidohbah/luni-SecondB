@@ -3,6 +3,7 @@ import logo from "../Assests/luni_logo_124503.png";
 import logo1 from "../Assests/facebook.png";
 import logo2 from "../Assests/whatsapp.png";
 import logo3 from "../Assests/instagram.png";
+import logo4 from "../Assests/youtube.png";
 const Footer = () => {
   return (
     <div className="w-full flex justify-center h-full  md:h-[500px] bg_footer">
@@ -69,7 +70,8 @@ const Footer = () => {
           <div className="w-2/4 flex justify-start items-center gap-6 py-5">
             <img src={logo1} className="w-8 h-8" alt="" />
             <img src={logo2} className="w-8 h-8" alt="" />
-            <img src={logo3} className="w-8 h-8" alt="" />
+            <img src={logo3} className="w-8 h-8 rounded-full" alt="" />
+            <img src={logo4} className="w-8 h-8 " alt="" />
           </div>
           <div className="relative">
             <input type="text" className="bg-white  rounded-lg w-full" />
