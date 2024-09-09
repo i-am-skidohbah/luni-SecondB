@@ -77,9 +77,9 @@ const AllProducts = () => {
           <div className="md:w-1/4 w-full">
             <select name="" id="" className="w-full px-4 py-5 border ">
               <option value="">filter</option>
-              <option value="Pannel">Pannel</option>
+              <option value="Pannel">Solarators</option>
               <option value="Inverter">Inverter</option>
-              <option value="batter">battery</option>
+              <option value="batter">Battery</option>
             </select>
           </div>
 

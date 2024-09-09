@@ -33,7 +33,7 @@ const AboutPageCaro = () => {
       </div>
       <div className="absolute top-36 left-0 right-0 bottom-0">
         <div className="flex flex-col items-center justify-center px-4 py-2">
-          <h1 className="text-center text-white py-4 text-6xl uppercase">
+          <h1 className="text-center text-green py-4 text-6xl uppercase">
             LIGHTUP NIGERIA
           </h1>
           <hr className="w-32 bg-white h-1" />
@@ -330,7 +330,7 @@ export const Brands = () => {
       {" "}
       <Headings tips="our brands" title="best of the bests" />
       <div className="bg-white w-full flex justify-center common-padding items-center ">
-        <div className=" w-3/4 md:grid hidden gap-6 place-items-center justify-center md:grid-cols-6">
+        <div className=" w-3/4 md:grid hidden gap-6 place-items-center justify-center md:grid-cols-7">
           {Brand.map((e, i) => {
             return (
               <div key={i} className="w-full">
