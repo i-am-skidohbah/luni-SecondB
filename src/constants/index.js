@@ -966,6 +966,74 @@ export const ProductData = [
   },
 ];
 
+
+// project data
+
+export const projectsData = [
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+  {
+    title: "Project Title",
+    details:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
+    image: solar,
+  },
+];
+
+
+
 // the hero carousel Data
 
 export const productCarousel = [

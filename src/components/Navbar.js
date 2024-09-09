@@ -70,11 +70,9 @@ const Navbar = () => {
           />
         </ul>
         <div className="flex flex-center relative justify-center ">
-          <img src={Avatar} className="w-32 cursor-pointer" />
+          <h2>Login</h2>
           <img src={Cart} className="w-32  cursor-pointer" />
-          <h2 className="absolute text-red-700 font-bold -right-5 text-center text-2xl px-2">
-            6
-          </h2>
+          <h2 className="absolute text-red-700 font-bold -right-5 text-center text-2xl px-2"></h2>
         </div>
       </nav>
     </div>

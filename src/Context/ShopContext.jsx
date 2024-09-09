@@ -4,6 +4,7 @@ import {
   productCarousel,
   BestOffer,
   BannerData,
+  projectsData,
 } from "../constants";
 // import CartReducer from "./CartReducer";
 export const ShopContext = createContext();
@@ -17,6 +18,7 @@ const ShopContextProvider = (props) => {
     deliveryFee,
     productCarousel,
     BestOffer,
+    projectsData,
     BannerData,
     // dispatch,
     // cart,

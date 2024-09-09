@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import Buttons from "./Buttons";
-import { useContext } from "react";
-import { ShopContext } from "../Context/ShopContext";
 
 const Products = ({ image, brand, category, title, price, productId }) => {
   return (

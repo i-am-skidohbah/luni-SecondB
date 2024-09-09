@@ -7,7 +7,7 @@ import ProductsDetails from "./pages/ProductDetails";
 import Carts from "./pages/Carts";
 import Traning from "./pages/Traning";
 import Contact from "./pages/Contact";
-import Checkout from "./pages/Checkout";
+import Project from "./pages/project";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/footer";
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/carts" element={<Carts />} />
         <Route path="/traning" element={<Traning />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
       <Footer />
     </div>
@@ -30,3 +30,4 @@ const App = () => {
 };
 
 export default App;
+s;
