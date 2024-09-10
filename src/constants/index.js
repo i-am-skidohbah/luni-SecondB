@@ -1,6 +1,6 @@
 import offer from "../Assests/promo/promo1.jpg";
 import image from "../Assests//products/1200W lithium blue box solarator.png";
-
+import solar from "../Assests/solar 4.jpg";
 // brands
 import photos from "../Assests/assets/brand//br-1.png";
 import photos1 from "../Assests/assets/brand/br-2.png";

@@ -50,32 +50,47 @@ const Products = () => {
 };
 
 const AllProducts = () => {
-  const { ProductData } = useContext(ShopContext);
+  const { ProductData, search, Setsearch } = useContext(ShopContext);
 
   const [List, SetList] = useState([]);
   const [show, Setshow] = useState(true);
   const Show = () => {
     Setshow(!show);
   };
+
+  const applySearch = () => {
+    let productCopy = ProductData.slice();
+    if (search) {
+      productCopy = productCopy.filter((item) =>
+        item.title.toLowerCase().includes(search.toLowerCase())
+      );
+    }
+    SetList(productCopy);
+  };
+
   useEffect(() => {
-    SetList(ProductData);
-  }, []);
+    applySearch();
+  }, [search]);
   return (
     <section className="bg-white w-full h-full common-padding">
       <div className="w-full flex justify-center flex-col items-center ">
-        <div className="flex justify-start gap-6 w-full md:w-3/4  py-5 px-8">
-          <h1 className="md:py-5  text-justify text-xl">All Products</h1>
-          <div className="flex justify-center items-center px-4">
+        <div className="flex justify-start items-center gap-6 w-full md:w-3/4  py-5 px-8">
+          <h1 className="md:py-5  text-justify text-2xl">All Products</h1>
+          <div className="flex w-1/4 px-4  justify-center">
             <button
-              className="w-1/4 font-bold   px-4
-              py-5 text-center"
+              className="w-1/4 h-12 
+               text-center"
               onClick={Show}
             >
-              <img src={grid} className="w-56" alt="" />
+              <img src={grid} className="w-full h-full rounded-full" alt="" />
             </button>
           </div>
           <div className="md:w-1/4 w-full">
-            <select name="" id="" className="w-full px-4 py-5 border ">
+            <select
+              name=""
+              id=""
+              className="w-full px-4 py-3 outline-0 rounded-lg border "
+            >
               <option value="">filter</option>
               <option value="Pannel">Solarators</option>
               <option value="Inverter">Inverter</option>
@@ -83,39 +98,57 @@ const AllProducts = () => {
             </select>
           </div>
 
-          <div className="md:w-1/4 w-full">
-            <input type="text" className="w-full  px-4 py-5 border" />
+          <div className="md:w-2/4 w-full">
+            <input
+              value={search}
+              onChange={(e) => Setsearch(e.target.value)}
+              placeholder="Search"
+              type="text"
+              className="w-full  px-4 py-3 outline-0 border rounded-lg"
+            />
           </div>
         </div>
         {show ? (
           <div className="grid md:grid-cols-4  grid-cols-2 place-items-center gap-x-0 gap-y-1 justify-center w-full md:w-3/4">
-            {List.map((each, index) => {
-              return (
-                <ProductItems
-                  key={index}
-                  image={each.imgs}
-                  productId={each.id}
-                  brand={each.Brand}
-                  price={each.price}
-                  title={each.title}
-                />
-              );
-            })}
+            {List.length > 0 ? (
+              List.map((each, index) => {
+                return (
+                  <ProductItems
+                    key={index}
+                    image={each.imgs}
+                    productId={each.id}
+                    brand={each.Brand}
+                    price={each.price}
+                    title={each.title}
+                  />
+                );
+              })
+            ) : (
+              <div className="w-full h-full ">
+                <h2 className="text-black text-center">No product found</h2>
+              </div>
+            )}
           </div>
         ) : (
           <div className="  place-items-center gap-x-0 gap-y-1 justify-center  w-full md:w-3/4">
-            {List.map((each, index) => {
-              return (
-                <ProductGrids
-                  key={index}
-                  image={each.imgs}
-                  productId={each.id}
-                  brand={each.Brand}
-                  title={each.title}
-                  price={each.price}
-                />
-              );
-            })}
+            {List.length > 0 ? (
+              List.map((each, index) => {
+                return (
+                  <ProductGrids
+                    key={index}
+                    image={each.imgs}
+                    productId={each.id}
+                    brand={each.Brand}
+                    title={each.title}
+                    price={each.price}
+                  />
+                );
+              })
+            ) : (
+              <div className="w-full h-full ">
+                <h2 className="text-black text-center">No product found</h2>
+              </div>
+            )}
           </div>
         )}
       </div>

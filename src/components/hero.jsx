@@ -9,16 +9,23 @@ import HeroCarousel from "./heroCarousel";
 import Banner from "./Banner";
 import { useContext, useEffect } from "react";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 import ProductList from "./productList";
 
 import Fields from "./Fields";
 import Contact from "./contact";
 
-
 const Hero = () => {
   const { productCarousel } = useContext(ShopContext);
+
+  let sliderRef = useRef(null);
+  const play = () => {
+    sliderRef.slickPlay();
+  };
+  const pause = () => {
+    sliderRef.slickPause();
+  };
 
   const [caroData, setCaroData] = useState([]);
 
@@ -33,11 +40,13 @@ const Hero = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
   };
   //
   return (
     <section className="z-0  px-0 md:px-12">
-      <Slider {...settings}>
+      <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
         {caroData.map((i, index) => {
           return (
             <HeroCarousel

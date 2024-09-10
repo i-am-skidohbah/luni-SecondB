@@ -16,11 +16,13 @@ const Footer = () => {
                 className="w-20  h-20 object-contain px-3"
                 alt=""
               />
-              <h2 className="text-white capitalize">lightup Nigeria Solar Power Ltd</h2>
+              <h2 className="text-white capitalize">
+                lightup Nigeria Solar Power Ltd
+              </h2>
             </div>
             <div>
               <p className="font-extralight text-center italic text-white">
-              All Right Reserved, Lightup Nigeria Solar Power Ltd © 2024
+                All Right Reserved, Lightup Nigeria Solar Power Ltd © 2024
               </p>
             </div>
           </section>
@@ -69,11 +71,11 @@ const Footer = () => {
           <div className="w-2/4 flex justify-start items-center gap-6 py-5">
             <img src={logo1} className="w-8 h-8" alt="" />
             <img src={logo2} className="w-8 h-8" alt="" />
-            <img src={logo3} className="w-8 h-8 rounded-full" alt="" />
-            <img src={logo4} className="w-8 h-8 " alt="" />
+            <img src={logo3} className="w-8 h-8 " alt="" />
+            <img src={logo4} className="w-8 h-8  rounded-full" alt="" />
           </div>
           <div className="relative">
-            <input type="text" className="bg-white  rounded-lg w-full" />
+            <input type="text" className="bg-white py-2 rounded-lg w-full" />
             <button className="text-white   px-2 py-2 text-bold ">
               Submit
             </button>
