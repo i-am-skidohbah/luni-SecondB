@@ -35,7 +35,7 @@ const ProductItems = ({ image, brand, category, title, price, productId }) => {
           </div> */}
             {/*  */}
           </div>
-          <p className="text-black text-xl tracking-wide space-x-4 font-semibold">
+          <p className="text-black text-xl tracking-wide space-x-4 font-semibold">₦
             {price}
           </p>
         </div>
