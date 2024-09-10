@@ -57,7 +57,6 @@ const Navbar = () => {
           <NavLink to="/traning" className="nav-item">
             Training
           </NavLink>
-
           <NavLink to="/contact" className="nav-item">
             Contact Us
           </NavLink>

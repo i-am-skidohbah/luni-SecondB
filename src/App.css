@@ -361,11 +361,11 @@ h2 {
   /* SEARCH DISABLED ON MOBILE */
 
   #search-icon {
-    display: none;
+    display: block;
   }
 
   .search-input {
-    display: none;
+    display: block;
   }
 }
 .hero-container {
