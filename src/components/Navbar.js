@@ -39,7 +39,6 @@ const Navbar = () => {
             {" "}
             Home
           </NavLink>
-
           <NavLink to="/about" className="nav-item">
             About Us
           </NavLink>
@@ -52,7 +51,6 @@ const Navbar = () => {
           <NavLink to="/traning" className="nav-item">
             Training
           </NavLink>
-
           <NavLink to="/contact" className="nav-item">
             Contact Us
           </NavLink>
