@@ -26,7 +26,7 @@ const Fields = () => {
               dignissimos?
             </p>{" "}
             <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
-              learn more
+              Read more
             </button>
           </div>
         </div>
@@ -49,7 +49,7 @@ const Fields = () => {
               dignissimos?
             </p>{" "}
             <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
-              learn more
+              Read more
             </button>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Fields = () => {
               dignissimos?
             </p>{" "}
             <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
-              learn more
+              Read more
             </button>
           </div>
         </div>

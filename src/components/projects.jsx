@@ -8,8 +8,7 @@ const Projects = ({ image, title, details }) => {
           <img
             src={image}
             alt=""
-            className="object-top w-full h-full opacity-50 rounded-xl
-          "
+            className="object-top w-full h-full opacity-50 rounded-xl"
           />
         </div>
 

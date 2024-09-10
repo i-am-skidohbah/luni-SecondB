@@ -12,14 +12,14 @@ const HeroHome = () => {
               <h3 className="  text-base text-white uppercase">
                 worry less satisfaction
               </h3>
-              <h2 className="  text-4xl  capitalize text-white">
-                your power House
+              <h2 className="  text-3xl  capitalize text-white">
+                Hon. Justice Nnodum's House
               </h2>
 
               <div className=" w-full  md:w-3/4 ">
                 <p className="text-base text-justify  leading-normal">
                   5KVA inverter system on a 5Kwh lithium iron Phosphate
-                  (LiFePO4) backup
+                  (LiFePO4) backup This module is an all-in-one solar module that is scalable (upgradable) with sleek design.
                 </p>
               </div>
               <div className=" w-full py-6 ">
@@ -42,7 +42,7 @@ const HeroHome = () => {
               <h3 className="  text-base text-white uppercase">
                 worry less satisfaction
               </h3>
-              <h2 className="  text-4xl  capitalize text-white">
+              <h2 className="  text-3xl  capitalize text-white">
               And the dead finally found a home to rest in peace
               </h2>
 

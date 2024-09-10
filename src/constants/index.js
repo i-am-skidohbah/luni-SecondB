@@ -2,6 +2,9 @@ import offer from "../Assests/promo/promo1.jpg";
 import image from "../Assests//products/1200W lithium blue box solarator.png";
 import image1 from "../Assests//promo/partnership.png";
 import solar from "../Assests/solar 4.jpg";
+//projects
+import solar2 from "../Assests/projects/dr.jpg";
+import morgue from "../Assests/projects/morgue.jpg";
 // brands
 import photos from "../Assests/assets/brand//br-1.png";
 import photos1 from "../Assests/assets/brand/br-2.png";
@@ -16,7 +19,7 @@ import photos10 from "../Assests/assets/brand/br-10.jpg";
 import photos11 from "../Assests/assets/brand/br-11.jpg";
 import photos12 from "../Assests/assets/brand/ECOZEN.png";
 import photos5 from "../Assests/assets/brand/CWORTH LOGO.jpg";
-
+//products
 import solarator from "../Assests/products/solarator.jpg";
 import appleLaptop2 from "../Assests/products/xtra-power-floodlight-300w.jpg";
 import solarator2 from "../Assests/products/1.2kwh-solar-bluebox.jpg";
@@ -974,14 +977,14 @@ export const projectsData = [
   {
     title: "Project Title",
     details:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
-    image: solar,
+      "As part of our LightUp the Judiciary campaign, we successfully installed and energized the residence of Hon Justice Paul Nnodum with our top notch compact hybrid lithium solator. This module is an all-in-one solar module that is scalable (upgradable) with sleek design. It's a single high efficiency indoor unit that does not occupy space.",
+    image: solar2,
   },
   {
-    title: "Project Title",
+    title: "And the dead finally found a home to rest in peace -",
     details:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
-    image: solar,
+      "With the successful completion of the first ever comlpete offgrid solar powered morgue by Lightup Nigeria Solar Power Ltd, the dead finally found a perfect place to rest in peace. We are proud to have since completed  the 25kwh Alaoma solar module at Peace College Junction, Alaoma Estate, off, KM5 Port Harcourt Rd, New Owerri, Owerri.",
+    image: morgue,
   },
   {
     title: "Project Title",

@@ -8,17 +8,28 @@ const CartReducer = (state, action) => {
     case "Remove":
 
     case "Increase":
-      const Index = state.findIndex((p) => p.id === action.id);
-      state[Index].quantity += 1;
-      return [...state];
+  const Index = state.findIndex((p) => p.id === action.id);
+  if (Index !== -1) { // Check if item found before updating
+    const newState = [...state];
+    newState[Index].quantity += 1;
+    return newState;
+  } else {
+    // Handle case where item not found (optional)
+    return state;
+  }
+  break;
 
-    case "Decrease":
-      const IndexD = state.findIndex((p) => p.id === action.id);
-      state[IndexD].quantity -= 1;
-      return [...state];
-
-    default:
-      state;
+case "Decrease":
+  const IndexD = state.findIndex((p) => p.id === action.id);
+  if (IndexD !== -1 && state[IndexD].quantity > 0) { // Check for negative quantity
+    const newState = [...state];
+    newState[IndexD].quantity -= 1;
+    return newState;
+  } else {
+    // Handle case where item not found or quantity already 0 (optional)
+    return state;
+  }
+  break;
   }
 };
 

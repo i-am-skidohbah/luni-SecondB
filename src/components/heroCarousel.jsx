@@ -5,8 +5,8 @@ const HeroCarousel = ({ title1, title2, details, price, qualities, image }) => {
     <div className="w-full hero-container  h-full ">
       <div className="w-full md:h-screen h-full hero flex-container  common-padding px-4 md:px-32">
         <div className=" w-full md:w-2/4 py-4  ">
-          <h2 className="  md:text-xl  uppercase text-white">{title1}</h2>
-          <h1 className="md:text-5xl text-2xl text-white capitalize">
+          <h2 className="  md:text-xl  uppercase text-black-600">{title1}</h2>
+          <h1 className="md:text-4xl text-red-600 text-2xl text-white capitalize">
             {title2}
           </h1>
           <div className=" ">
