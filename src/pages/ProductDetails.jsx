@@ -30,9 +30,10 @@ const ProductDetails = () => {
       <div className="flex common-padding  items-center border justify-center h-full bg-white ">
         <div className="flex md:flex-row  flex-col  w-full  h-full  py-5">
           <div className="flex md:flex-col-reverse   w-full justify-center md:w-1/4 flex-row items-center px-4 ">
-            {productDetail.imgs.map((item) => {
+            {productDetail.imgs.map((item, i) => {
               return (
                 <img
+                    key={i}
                   src={item}
                   alt=""
                   className="md:w-36 w-full h-48 overflow-hidden"

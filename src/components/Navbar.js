@@ -5,6 +5,7 @@ import { Avatar, Cart } from "../utilitis";
 
 import { NavLink } from "react-router-dom";
 import { ShopContext } from "../Context/ShopContext";
+import logo1 from "../Assests/luni_logo_124503.png";
 
 const Navbar = () => {
   const { cart } = useContext(ShopContext);
@@ -25,7 +26,11 @@ const Navbar = () => {
       <nav
         className={`navbar ${isMobileNavActive ? "mobile-nav" : ""} sticky `}
       >
-        <img src="../Assests/luni_logo_124503.png" alt="Company Logo" />
+        <img
+          src={logo1}
+          className="object-top mt-2 w-32 h-32"
+          alt="Company Logo"
+        />
         <button
           className={`menu-toggle ${isMobileNavActive ? "is-active" : ""}`}
           onClick={handleMenuToggleClick}
@@ -67,12 +72,13 @@ const Navbar = () => {
             placeholder="Search.."
           />
         </ul>
-        <div className="flex flex-center relative justify-center ">
-          <img src={Avatar} className="w-32 cursor-pointer" />
-          <img src={Cart} className="w-32  cursor-pointer" />
-          <h2 className="absolute text-red-700 font-bold -right-5 text-center text-2xl px-2">
-            6
-          </h2>
+        <div className="flex flex-center items-center relative justify-center ">
+          <h2>Login</h2>
+          <NavLink to="/carts">
+            <img src={Cart} className=" w-14 h-28 object-top cursor-pointer" />
+            <h4 className="absolute top-0 -right-4">{cart.length}</h4>
+          </NavLink>
+          <h2 className="absolute text-red-700 font-bold -right-5 text-center text-2xl px-2"></h2>
         </div>
       </nav>
     </div>

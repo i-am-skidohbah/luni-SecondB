@@ -16,7 +16,7 @@ const Carts = () => {
       <div className="py-10">
         <Headings tips="shopping Carts" title="check your products" />
       </div>
-      {/* <CartItems cardData={Data} /> */}
+      <CartItems cardData={Data} />
     </section>
   );
 };

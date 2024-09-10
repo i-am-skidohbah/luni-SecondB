@@ -4,22 +4,27 @@ import {
   productCarousel,
   BestOffer,
   BannerData,
+  projectsData,
 } from "../constants";
-// import CartReducer from "./CartReducer";
+import CartReducer from "./CartReducer";
 export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
   const deliveryFee = "$10";
-  // const [cart, dispatch] = useReducer(CartReducer, []);
+  const [search, Setsearch] = useState("");
+  const [cart, dispatch] = useReducer(CartReducer, []);
 
   const value = {
     ProductData,
     deliveryFee,
     productCarousel,
     BestOffer,
+    projectsData,
     BannerData,
-    // dispatch,
-    // cart,
+    search,
+    Setsearch,
+    dispatch,
+    cart,
   };
   return (
     <ShopContext.Provider value={value}>{props.children}</ShopContext.Provider>
