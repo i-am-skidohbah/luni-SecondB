@@ -24,13 +24,10 @@ const Fields = () => {
             <p className="text-xl py-4 text-white text-center font-normal capitalize">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum,
               dignissimos?
-            </p>
-            <Link to="/projects">
-              {" "}
-              <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
-                learn more
-              </button>
-            </Link>
+            </p>{" "}
+            <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
+              learn more
+            </button>
           </div>
         </div>
         <div className="h-[500px] relative hero rounded-xl flex items-center justify-center py-6 px-2">
@@ -50,13 +47,10 @@ const Fields = () => {
             <p className="text-xl py-4  text-white text-center font-normal capitalize">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum,
               dignissimos?
-            </p>
-            <Link to="/projects">
-              {" "}
-              <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
-                learn more
-              </button>
-            </Link>
+            </p>{" "}
+            <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
+              learn more
+            </button>
           </div>
         </div>
         <div className="h-[500px] relative  hero rounded-xl flex items-center justify-center py-6 px-2">
@@ -76,13 +70,10 @@ const Fields = () => {
             <p className="text-xl py-2 text-white text-center mb-5 font-normal capitalize">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum,
               dignissimos?
-            </p>
-            <Link to="/projects">
-              {" "}
-              <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
-                learn more
-              </button>
-            </Link>
+            </p>{" "}
+            <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
+              learn more
+            </button>
           </div>
         </div>
       </div>

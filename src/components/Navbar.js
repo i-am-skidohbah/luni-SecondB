@@ -44,6 +44,7 @@ const Navbar = () => {
             {" "}
             Home
           </NavLink>
+
           <NavLink to="/about" className="nav-item">
             About Us
           </NavLink>
@@ -56,6 +57,7 @@ const Navbar = () => {
           <NavLink to="/traning" className="nav-item">
             Training
           </NavLink>
+
           <NavLink to="/contact" className="nav-item">
             Contact Us
           </NavLink>
@@ -72,11 +74,11 @@ const Navbar = () => {
             placeholder="Search.."
           />
         </ul>
-        <div className="flex flex-center items-center relative justify-center ">
+        <div className="md:flex flex-center items-center relative justify-center  hidden ">
           <h2>Login</h2>
           <NavLink to="/carts">
-            <img src={Cart} className=" w-14 h-28 object-top cursor-pointer" />
-            <h4 className="absolute top-0 -right-4">{cart.length}</h4>
+            <img src={Cart} className=" w-14 h-16 object-top cursor-pointer" />
+            <h4 className="absolute top-5 -right-1 ">{cart.length}</h4>
           </NavLink>
           <h2 className="absolute text-red-700 font-bold -right-5 text-center text-2xl px-2"></h2>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Headings from "./Headings";
+import { Link } from "react-router-dom";
 const HeroHome = () => {
   return (
     <section className="pt-16  px-2 md:px-8 bg-white">
@@ -22,10 +23,12 @@ const HeroHome = () => {
                 </p>
               </div>
               <div className=" w-full py-6 ">
-                <button className="text-center md:w-44 w-full p-4 px-6 font-bold bg-white rounded-lg text-black text-xl capitalize">
-                  {" "}
-                  learn More
-                </button>
+                <Link to="/projects">
+                  <button className="text-center md:w-44 w-full p-4 px-6 font-bold bg-white rounded-lg text-black text-xl capitalize">
+                    {" "}
+                    learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -45,15 +48,17 @@ const HeroHome = () => {
 
               <div className=" w-full  md:w-3/4 ">
                 <p className="text-base text-justify  leading-normal">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam labore voluptatum sit quae tenetur?
+                  5KVA inverter system on a 5Kwh lithium iron Phosphate
+                  (LiFePO4) backup
                 </p>
               </div>
               <div className=" w-full py-4 ">
-                <button className="text-center md:w-44 w-full p-4 px-6 font-bold bg-white rounded-lg text-black text-xl capitalize">
-                  {" "}
-                  learn More
-                </button>
+                <Link to="/projects">
+                  <button className="text-center md:w-44 w-full p-4 px-6 font-bold bg-white rounded-lg text-black text-xl capitalize">
+                    {" "}
+                    learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
