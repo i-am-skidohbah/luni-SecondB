@@ -1,5 +1,6 @@
 import offer from "../Assests/promo/promo1.jpg";
 import image from "../Assests//products/1200W lithium blue box solarator.png";
+import image1 from "../Assests//promo/partnership.png";
 import solar from "../Assests/solar 4.jpg";
 // brands
 import photos from "../Assests/assets/brand//br-1.png";
@@ -1039,12 +1040,12 @@ export const projectsData = [
 export const productCarousel = [
   {
     _id: 1,
-    title1: "Compact Lithium Solarator",
-    title2: "SMALL BODY BIG ENGINE!",
-    details: `Get Solar Rest of Mind`,
-    qualities: ["1.2 kilo watt hour", "1.2 Back Up Battery", "DC & AC Output"],
-    price: "#660.000",
-    image: image,
+    title1: "LightUp your Home",
+    title2: "WITH 30% DOWN PAYMENT",
+    details: `Powered by`,
+    qualities: ["ACCESS BANK", "in partnership with", "LIGHTUP NIGERIA"],
+    price: "UNLIMITED",
+    image: image1,
   },
 
   {
@@ -1053,7 +1054,7 @@ export const productCarousel = [
     title2: "SMALL BODY BIG ENGINE!",
     details: `Get Solar Rest of Mind`,
     qualities: ["1.2 kilo watt hour", "1.2 Back Up Battery", "DC & AC Output"],
-    price: "$50",
+    price: "₦660,000",
     image: image,
   },
   {
@@ -1062,7 +1063,7 @@ export const productCarousel = [
     title2: "SMALL BODY BIG ENGINE!",
     details: `Get Solar Rest of Mind`,
     qualities: ["1.2 kilo watt hour", "1.2 Back Up Battery", "DC & AC Output"],
-    price: "$50",
+    price: "₦660,000",
     image: image,
   },
 ];
@@ -1079,7 +1080,7 @@ export const BestOffer = [
   {
     image: image,
     advert: "solar Pannel + lead Inveter + free delivery",
-    price: "$200",
+    price: "₦660,000",
 
     Details:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quis",

@@ -43,13 +43,12 @@ const HeroHome = () => {
                 worry less satisfaction
               </h3>
               <h2 className="  text-4xl  capitalize text-white">
-                your power House
+              And the dead finally found a home to rest in peace
               </h2>
 
               <div className=" w-full  md:w-3/4 ">
                 <p className="text-base text-justify  leading-normal">
-                  5KVA inverter system on a 5Kwh lithium iron Phosphate
-                  (LiFePO4) backup
+                We are proud to have since completed  the 25kwh Alaoma solar module at Peace College Junction, Alaoma Estate, off, KM5 Port Harcourt Rd, New Owerri, Owerri.
                 </p>
               </div>
               <div className=" w-full py-4 ">

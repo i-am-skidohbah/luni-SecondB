@@ -1,6 +1,8 @@
 import React from "react";
 import pannel from "../Assests/panel.jpg";
 import solar from "../Assests/projects/morgue.jpg";
+import training from "../Assests/projects/promo1.jpg";
+import product from "../Assests/projects/products.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -103,7 +105,7 @@ export const Services = () => {
 
         <div className=" w-full md:w-1/4">
           <div className="w-full">
-            <img src={solar} className="w-full rounded-xl" alt="" />
+            <img src={product} className="w-full rounded-xl" alt="" />
           </div>
           <div>
             <h1 className="text-center py-2 text-2xl">Products & Services</h1>
@@ -116,7 +118,7 @@ export const Services = () => {
 
         <div className=" w-full md:w-1/4">
           <div className="w-full">
-            <img src={solar} className="w-full rounded-xl" alt="" />
+            <img src={training} className="w-full rounded-xl" alt="" />
           </div>
           <div>
             <h1 className="text-center  py-2 text-2xl">Training, Research & Innovation</h1>
