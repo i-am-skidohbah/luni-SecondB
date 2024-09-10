@@ -352,6 +352,12 @@ h2 {
     order: -1;
   }
 
+  @media (max-width: 768px) {
+    .navbar ul {
+      transform: translate(0%);
+    }
+  }
+
   /* SEARCH DISABLED ON MOBILE */
 
   #search-icon {
