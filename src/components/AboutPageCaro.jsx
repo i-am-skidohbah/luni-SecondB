@@ -48,29 +48,32 @@ const AboutPageCaro = () => {
 
 export const AboutUs = () => {
   return (
-    <section className=" common-padding md:px-44 px-4 flex justify-center items-center bg-white ">
-      <div className="flex items-center md:flex-row  flex-col gap-8 md:w-3/4 justify-center w-full">
-        <div className=" w-full md:w-2/4">
-          <h1 className="text-balance text-base text-justify "></h1>
-          <h1 className="text-black text-5xl py-2 font-bold">About Us</h1>
-          <hr className="w-24" />
-          <p className="text-justify text-black  text-xl">
-            Lightup Nigeria Solar Power Ltd was incorporated in August 2020 with the
-            Corporate Affairs Commission under the Company and Allied Masters
-            Act Laws of the Federation of Nigeria with RC No: 1700859.
-          </p>
-        </div>
+    <>
+      {" "}
+      <section className=" common-padding md:px-44 px-4 flex justify-center items-center bg-white ">
+        <div className="flex items-center md:flex-row  flex-col gap-8 md:w-3/4 justify-center w-full">
+          <div className=" w-full md:w-2/4">
+            <h1 className="text-balance text-base text-justify "></h1>
+            <h1 className="text-black text-5xl py-2 font-bold">About Us</h1>
+            <hr className="w-24" />
+            <p className="text-justify text-black  text-xl">
+              Lightup Nigeria Solar Power Ltd was incorporated in August 2020
+              with the Corporate Affairs Commission under the Company and Allied
+              Masters Act Laws of the Federation of Nigeria with RC No: 1700859.
+            </p>
+          </div>
 
-        <div className=" w-full md:w-2/4 ">
-          <p className=" text-justify text-black text-xl py-2">
-            We offer innovative, afforable, and sustainable solar energy
-            solutions to power homes and businesses across Nigeria, reducing
-            energy costs and promoting environmental responsibility with the use
-            of lithium phosphate technology
-          </p>
+          <div className=" w-full md:w-2/4 ">
+            <p className=" text-justify text-black text-xl py-2">
+              We offer innovative, afforable, and sustainable solar energy
+              solutions to power homes and businesses across Nigeria, reducing
+              energy costs and promoting environmental responsibility with the
+              use of lithium phosphate technology
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
