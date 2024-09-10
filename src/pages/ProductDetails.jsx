@@ -4,9 +4,11 @@ import { ShopContext } from "../Context/ShopContext";
 import star from "../Assests/star.png";
 import RelatedCategory from "../components/Related";
 import Headings from "../components/Headings";
+import { useNavigate } from "react-router-dom";
 
 const ProductDetails = () => {
   const { productId } = useParams();
+  const navigate = useNavigate();
   const { ProductData, dispatch } = useContext(ShopContext);
 
   const [productDetail, setProductDetail] = useState(false);
@@ -33,7 +35,7 @@ const ProductDetails = () => {
             {productDetail.imgs.map((item, i) => {
               return (
                 <img
-                    key={i}
+                  key={i}
                   src={item}
                   alt=""
                   className="md:w-36 w-full h-48 overflow-hidden"
@@ -98,9 +100,10 @@ const ProductDetails = () => {
 
             <div className="flex">
               <button
-                onClick={() =>
-                  dispatch({ type: "Add", products: productDetail })
-                }
+                onClick={() => {
+                  dispatch({ type: "Add", products: productDetail }),
+                    navigate("/carts");
+                }}
                 className="text-center rounded-lg px-4 py-5 bg-black text-white text-xl font-semibold"
               >
                 Add to Cart

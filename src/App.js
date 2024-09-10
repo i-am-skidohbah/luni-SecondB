@@ -10,6 +10,8 @@ import Contact from "./pages/Contact";
 import Project from "./pages/project";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/footer";
+import CheckOut from "./pages/checkOut";
+import Sucess from "./pages/Sucess";
 const App = () => {
   return (
     <div className="page-wrapper">
@@ -23,6 +25,8 @@ const App = () => {
         <Route path="/traning" element={<Traning />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Project />} />
+        <Route path="/checkout" element={<CheckOut />} />
+        <Route path="/sucess" element={<Sucess />} />
       </Routes>
       <Footer />
     </div>
