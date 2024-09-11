@@ -244,7 +244,7 @@ export const ProductData = [
     RAM: "1.2kwh (1,200watts)", // filters
     title: "1.2kwh (1,200watts) solar bluebox (with accessories)",
     category: "Solarators",
-    price: "650000 ",
+    price: 650000 ,
     imgs: [solarator, solarator2],
     quantity: 1,
     specs: [
@@ -294,7 +294,7 @@ export const ProductData = [
     RAM: "1.5kw scalable",
     title: "1.5kw scalable hybrid lithium solarator (unit only)",
     category: "Solarator",
-    price: "980000",
+    price: 980000,
     imgs: [solarator3],
     quantity: 1,
     specs: [
@@ -335,7 +335,7 @@ export const ProductData = [
     RAM: "1kw",
     title: "1kw compact solarator (unit only)",
     category: "Solarators",
-    price: "850000 ",
+    price: 850000,
     imgs: [solarator4],
     quantity: 1,
     specs: [
@@ -376,7 +376,7 @@ export const ProductData = [
     RAM: ".2kwh/2kva",
     title: "3.2kwh/2kva compact solarator",
     category: "Solarator",
-    price: "1980000",
+    price: 1980000,
     imgs: [solarator5],
     quantity: 1,
     specs: [
@@ -419,7 +419,7 @@ export const ProductData = [
     RAM: "5kva",
     title: "high efficiency inverters (unit only)",
     category: "Inverter",
-    price: "850000",
+    price: 850000,
     imgs: [inverter],
     quantity: 1,
     specs: [
@@ -458,7 +458,7 @@ export const ProductData = [
     RAM: "5kw ",
     title: "5kw JCNS lithium solarator (unit only)",
     category: "Solarator",
-    price: "2500000",
+    price: 2500000,
     imgs: [solarator6],
     quantity: 1,
     specs: [
@@ -492,7 +492,7 @@ export const ProductData = [
     RAM: "5kwh",
     title: "5kwh EV lithium phosphate battery",
     category: "Inverter",
-    price: "1400000",
+    price: 1400000,
     imgs: [inverter2],
     quantity: 1,
     specs: [
@@ -525,7 +525,7 @@ export const ProductData = [
     RAM: "32inches",
     title: "32inches 12w solar tv",
     category: "tv",
-    price: "0000",
+    price: 0,
     imgs: [tv],
     quantity: 1,
     specs: [
@@ -549,7 +549,7 @@ export const ProductData = [
     RAM: "45W",
     title: "45W solar yellow box",
     category: "solar lightening kit",
-    price: "65000",
+    price: 65000,
     imgs: [lighteningkit],
     quantity: 1,
     specs: [
@@ -574,7 +574,7 @@ export const ProductData = [
     RAM: "50w ",
     title: "50w lithium solar yelow box",
     category: "solar lightening kit",
-    price: "00000",
+    price: 0,
     imgs: [lighteningkit1],
     quantity: 1,
     specs: [
@@ -606,7 +606,7 @@ export const ProductData = [
   RAM: "50kw ",
   title: "50w solar baby",
   category: "solar lightening kit",
-  price: "70000",
+  price: 70000,
   imgs: [lighteningkit2],
   quantity: 1,
   specs: [
@@ -638,7 +638,7 @@ export const ProductData = [
   RAM: "00000",
   title: "100W NDDC standard solar streetlight",
   category: "street Lght",
-  price: "00000",
+  price: 0,
   imgs: [streetlight],
   quantity: 1,
   specs: [
@@ -669,7 +669,7 @@ export const ProductData = [
   RAM: "128wh",
   title: "128wh-DC-Solarator",
   category: "solarator",
-  price: "180000",
+  price: 180000,
   imgs: [solarator7],
   quantity: 1,
   specs: [
@@ -693,7 +693,7 @@ export const ProductData = [
   RAM: "200W/400WH",
   title: "200W/400WH compact lithium solarator (with accessories)",
   category: "solarator",
-  price: "380000",
+  price: 380000,
   imgs: [solarator8],
   quantity: 1,
   specs: [
@@ -719,7 +719,7 @@ export const ProductData = [
   RAM: "300w-500w ",
   title: "300w-500w JCNS compact solarators",
   category: "solarator",
-  price: "400000",
+  price: 400000,
   imgs: [solarator9],
   quantity: 1,
   specs: [
@@ -758,7 +758,7 @@ export const ProductData = [
     title:
       "AC-DC breakers",
     category: "circuit breakers",
-    price: "10000",
+    price: 10000,
     imgs: [breaker],
     quantity: 1,
 
@@ -803,7 +803,7 @@ export const ProductData = [
     title:
       "jikokoa-charcoal-stove",
     category: "Home gadgets",
-    price: "45000",
+    price: 45000,
     imgs: [charcoalstove],
     quantity: 1,
     specs: [
@@ -841,7 +841,7 @@ export const ProductData = [
     title:
       "CL4 solar streetlights",
     category: "street light",
-    price: "89000",
+    price: 89000,
     imgs: [streetlight1],
     quantity: 1,
     specs: [
@@ -895,7 +895,7 @@ export const ProductData = [
     title:
       "commercial DC phone charger",
     category: "Gadgets",
-    price: "65000",
+    price: 65000,
     imgs: [phonecharger],
     quantity: 1,
     specs: [
@@ -939,7 +939,7 @@ export const ProductData = [
     title:
       "Solar ice makers",
     category: "solar freezers",
-    price: "1300000",
+    price: 1300000,
     imgs: [ icemakers, icemakers1],
     quantity: 1,
     specs: [
@@ -985,8 +985,8 @@ export const projectsData = [
     details:
       "With the successful completion of the first ever comlpete offgrid solar powered morgue by Lightup Nigeria Solar Power Ltd, the dead finally found a perfect place to rest in peace. We are proud to have since completed  the 25kwh Alaoma solar module at Peace College Junction, Alaoma Estate, off, KM5 Port Harcourt Rd, New Owerri, Owerri.",
     image: morgue,
-  },
-  {
+  }
+  /*{
     title: "Project Title",
     details:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
@@ -1033,7 +1033,7 @@ export const projectsData = [
     details:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quisVelit, quis",
     image: solar,
-  },
+  },*/
 ];
 
 

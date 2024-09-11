@@ -101,8 +101,7 @@ const ProductDetails = () => {
             <div className="flex">
               <button
                 onClick={() => {
-                  dispatch({ type: "Add", products: productDetail }),
-                    navigate("/carts");
+                  dispatch({ type: "Add", products: productDetail });
                 }}
                 className="text-center rounded-lg px-4 py-5 bg-black text-white text-xl font-semibold"
               >

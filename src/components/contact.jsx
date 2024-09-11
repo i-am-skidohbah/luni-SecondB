@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-full bg-white h-full md:h-[600px] common-padding">
+    <div className="w-full bg-white h-full md:h-[300px] common-padding">
       <div className="flex w-full items-center justify-center  px-2 md:px-6 py-4">
         <div className=" w-full md:w-3/4">
           <form className="w-full" action="">
@@ -28,37 +28,12 @@ const Contact = () => {
               </button>
             </div>
           </form>
-
-          <div>
-            <div>
-              <h2 className="text-2xl">Call</h2>
-              <h3 className="text-xl font-bold">Office Line</h3>
-              <h3 className="text-xl font-bold">Whatsapp</h3>
-              <h3 className="text-xl font-bold ">Email:</h3>
-            </div>
-
-            <div className="py-3">
-              <h2>Offices Address</h2>
-              <p className="text-black text-xl py-1 leading-normal">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Placeat, eum Lorem ipsum dolor sit amet consectetur..
-              </p>
-
-              <p className="text-black text-xl py-1">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Placeat, eum Lorem ipsum dolor sit amet consectetur..
-              </p>
-
-              <p className="text-black text-xl py-1">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Placeat, eum Lorem ipsum dolor sit amet consectetur..
-              </p>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>
   );
+  
 };
 
 export default Contact;

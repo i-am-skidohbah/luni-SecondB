@@ -3,8 +3,8 @@ import Button from "../components/Button";
 const HeroCarousel = ({ title1, title2, details, price, qualities, image }) => {
   return (
     <div className="w-full hero-container  h-full ">
-      <div className="w-full md:h-screen h-full hero flex-container  common-padding px-4 md:px-32">
-        <div className=" w-full md:w-2/4 py-4  ">
+      <div className="w-full md:h-screen h-full hero flex-container  common-padding px-4 md:px-40">
+        <div className=" w-full md:w-2/4 py-4 ">
           <h2 className="  md:text-xl  uppercase text-black-600">{title1}</h2>
           <h1 className="md:text-4xl text-red-600 text-2xl text-white capitalize">
             {title2}
@@ -29,13 +29,13 @@ const HeroCarousel = ({ title1, title2, details, price, qualities, image }) => {
               </h3>
             </div>
 
-            <div className="flex  w-full md:w-2/4  gap-4">
+            <div className="flex  w-full md:w-3/4  gap-4">
               <Button />
             </div>
           </div>
         </div>
         <div className=" w-full md:w-2/4 flex items-center  justify-center">
-          <div className="md:w-3/4  w-full h-full">
+          <div className="md:w-4/4  w-full h-full">
             <img src={image} alt="placeholder" className="w-full h-full" />
           </div>
         </div>

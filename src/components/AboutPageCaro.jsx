@@ -110,8 +110,8 @@ export const Services = () => {
           <div>
             <h1 className="text-center py-2 text-2xl">Products & Services</h1>
             <p className="text-center text-black text-xl text-normal">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto in
-              cum ducimus fugiat magnam.
+            Lightup Nigeria Solar Power ltd is a leading provider of solar energy solutions in Nigeria. 
+            We offer a range of high-quality solar power products and services to meet the growing demand for renewable energy in the country.
             </p>
           </div>
         </div>

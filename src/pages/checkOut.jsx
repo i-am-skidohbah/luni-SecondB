@@ -68,7 +68,7 @@ const CheckOut = () => {
         <div className=" w-full px-2 md:w-2/4 ">
           <h2 className="text-2xl">Shipping Address</h2>
           <p className="text-xl text-justify text-black">
-            Enter the Adress where you want your older Delivered
+            Enter the Address where you want your order Delivered
           </p>
           <div className="py-4 w-full">
             <form
@@ -184,7 +184,16 @@ const CheckOut = () => {
               <p className="text-justify text-sm text-black capitalize py-2">
                 make your payment directly into bank Account provided below,
                 please use your order Id as payment reference your order will
-                not be shipped untill the funds have cleared in our account
+                not be shipped until the funds have cleared in our account
+              </p>
+              <p className="text-justify text-sm text-black capitalize py-2">
+                Account no:187745963
+              </p>
+              <p className="text-justify text-sm text-black capitalize py-2">
+                Account name:LightUp Nigeria Solar Power Ltd
+              </p>
+              <p className="text-justify text-sm text-black capitalize py-2">
+                Bank:Access Bank
               </p>
             </div>
             <div className="w-full py-4">
@@ -194,7 +203,7 @@ const CheckOut = () => {
                 }}
                 className="py-3 px-3 bg-green-700 text-white rounded-lg text-xl"
               >
-                payment Compeleted
+                Place Order
               </button>
             </div>
           </div>

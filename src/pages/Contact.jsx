@@ -3,6 +3,7 @@ import AboutPageCaro from "../components/AboutPageCaro";
 import img from "../Assests/solar 4.jpg";
 import Headings from "../components/Headings";
 import Contacts from "../components/contact";
+import Contactdetail from "../components/contactdetail";
 
 const Contact = () => {
   return (
@@ -15,13 +16,14 @@ const Contact = () => {
           image={img}
         />
       </div>
-
       <Headings
         tips={`our contacts`}
         title={`we are ready for your questions`}
       />
       <Contacts />
+      <Contactdetail/>
     </div>
+    
   );
 };
 
