@@ -614,10 +614,10 @@ export const ProductData = [
   ],
   inStock: 20,
   eta: 30,
-  id: "m6",
+  id: "17",
   rating: 4,
   reviews: [
-    /*{
+    {
       name: "Navin Kumar",
       title: "Amazing Product",
       content:
@@ -630,7 +630,7 @@ export const ProductData = [
       content:
         "Overall a good phone camera performance is decent enough in this price point the front camera though does a great job because of sony imx471 sensor ultrawide on the back would be great the macro and b/w sensor is not that useful battery life is good for an average user iam getting a screen on time of about 45-50 minutes using 10% battery so it can give you about 8-9 hours of screen time daily the charging is powerful and charges quickly In short its a gaming phone The antutu score os this device is around 350k which is greater than redmi note 10 pro max score of 300k",
       rating: 4,
-    },*/
+    },
   ],
 },
 {
@@ -646,10 +646,10 @@ export const ProductData = [
   ],
   inStock: 2,
   eta: 15,
-  id: "m7",
+  id: "18",
   rating: 4.2,
   reviews: [
-    /*{
+    {
       name: "Alwin",
       title: "Good Phone",
       content: "Good phone working fine good battery thanks",
@@ -661,7 +661,7 @@ export const ProductData = [
       content:
         "Okay so this product is not expensive, affordable and very beautiful, this is only good thing about it. Phone freezes a lot and when someone calls, it keeps vibrating without showing any number on the screen. I bought this phone in may 2021. And this is July 2021. I hate this phone already",
       rating: 2,
-    },*/
+    },
   ],
 },
 {
@@ -677,7 +677,7 @@ export const ProductData = [
   ],
   inStock: 0,
   eta: 50,
-  id: "m8",
+  id: "19",
   rating: 5,
   reviews: [
     {
@@ -688,8 +688,41 @@ export const ProductData = [
     },
   ],
 },
+
 {
-  Brand: "compact lithium solarator",
+  Brand: "NDDC standard solar streetlight",
+  RAM: "00000",
+  title: "100W NDDC standard solar streetlight",
+  category: "street Lght",
+  price: 0,
+  imgs: [streetlight],
+  quantity: 1,
+  specs: [
+    "3 in 1 100W NDDC standard solar streetlight",
+  ],
+  inStock: 2,
+  eta: 15,
+  id: "20",
+  rating: 4.2,
+  reviews: [
+    {
+      name: "Alwin",
+      title: "Good Phone",
+      content: "Good phone working fine good battery thanks",
+      rating: 5,
+    },
+    {
+      name: "Ankita",
+      title: "Extremely slow.",
+      content:
+        "Okay so this product is not expensive, affordable and very beautiful, this is only good thing about it. Phone freezes a lot and when someone calls, it keeps vibrating without showing any number on the screen. I bought this phone in may 2021. And this is July 2021. I hate this phone already",
+      rating: 2,
+    },
+  ],
+},
+
+{
+  Brand: "400WH compact lithium solarator",
   RAM: "200W/400WH",
   title: "200W/400WH compact lithium solarator (with accessories)",
   category: "solarator",
@@ -702,7 +735,7 @@ export const ProductData = [
   ],
   inStock: 8,
   eta: 50,
-  id: "m9",
+  id: "21",
   rating: 4,
   reviews: [
     /*{
@@ -728,7 +761,7 @@ export const ProductData = [
   ],
   inStock: 8,
   eta: 20,
-  id: "m10",
+  id: "m22",
   rating: 4.5,
   reviews: [
     /*{
@@ -767,7 +800,7 @@ export const ProductData = [
     ],
     inStock: 11,
     eta: 120,
-    id: "l1",
+    id: "23",
     rating: 3.8,
     reviews: [
       /*{
@@ -811,7 +844,7 @@ export const ProductData = [
     ],
     inStock: 19,
     eta: 180,
-    id: "l2",
+    id: "24",
     rating: 4.3,
     reviews: [
       /*{
@@ -849,7 +882,7 @@ export const ProductData = [
     ],
     inStock: 29,
     eta: 60,
-    id: "l3",
+    id: "25",
     rating: 4.3,
     reviews: [
       /*{
@@ -903,7 +936,7 @@ export const ProductData = [
     ],
     inStock: 9,
     eta: 270,
-    id: "l4",
+    id: "26",
     rating: 4.4,
     reviews: [
       /*{
@@ -947,7 +980,7 @@ export const ProductData = [
     ],
     inStock: 2,
     eta: 30,
-    id: "l5",
+    id: "27",
     rating: 4.3,
     reviews: [
       /*{

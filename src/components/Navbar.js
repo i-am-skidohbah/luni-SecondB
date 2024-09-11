@@ -11,6 +11,7 @@ const Navbar = () => {
   const { cart } = useContext(ShopContext);
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [isMobileNavActive, setIsMobileNavActive] = useState(false);
+  
 
   const handleSearchClick = () => {
     setIsSearchActive(!isSearchActive);

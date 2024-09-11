@@ -1,7 +1,7 @@
 import React from "react";
 import enugu from "../Assests/assets/blogs/enugu-gov.jpg";
 import partnership from "../Assests/promo/partnership.png";
-import panel3 from "../Assests/solar 3.jpg";
+import solarator from "../Assests/products/1.5kw-scalable-hybrid-lithium-solarator.jpg";
 import { Link } from "react-router-dom";
 const Fields = () => {
   return (
@@ -22,7 +22,7 @@ const Fields = () => {
             </h1>
             <hr className="w-12  h-1 bg-white " />
             <p className="text-xl py-4 text-white text-center font-normal capitalize">
-            The Enugu State Government has clarified its position on the reports over the collection of industrial gas emission levy by consultants to the Ministry of Environment and Climate Change
+            The Enugu State Government has clarified its position on the reports over the collection of industrial gas emission levy
             </p>{" "}
             <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
               Read more
@@ -53,21 +53,21 @@ const Fields = () => {
         </div>
         <div className="h-[500px] relative  hero rounded-xl flex items-center justify-center py-6 px-2">
           <img
-            src={panel3}
-            className="w-full object-cover h-full absolute top-0  opacity-75"
+            src={solarator}
+            className="w-full object-cover h-full absolute top-0  opacity-100"
             alt=""
           />
           <div className="w-3/4 py-5 px-2 relative flex flex-col items-center">
             <h1 className="text-center text-base text-white py-1 capitalize font-thin">
               Convenience
             </h1>
-            <h1 className="text-2xl text-center text-white py-1 uppercase font-bold">
-              satisfaction Guaranteed
+            <h1 className="text-2xl text-center text-red-600 py-1 uppercase font-bold">
+            Earn ₦1,000,000.00 with Lightup Nigeria Solar Power Ltd!
             </h1>
             <hr className="w-12  h-1 bg-white " />
             <p className="text-xl py-2 text-white text-center mb-5 font-normal capitalize">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum,
-              dignissimos?
+            Are you ready to become a LUNI Solar Millionaire? 
+            Lightup Nigeria Solar Power Ltd is offering you an incredible opportunity to earn while promoting renewable energy! 
             </p>{" "}
             <button className="text-center px-6 py-4 font-bold capitalize text-white bg-black rounded-xl">
               Read more
