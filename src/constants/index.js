@@ -65,6 +65,11 @@ import parkavenueperfume from "../Assests/products/AC-DC-breakers.jpg";
 import kidkurtha from "../Assests/products/sms-floodlight.jpg";
 import sunderkand from "../Assests/products/5kwh-EV-lithium-phosphate-battery.jpg";
 
+//blog
+import partnership from "../Assests/luni_logo_124503.png";
+import Blogsolarator from "../Assests/blog/partnership.png";
+import enugu from "../Assests/blog/enugu-gov.jpg";
+
 export const TimeCountData = [
   {
     time: 1,

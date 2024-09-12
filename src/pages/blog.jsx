@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../Context/ShopContext";
 import { useParams } from "react-router-dom";
-import BlogsDetails from "../components/BlogsDetails";
+import BlogsDetails from "../components/BlogDetails";
 
 const Blogpage = () => {
   const { BlogData } = useContext(ShopContext);
