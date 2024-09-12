@@ -1168,3 +1168,82 @@ export const Brand = [
   photos11,
   photos12,
 ];
+
+export const BlogData = [
+  {
+    id: "004780a2-5294-4672-a284-424bebfd8748",
+
+    title:
+      "JUST IN: Enugu gov't clarifies position on purported solar energy tax.",
+    subtitle:
+      "The Enugu State Government has clarified its position on the reports over the collection of industrial gas emission levy",
+    summary:
+      "Molestiae ut est dolorem a vero et in. Dignissimosidet dolore consequuntur explicabo doloremque soluta. Deserunt repudiandae soluta nulla neque aut recusandae sed non. Itaque velit neque dicta dolores fuga dicta sunt.",
+    category: "Entertainment",
+    image: enugu,
+    main_content:
+      "\u003Ch1\u003ESearching for Alien Life: A Cosmic Enigma\u003C/h1\u003E\n\u003Cp\u003EFor decades, scientists have been scanning the skies, searching for signs of extraterrestrial life. From SETI to the Mars rovers, countless endeavors have tried to answer this age-old question: Are we alone in the universe?\u003C/p\u003E\n\n\u003Cp\u003EAdvancements in telescopic technology have made it possible to discover exoplanets that might host life.\u003C/p\u003E\n\n\u003Cblockquote\u003E\n  \u003Cp\u003E\"The idea that we might not be alone has captivated humans for centuries, driving us to search for life beyond our own planet.\"\u003C/p\u003E\n\u003C/blockquote\u003E\n\n\u003Cp\u003EThough there's no conclusive evidence yet, scientists remain hopeful. Recent discoveries of water on Mars and ice on one of Jupiter's moons, Europa, have fueled such hopes.\u003C/p\u003E\n\n\u003Cp\u003EThe Drake Equation, a probabilistic formula used to estimate the number of active, communicative extraterrestrial civilizations, adds to the optimism.\u003C/p\u003E\n\n\u003Cp\u003EHowever, skeptics argue that the lack of evidence might suggest that we are, in fact, alone.\u003C/p\u003E\n\n\u003Cp\u003EWhile this debate rages on, astronomers continue their diligent work, hoping one day to find a sign—a signal, a footprint, anything—that will solve this cosmic enigma.\u003C/p\u003E\n\n\u003Cp\u003EUntil then, the search continues, and the question remains: Are we alone?\u003C/p\u003E\n",
+    created_at: "Sun, 10/15/2023",
+    updated_at: "Sun, 10/15/2023",
+  },
+  {
+    id: "00535eb0-76c3-4f12-b1d2-93473cd5fe94",
+
+    title: "  Expect a solar energy revolution in Nigeria.",
+    subtitle:
+      "  As Lightup Nigeria Solar Power Ltd becomes Access Bank Plc official solar vendor",
+    summary:
+      "Quia error sit tenetur repellat repudiandae. Fugit sapiente aut itaque et aut molestiae. Id quod fuga occaecati sunt error voluptatem.",
+    category: "Food & Drink",
+    image: Blogsolarator,
+    main_content:
+      '\u003Ch1\u003EUnlocking Passive Income\u003C/h1\u003E\n\u003Cp\u003EPassive income is the dream for many. It allows you to earn money while you sleep, giving you the freedom to do what you love.\u003C/p\u003E\n\n\u003Cblockquote\u003E\n  \u003Cp\u003E"Passive income is not a get-rich-quick scheme; it\'s a get-rich-smart scheme."\u003C/p\u003E\n\u003C/blockquote\u003E\n\n\u003Cp\u003EDigital products, real estate, and investments are some ways to generate passive income. Let\'s delve into these methods one by one.\u003C/p\u003E\n\n\u003Cp\u003EFirstly, digital products like e-books, online courses, and software can be a lucrative source of income. The beauty of digital products is that they can be created once and sold to an unlimited number of customers without additional costs.\u003C/p\u003E\n\n\u003Cblockquote\u003E\n  \u003Cp\u003E"If you\'re good at something, never do it for free."\u003C/p\u003E\n\u003C/blockquote\u003E\n\n\u003Cp\u003ESecondly, real estate can be an excellent way to generate long-term income. Whether you\'re renting out property or investing in REITs, the real estate market offers various opportunities for earning passively.\u003C/p\u003E\n\n\u003Cp\u003EIt\'s important to do thorough research and possibly consult with a financial advisor before diving into the real estate market.\u003C/p\u003E\n\n\u003Cblockquote\u003E\n  \u003Cp\u003E"Don\'t wait to buy real estate. Buy real estate and wait."\u003C/p\u003E\n\u003C/blockquote\u003E\n\n\u003Cp\u003EThirdly, investments in stocks, bonds, and mutual funds can also provide a steady income stream. Dividend-paying stocks are particularly popular for this purpose.\u003C/p\u003E\n\n\u003Cp\u003EHowever, it\'s crucial to diversify your investment portfolio to mitigate risks. A well-balanced mix of assets can provide both growth and income.\u003C/p\u003E\n\n\u003Cblockquote\u003E\n  \u003Cp\u003E"The stock market is a device for transferring money from the impatient to the patient."\u003C/p\u003E\n\u003C/blockquote\u003E\n\n\u003Cp\u003EOther methods include affiliate marketing, dropshipping, and even blogging. The key is to find what works best for you and to start small. As you gain more experience, you can scale your efforts and increase your income.\u003C/p\u003E\n\n\u003Cp\u003EIn conclusion, passive income offers the freedom to live life on your terms. While it requires initial effort and smart planning, the rewards make it well worth the investment.\u003C/p\u003E\n',
+    created_at: "Sun, 10/15/2023",
+    updated_at: "Sun, 10/15/2023",
+  },
+  {
+    id: "006ad48b-e9d9-472e-bcc0-39961ef18eba",
+
+    title: " Earn ₦1,000,000.00 with Lightup Nigeria Solar Power Ltd!",
+    subtitle:
+      " Are you ready to become a LUNI Solar Millionaire? Lightup Nigeria Solar Power Ltd is offering you an incredible opportunity to earn while promoting renewable energy!.",
+    category: "Fashion & Beauty",
+    image: partnership,
+    main_content:
+      "\u003Ch1\u003EThe Evolution of Rockets: A Journey Through Time\u003C/h1\u003E\n\u003Cp\u003ERockets have come a long way since their invention. Initially used for warfare, they have evolved into vehicles capable of interplanetary travel.\u003C/p\u003E\n\n\u003Cp\u003EThe V-2 rockets during World War II marked a significant advancement, laying the groundwork for space exploration.\u003C/p\u003E\n\n\u003Cp\u003EThe 1960s saw the mighty Saturn V, which carried the Apollo astronauts to the moon.\u003C/p\u003E\n\n\u003Cblockquote\u003E\n  \u003Cp\u003E\"Each generation of rockets has been a stepping stone towards our ultimate goal—making humanity an interplanetary species.\"\u003C/p\u003E\n\u003C/blockquote\u003E\n\n\u003Cp\u003ENow, we have reusable rockets, thanks to companies like SpaceX. The Falcon 9 can land back on Earth after launching, drastically reducing costs.\u003C/p\u003E\n\n\u003Cp\u003EBlue Origin's New Shepard aims to make suborbital flights a reality for tourists.\u003C/p\u003E\n\n\u003Cp\u003EChina's Long March rockets have made them a key player in the global space race.\u003C/p\u003E\n\n\u003Cp\u003ELooking forward, the development of the Space Launch System (SLS) and Starship aims to take us to Mars and beyond.\u003C/p\u003E\n\n\u003Cp\u003EAs technology advances, the possibilities are limitless. Who knows what the next generation of rockets will bring?\u003C/p\u003E\n",
+    created_at: "Sun, 10/15/2023",
+    updated_at: "Sun, 10/15/2023",
+  },
+  {
+    id: "00caf75b-0d8f-441c-ae04-1dd25a790683",
+
+    title: "Sunt et rerum aspernatur praesentium.",
+    subtitle:
+      "Eos laboriosam est itaque enim ratione. Quasi inventore quisquam sed harum sit non.",
+    summary:
+      "Modi temporibus voluptatem aut necessitatibus deleniti. Eum dolorem sit veritatis labore laborum. Maxime temporibus commodi repellendus laborum laborum fugiat. Tempora voluptate expedita quisquam asperiores neque.",
+    category: "Art & Culture",
+    image:
+      "https://images.unsplash.com/photo-1495580847032-db0bac41d44b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0OTE2MTF8MHwxfHNlYXJjaHwyNHx8Q2FueW9ufGVufDB8MHx8fDE2OTczNTc1NDR8MA&ixlib=rb-4.0.3&q=85",
+    main_content:
+      "\u003Ch1\u003EThe Evolution of Rockets: A Journey Through Time\u003C/h1\u003E\n\u003Cp\u003ERockets have come a long way since their invention. Initially used for warfare, they have evolved into vehicles capable of interplanetary travel.\u003C/p\u003E\n\n\u003Cp\u003EThe V-2 rockets during World War II marked a significant advancement, laying the groundwork for space exploration.\u003C/p\u003E\n\n\u003Cp\u003EThe 1960s saw the mighty Saturn V, which carried the Apollo astronauts to the moon.\u003C/p\u003E\n\n\u003Cblockquote\u003E\n  \u003Cp\u003E\"Each generation of rockets has been a stepping stone towards our ultimate goal—making humanity an interplanetary species.\"\u003C/p\u003E\n\u003C/blockquote\u003E\n\n\u003Cp\u003ENow, we have reusable rockets, thanks to companies like SpaceX. The Falcon 9 can land back on Earth after launching, drastically reducing costs.\u003C/p\u003E\n\n\u003Cp\u003EBlue Origin's New Shepard aims to make suborbital flights a reality for tourists.\u003C/p\u003E\n\n\u003Cp\u003EChina's Long March rockets have made them a key player in the global space race.\u003C/p\u003E\n\n\u003Cp\u003ELooking forward, the development of the Space Launch System (SLS) and Starship aims to take us to Mars and beyond.\u003C/p\u003E\n\n\u003Cp\u003EAs technology advances, the possibilities are limitless. Who knows what the next generation of rockets will bring?\u003C/p\u003E\n",
+    created_at: "Sun, 10/15/2023",
+    updated_at: "Sun, 10/15/2023",
+  },
+  {
+    id: "00faf88c-9227-4783-b9b7-91e400dafd38",
+
+    title: "Quo minima quia veritatis sed aut sed fugiat.",
+    subtitle:
+      "Rerum sed minima culpa ab minima rem nobis provident. Assumenda aspernatur perferendis dolorum officia.",
+    summary:
+      "Dolorem necessitatibus et ipsum saepe. Possimus et natus voluptate et consequatur dolore non alias. Harum impedit amet non eum earum. Saepe et in ut animi eaque.",
+    category: "Finance & Business",
+    image:
+      "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0OTE2MTF8MHwxfHNlYXJjaHw0fHxCZWFjaHxlbnwwfDB8fHwxNjk3MzU3NTYwfDA&ixlib=rb-4.0.3&q=85",
+    main_content:
+      "\u003Ch1\u003ESearching for Alien Life: A Cosmic Enigma\u003C/h1\u003E\n\u003Cp\u003EFor decades, scientists have been scanning the skies, searching for signs of extraterrestrial life. From SETI to the Mars rovers, countless endeavors have tried to answer this age-old question: Are we alone in the universe?\u003C/p\u003E\n\n\u003Cp\u003EAdvancements in telescopic technology have made it possible to discover exoplanets that might host life.\u003C/p\u003E\n\n\u003Cblockquote\u003E\n  \u003Cp\u003E\"The idea that we might not be alone has captivated humans for centuries, driving us to search for life beyond our own planet.\"\u003C/p\u003E\n\u003C/blockquote\u003E\n\n\u003Cp\u003EThough there's no conclusive evidence yet, scientists remain hopeful. Recent discoveries of water on Mars and ice on one of Jupiter's moons, Europa, have fueled such hopes.\u003C/p\u003E\n\n\u003Cp\u003EThe Drake Equation, a probabilistic formula used to estimate the number of active, communicative extraterrestrial civilizations, adds to the optimism.\u003C/p\u003E\n\n\u003Cp\u003EHowever, skeptics argue that the lack of evidence might suggest that we are, in fact, alone.\u003C/p\u003E\n\n\u003Cp\u003EWhile this debate rages on, astronomers continue their diligent work, hoping one day to find a sign—a signal, a footprint, anything—that will solve this cosmic enigma.\u003C/p\u003E\n\n\u003Cp\u003EUntil then, the search continues, and the question remains: Are we alone?\u003C/p\u003E\n",
+    created_at: "Sun, 10/15/2023",
+    updated_at: "Sun, 10/15/2023",
+  },
+];

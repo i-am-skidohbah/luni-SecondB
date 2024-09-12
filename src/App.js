@@ -12,6 +12,7 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "./components/footer";
 import CheckOut from "./pages/checkOut";
 import Sucess from "./pages/Sucess";
+import Blogpage from "./pages/blog";
 const App = () => {
   return (
     <div className="page-wrapper">
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/projects" element={<Project />} />
         <Route path="/checkout" element={<CheckOut />} />
         <Route path="/sucess" element={<Sucess />} />
+        <Route path="/blogs/:blogId" element={<Blogpage />} />
       </Routes>
       <Footer />
     </div>

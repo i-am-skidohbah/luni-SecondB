@@ -1,29 +1,38 @@
-import React from "react";
-import AboutPageCaro from "../components/AboutPageCaro";
-import img from "../Assests/solar 4.jpg";
-import Headings from "../components/Headings";
-import Contacts from "../components/contact";
+import React, { useContext, useEffect, useState } from "react";
+import { ShopContext } from "../Context/ShopContext";
+import { useParams } from "react-router-dom";
+import BlogsDetails from "../components/BlogsDetails";
 
-const Contact = () => {
+const Blogpage = () => {
+  const { BlogData } = useContext(ShopContext);
+  const { blogId } = useParams();
+  const [blogDetails, setBlogDetail] = useState([]);
+
+  const getBlogDetails = () => {
+    let details = BlogData.filter((item) => item.id === blogId);
+    setBlogDetail(details);
+  };
+
+  useEffect(() => {
+    getBlogDetails();
+  }, []);
   return (
-    <div>
-      <div className="w-full pb-36 bg-white">
-        <AboutPageCaro
-          Title={`contact us`}
-          detail={`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
-            cum.`}
-          image={img}
-        />
-      </div>
-
-      <Headings
-        tips={`our contacts`}
-        title={`we are ready for your questions`}
-      />
-      <Contacts />
+    <div className="bg-white ">
+      {blogDetails.map((e, i) => {
+        return (
+          <BlogsDetails
+            key={i}
+            Date={e.created_at}
+            title={e.title}
+            image={e.image}
+            subTitle={e.subtitle}
+            mainContent={e.main_content}
+            summary={e.summary}
+          />
+        );
+      })}
     </div>
   );
 };
 
-
-export default Contact;
+export default Blogpage;

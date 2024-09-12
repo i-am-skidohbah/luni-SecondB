@@ -5,6 +5,7 @@ import {
   BestOffer,
   BannerData,
   projectsData,
+  BlogData,
 } from "../constants";
 import CartReducer from "./CartReducer";
 export const ShopContext = createContext();
@@ -25,6 +26,7 @@ const ShopContextProvider = (props) => {
     Setsearch,
     dispatch,
     cart,
+    BlogData,
   };
   return (
     <ShopContext.Provider value={value}>{props.children}</ShopContext.Provider>
