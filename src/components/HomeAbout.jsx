@@ -23,9 +23,9 @@ import image10 from "../Assests/mrs-adanna-director.jpg";
 import image11 from "../Assests/Capture.jpg";
 import image12 from "../Assests/anne.jpg";
 
-const AboutPageCaro = () => {
+const HomeAbout = () => {
   return (
-    <div className="w-full  h-[650px]    relative">
+    <div className="w-full  h-[650px]  relative">
       <div className="w-full  h-full sticky">
         <img
           src={pannel}
@@ -33,7 +33,7 @@ const AboutPageCaro = () => {
           alt=""
         />
       </div>
-      <div className="absolute top-5 left-0 right-0 bottom-0">
+      <div className="absolute top-10 left-0 right-0 bottom-0">
         <div className="flex flex-col items-center justify-center px-4 py-2">
           <h1 className="text-center text-green-600 py-4 text-6xl uppercase">
             LIGHTUP NIGERIA
@@ -378,4 +378,4 @@ export const Brands = () => {
     </section>
   );
 };
-export default AboutPageCaro;
+export default HomeAbout;

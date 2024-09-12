@@ -7,7 +7,7 @@ import logo4 from "../Assests/youtube.png";
 const Footer = () => {
   return (
     <div className="w-full flex justify-center h-full  md:h-[500px] bg_footer">
-      <div className="w-3/4 grid grid-cols-1 md:grid-cols-4 h-[80%] place-items-start border-b border-green-100 py-5 px-4">
+      <div className="w-4/4 grid grid-cols-1 md:grid-cols-3 h-[80%] place-items-start border-b border-green-100 py-5 px-4">
         <div className="  px-4 py-4">
           <section>
             <div className="flex items-center  ">
@@ -29,9 +29,9 @@ const Footer = () => {
         </div>
 
         {/* the first */}
-        <div className="flex  px-6 py-4  flex-col  ">
+        <div className="flex  px-64 py-4  flex-col  ">
           <div>
-            <h2 className="text-white text-bold capitalize text-2xl py-2">
+            <h2 className="text-white text-bold capitalize text-1xl py-2">
               important Links
             </h2>
             <p className="text-xl leading-normal capitalize">product</p>
@@ -40,33 +40,10 @@ const Footer = () => {
             <p className="text-xl leading-normal capitalize ">carts</p>
           </div>
 
-          <div>
-            <h2 className="text-white text-bold capitalize text-2xl py-2">
-              services
-            </h2>
-            <p className="text-xl leading-normal capitalize ">product</p>
-            <p className="text-xl leading-normal capitalize ">home</p>
-          </div>
+          
         </div>
-        <div className="flex r  px-6 py-4  flex-col ">
-          <div>
-            <h2 className="text-white text-bold capitalize text-2xl py-4">
-              Company LInks
-            </h2>
-            <p className="text-xl leading-normal capitalize ">installation</p>
-            <p className="text-xl leading-normal capitalize ">fixing</p>
-            <p className="text-xl leading-normal capitalize ">vendor</p>
-            <p className="text-xl leading-normal capitalize ">repair</p>
-          </div>
-          <div>
-            <h2 className="text-white text-bold capitalize text-2xl py-4">
-              Address
-            </h2>
-            <p className="text-xl leading-normal capitalize ">installation</p>
-            <p className="text-xl leading-normal capitalize ">Maintainance</p>
-          </div>
-        </div>
-        <div className="flex  flex-col px-6 py-4  w-full ">
+       
+        <div className="flex  flex-col px-60 py-4  w-full ">
           <h2 className="text-base capitalize text-white">get in out</h2>
           <div className="w-2/4 flex justify-start items-center gap-6 py-5">
             <img src={logo1} className="w-8 h-8" alt="" />

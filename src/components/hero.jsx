@@ -1,5 +1,6 @@
 import React from "react";
 import { ShopContext } from "../Context/ShopContext";
+import HomeAbout from "./HomeAbout";
 import Slider from "react-slick";
 import HeroHome from "./HeroHome";
 import Headings from "./Headings";
@@ -15,6 +16,7 @@ import ProductList from "./productList";
 
 import Fields from "./Fields";
 import Contact from "./contact";
+import { Brands } from "./AboutPageCaro";
 
 const Hero = () => {
   const { productCarousel } = useContext(ShopContext);
@@ -45,6 +47,9 @@ const Hero = () => {
   //
   return (
     <section className="z-0  px-0 md:px-12">
+    
+      < HomeAbout />
+
       <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
         {caroData.map((i, index) => {
           return (
@@ -68,6 +73,7 @@ const Hero = () => {
       {/*<Banner /> */}
       <Fields />
       <Contact />
+      <Brands/>
     </section>
   );
 };
