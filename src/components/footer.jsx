@@ -28,8 +28,25 @@ const Footer = () => {
           </section>
         </div>
 
-        {/* the first */}
-        <div className="flex  px-64 py-4  flex-col  ">
+        
+       
+        <div className="flex  flex-col px-60 py-4  w-full ">
+          <h2 className="text-base capitalize text-white"></h2>
+          <div className="w-2/4 flex justify-start items-center gap-6 py-5">
+            <img src={logo1} className="w-8 h-8" alt="" />
+            <img src={logo2} className="w-8 h-8" alt="" />
+            <img src={logo3} className="w-8 h-8 " alt="" />
+            <img src={logo4} className="w-8 h-8  rounded-full" alt="" />
+          </div>
+          {/*<div className="relative">
+            <input type="text" className="bg-white py-2 rounded-lg w-full" />
+            <button className="text-white   px-2 py-2 text-bold ">
+              Submit
+            </button>
+          </div>*/}
+
+            {/* the first */}
+      
           <div>
             <h2 className="text-white text-bold capitalize text-1xl py-2">
               important Links
@@ -41,22 +58,8 @@ const Footer = () => {
           </div>
 
           
-        </div>
-       
-        <div className="flex  flex-col px-60 py-4  w-full ">
-          <h2 className="text-base capitalize text-white">get in out</h2>
-          <div className="w-2/4 flex justify-start items-center gap-6 py-5">
-            <img src={logo1} className="w-8 h-8" alt="" />
-            <img src={logo2} className="w-8 h-8" alt="" />
-            <img src={logo3} className="w-8 h-8 " alt="" />
-            <img src={logo4} className="w-8 h-8  rounded-full" alt="" />
-          </div>
-          <div className="relative">
-            <input type="text" className="bg-white py-2 rounded-lg w-full" />
-            <button className="text-white   px-2 py-2 text-bold ">
-              Submit
-            </button>
-          </div>
+    
+
         </div>
       </div>
     </div>
