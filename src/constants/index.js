@@ -1194,7 +1194,7 @@ export const BlogData = [
   {
     id: "00535eb0-76c3-4f12-b1d2-93473cd5fe94",
 
-    title: "  Expect a solar energy revolution in Nigeria.",
+    title: "Expect a solar energy revolution in Nigeria.",
     subtitle:
       "  As Lightup Nigeria Solar Power Ltd becomes Access Bank Plc official solar vendor",
     summary:
@@ -1222,7 +1222,7 @@ export const BlogData = [
   {
     id: "00caf75b-0d8f-441c-ae04-1dd25a790683",
 
-    title: "Sunt et rerum aspernatur praesentium.",
+    title: "Expect a solar energy revolution in Nigeria",
     subtitle:
       "Eos laboriosam est itaque enim ratione. Quasi inventore quisquam sed harum sit non.",
     summary:

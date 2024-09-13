@@ -13,8 +13,8 @@ const BestOfferCarosel = ({
   return (
     <div className="flex justify-around items-center flex-col common-padding ">
       <Headings title="Special Offers" />
-      <div className="flex w-full md:w-3/4 h-full  justify-center  items-center md:flex-row flex-col gap-0 md:gap-4 mt-12">
-        <div className=" md:w-2/4  h-full   ">
+      <div className="flex w-full md:w-3/4 h-full  justify-center  items-center flex-row  gap-0 md:gap-4 mt-12">
+        <div className="w-2/4  h-full   ">
           <img
             src={image}
             alt="offer page"
@@ -22,16 +22,16 @@ const BestOfferCarosel = ({
           />
         </div>
 
-        <div className="   md:w-2/4 w-full  ">
+        <div className="   w-2/4 ">
           <div className=" h-full w-full px-4 ">
-            <h2 className="  text-black  text-2xl md:text-3xl  uppercase ">
+            <h2 className="  text-black  text-lg md:text-xl  uppercase ">
               {advert}{" "}
             </h2>
-            <h2 className="text-black  capitalize font-normal">
+            <p className="text-black md:text-xl  text-sm capitalize font-normal">
               best price:{" "}
               <span className="text-green-500 font-thin"> {price}</span>
-            </h2>
-            <div className="flex items-center  justify-between gap-4">
+            </p>
+            <div className=" items-center hidden md:flex justify-between gap-4">
               {TimeCountData.map((time, i) => {
                 return (
                   <div className="w-full h-auto  items-center py-4  " key={i}>
@@ -46,7 +46,7 @@ const BestOfferCarosel = ({
               })}
             </div>
 
-            <p className="text-black  text-base md:text-xl  capitalize ">
+            <p className="text-black  text-xs md:text-xl  capitalize ">
               {Details}
             </p>
           </div>

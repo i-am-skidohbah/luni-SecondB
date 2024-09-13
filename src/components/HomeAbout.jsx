@@ -25,7 +25,7 @@ import image12 from "../Assests/anne.jpg";
 
 const HomeAbout = () => {
   return (
-    <div className="w-full  h-[650px]  relative">
+    <div className="w-full  h-[330px] my-3 relative">
       <div className="w-full  h-full sticky bg-white">
         <img
           src={pannel}
@@ -33,22 +33,20 @@ const HomeAbout = () => {
           alt=""
         />
       </div>
-      <div className="absolute top-10 left-0 right-0 bottom-0">
+      <div className="absolute top-0 left-0 right-0 bottom-0">
         <div className="flex flex-col items-center justify-center px-4 py-2">
-          <h1 className="text-center text-green-600 py-4 text-6xl uppercase">
+          <h1 className="text-center text-green-600 py-1 text-3xl uppercase">
             LIGHTUP NIGERIA
           </h1>
-          <hr className="w-32 bg-white h-1" />
-          <p className="text-center text-green-300 text-2xl py-4">
+          <p className="text-center text-green-500 text-xl py-1">
             Welcome to Our World of Solar Power Excellence!
           </p>
 
-          <div className="flex items-center md:flex-row  flex-col gap-8 md:w-3/4 justify-center w-full">
-            <div className=" w-full md:w-2/4">
-              <h1 className="text-balance text-base text-justify "></h1>
-              <h1 className="text-black text-2xl py-2 font-bold">About Us</h1>
+          <div className="flex items-center md:flex-row  gap-8 md:w-3/4 justify-center w-full">
+            <div className="w-2/4">
+              <h1 className="text-black text-3xl py-1 font-bold">About Us</h1>
               <hr className="w-24" />
-              <p className="text-justify text-black  text-xl">
+              <p className="text-justify text-black  text-xs md:text-lg">
                 Lightup Nigeria Solar Power Ltd was incorporated in August 2020
                 with the Corporate Affairs Commission under the Company and
                 Allied Masters Act Laws of the Federation of Nigeria with RC No:
@@ -56,8 +54,8 @@ const HomeAbout = () => {
               </p>
             </div>
 
-            <div className=" w-full md:w-2/4 ">
-              <p className=" text-justify text-black text-xl py-2">
+            <div className=" w-2/4 ">
+              <p className=" text-justify text-black text-xs md:text-lg py-1">
                 We offer innovative, afforable, and sustainable solar energy
                 solutions to power homes and businesses across Nigeria, reducing
                 energy costs and promoting environmental responsibility with the
@@ -364,7 +362,6 @@ export const Team = () => {
   );
 };
 
-
 export const Brands = () => {
   return (
     <section className="common-padding md:block hidden bg-white w-full">
@@ -380,5 +377,5 @@ export const Brands = () => {
       </div>
     </section>
   );
-}
+};
 export default HomeAbout;

@@ -11,8 +11,8 @@ const ProductList = () => {
     setList(ProductData.slice(0, 12));
   }, []);
   return (
-    <div className="w-full flex justify-center items-center flex-col bg-white common-padding">
-      <div className="grid grid-cols-2 md:grid-cols-6  border place-items-center gap-x-0 gap-y-0 justify-center w-full ">
+    <div className="w-full h-full flex items-center justify-center  bg-white py-6">
+      <div className="  grid grid-cols-2 md:grid-cols-6 w-full md:w-3/4 ">
         {list.map((each, index) => {
           return (
             <Products
@@ -27,7 +27,6 @@ const ProductList = () => {
           );
         })}
       </div>
-      <ViewAll />
     </div>
   );
 };

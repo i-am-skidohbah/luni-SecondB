@@ -6,7 +6,7 @@ const Fields = () => {
   const [blog, setBlog] = useState([]);
 
   const fetchBlog = () => {
-    setBlog(BlogData.slice(0, 3));
+    setBlog(BlogData.slice(0, 4));
     console.log(blog);
   };
 
@@ -16,7 +16,7 @@ const Fields = () => {
 
   return (
     <div className="md:pt-1 md:pb-10 md:px-12 py-10 px-5  bg-white">
-      <div className="grid md:grid-cols-3 py-2 px-3 place-items-center gap-2 grid-cols-1">
+      <div className="grid md:grid-cols-4 py-2 px-3 place-items-center gap-2 grid-cols-1">
         {blog &&
           blog.map((item, index) => {
             return (
