@@ -6,7 +6,7 @@ import logo3 from "../Assests/instagram.png";
 import logo4 from "../Assests/youtube.png";
 const Footer = () => {
   return (
-    <div className="w-full flex  h-full  md:h-[500px] bg_footer">
+    <div className="w-full flex  h-full  md:h-[300px] bg_footer">
       <div className="w-full flex justify-between  items-center ">
         <div className="px-4 py-4 w-2/4">
           <div className="flex items-center w-full justify-center ">

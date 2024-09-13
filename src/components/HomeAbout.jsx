@@ -46,7 +46,7 @@ const HomeAbout = () => {
           <div className="flex items-center md:flex-row  flex-col gap-8 md:w-3/4 justify-center w-full">
             <div className=" w-full md:w-2/4">
               <h1 className="text-balance text-base text-justify "></h1>
-              <h1 className="text-black text-5xl py-2 font-bold">About Us</h1>
+              <h1 className="text-black text-2xl py-2 font-bold">About Us</h1>
               <hr className="w-24" />
               <p className="text-justify text-black  text-xl">
                 Lightup Nigeria Solar Power Ltd was incorporated in August 2020

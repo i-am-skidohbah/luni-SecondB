@@ -19,7 +19,7 @@
                 <h1 className=" text-base  py-1 text-red-600 capitalize font-bold">
                   Breaking News
                 </h1>
-                <h1 className="text-xl  text-black py-1 uppercase font-bold">
+                <h1 className="text-1xl  text-black py-1 uppercase font-bold">
                   {title}
                 </h1>
                 <p className="text-sm py-2 text-black  font-normal capitalize">
