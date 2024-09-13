@@ -11,7 +11,6 @@ const Navbar = () => {
   const { cart } = useContext(ShopContext);
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [isMobileNavActive, setIsMobileNavActive] = useState(false);
-  
 
   const handleSearchClick = () => {
     setIsSearchActive(!isSearchActive);
@@ -22,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="nav-wrapper relative z-50">
+    <div className="nav-wrapper relative z-50 md:px-12">
       <div className="grad-bar"></div>
       <nav
         className={`navbar ${isMobileNavActive ? "mobile-nav" : ""} sticky `}
@@ -45,6 +44,7 @@ const Navbar = () => {
             {" "}
             Home
           </NavLink>
+
           <NavLink to="/products" className="nav-item">
             Products
           </NavLink>
@@ -53,9 +53,6 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/traning" className="nav-item">
             Training
-          </NavLink>
-          <NavLink to="/about" className="nav-item">
-            Blog
           </NavLink>
           <NavLink to="/contact" className="nav-item">
             Contact Us
@@ -73,13 +70,12 @@ const Navbar = () => {
             placeholder="Search.."
           />
         </ul>
-        <div className="md:flex flex-center items-center relative justify-center  hidden ">
-          <h2>Login</h2>
+        <div className="md:flex flex-center items-center relative justify-center   hidden ">
+          <h2 className="text-sm">Login</h2>
           <NavLink to="/carts">
-            <img src={Cart} className=" w-14 h-16 object-top cursor-pointer" />
-            <h4 className="absolute top-5 -right-1 ">{cart.length}</h4>
+            <img src={Cart} className=" w-10 h-10 object-top cursor-pointer" />
+            <h4 className="absolute top-1 -right-1 ">{cart.length}</h4>
           </NavLink>
-          <h2 className="absolute text-red-700 font-bold -right-5 text-center text-2xl px-2"></h2>
         </div>
       </nav>
     </div>
