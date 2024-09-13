@@ -365,11 +365,11 @@ export const Brands = () => {
       {" "}
       <Headings tips="our brands" title="best of the bests" />
       <div className="bg-white w-full flex justify-center common-padding items-center ">
-        <div className=" w-3/4 md:grid hidden gap-6 place-items-center justify-center md:grid-cols-7">
+        <div className=" w-3/4 md:flex hidden gap-6 items-center justify-center ">
           {Brand.map((e, i) => {
             return (
               <div key={i} className="w-full">
-                <img src={e} alt="" className="w-32" />
+                <img src={e} alt="" className="w-12" />
               </div>
             );
           })}

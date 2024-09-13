@@ -26,10 +26,10 @@ import image12 from "../Assests/anne.jpg";
 const HomeAbout = () => {
   return (
     <div className="w-full  h-[650px]  relative">
-      <div className="w-full  h-full sticky">
+      <div className="w-full  h-full sticky bg-white">
         <img
           src={pannel}
-          className="w-full h-full object-fill opacity-100"
+          className="w-full h-full object-cover opacity-15"
           alt=""
         />
       </div>
@@ -39,32 +39,32 @@ const HomeAbout = () => {
             LIGHTUP NIGERIA
           </h1>
           <hr className="w-32 bg-white h-1" />
-          <p className="text-center text-white text-2xl py-4">
+          <p className="text-center text-green-300 text-2xl py-4">
             Welcome to Our World of Solar Power Excellence!
           </p>
 
           <div className="flex items-center md:flex-row  flex-col gap-8 md:w-3/4 justify-center w-full">
-          <div className=" w-full md:w-2/4">
-            <h1 className="text-balance text-base text-justify "></h1>
-            <h1 className="text-black text-5xl py-2 font-bold">About Us</h1>
-            <hr className="w-24" />
-            <p className="text-justify text-black  text-xl">
-              Lightup Nigeria Solar Power Ltd was incorporated in August 2020
-              with the Corporate Affairs Commission under the Company and Allied
-              Masters Act Laws of the Federation of Nigeria with RC No: 1700859.
-            </p>
-          </div>
+            <div className=" w-full md:w-2/4">
+              <h1 className="text-balance text-base text-justify "></h1>
+              <h1 className="text-black text-5xl py-2 font-bold">About Us</h1>
+              <hr className="w-24" />
+              <p className="text-justify text-black  text-xl">
+                Lightup Nigeria Solar Power Ltd was incorporated in August 2020
+                with the Corporate Affairs Commission under the Company and
+                Allied Masters Act Laws of the Federation of Nigeria with RC No:
+                1700859.
+              </p>
+            </div>
 
-          <div className=" w-full md:w-2/4 ">
-            <p className=" text-justify text-black text-xl py-2">
-              We offer innovative, afforable, and sustainable solar energy
-              solutions to power homes and businesses across Nigeria, reducing
-              energy costs and promoting environmental responsibility with the
-              use of lithium phosphate technology
-            </p>
+            <div className=" w-full md:w-2/4 ">
+              <p className=" text-justify text-black text-xl py-2">
+                We offer innovative, afforable, and sustainable solar energy
+                solutions to power homes and businesses across Nigeria, reducing
+                energy costs and promoting environmental responsibility with the
+                use of lithium phosphate technology
+              </p>
+            </div>
           </div>
-        </div>
-
         </div>
       </div>
     </div>
@@ -118,10 +118,13 @@ export const Services = () => {
             <img src={solar} className="w-full rounded-xl" alt="" />
           </div>
           <div>
-            <h1 className="text-center py-2 text-2xl">Installation & Maintainance</h1>
+            <h1 className="text-center py-2 text-2xl">
+              Installation & Maintainance
+            </h1>
             <p className="text-center text-black text-xl text-normal">
-            LightUp Nigeria offers solar panel installations to provide clean, renewable energy across Nigeria. 
-            We aim to brighten the country's future through sustainable solar solutions.
+              LightUp Nigeria offers solar panel installations to provide clean,
+              renewable energy across Nigeria. We aim to brighten the country's
+              future through sustainable solar solutions.
             </p>
           </div>
         </div>
@@ -133,8 +136,10 @@ export const Services = () => {
           <div>
             <h1 className="text-center py-2 text-2xl">Products & Services</h1>
             <p className="text-center text-black text-xl text-normal">
-            Lightup Nigeria Solar Power ltd is a leading provider of solar energy solutions in Nigeria. 
-            We offer a range of high-quality solar power products and services to meet the growing demand for renewable energy in the country.
+              Lightup Nigeria Solar Power ltd is a leading provider of solar
+              energy solutions in Nigeria. We offer a range of high-quality
+              solar power products and services to meet the growing demand for
+              renewable energy in the country.
             </p>
           </div>
         </div>
@@ -144,7 +149,9 @@ export const Services = () => {
             <img src={training} className="w-full rounded-xl" alt="" />
           </div>
           <div>
-            <h1 className="text-center  py-2 text-2xl">Training, Research & Innovation</h1>
+            <h1 className="text-center  py-2 text-2xl">
+              Training, Research & Innovation
+            </h1>
             <p className="text-center text-black text-xl text-normal">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto in
               cum ducimus fugiat magnam.
@@ -166,15 +173,15 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-            Grand Patron & Corporate Adviser
+              Grand Patron & Corporate Adviser
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Professor Chinedu Nebo
+              Professor Chinedu Nebo
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Former Vice Chancellor, University of Nigeria Nsukka
-            Ex- Minister of Power, Federal Republic of Nigeria and current Vice Chancellor, University on the Niger
-
+              Former Vice Chancellor, University of Nigeria Nsukka Ex- Minister
+              of Power, Federal Republic of Nigeria and current Vice Chancellor,
+              University on the Niger
             </p>
           </div>
         </div>
@@ -184,15 +191,14 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-            Board Chairman
+              Board Chairman
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Professor Michael Peter Okom
+              Professor Michael Peter Okom
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Former Director of ICT, UNICAL, 
-            Current Deputy Vice Chancellor, University of Calabar.
-
+              Former Director of ICT, UNICAL, Current Deputy Vice Chancellor,
+              University of Calabar.
             </p>
           </div>
         </div>
@@ -203,13 +209,14 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-            Professor Uche Mabel
+              Professor Uche Mabel
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
               Mr HisName
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Associate Dean, Faculty of Agriculture, University of Nigeria Nsukka
+              Associate Dean, Faculty of Agriculture, University of Nigeria
+              Nsukka
             </p>
           </div>
         </div>
@@ -220,18 +227,16 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-              Executive Director, Business Development 
+              Executive Director, Business Development
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Engr Bonny Olumba
+              Engr Bonny Olumba
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Former Project Engineer, National Electric Power Authority (NEPA)
+              Former Project Engineer, National Electric Power Authority (NEPA)
             </p>
           </div>
         </div>
-
-        
 
         <div className="w-full h-[400px]  ">
           <div className=" w-full h-[50%] bg-green-300">
@@ -239,16 +244,16 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-            Executive Director, Research and Innovation
+              Executive Director, Research and Innovation
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Prof Theophilus Ndubuaku
+              Prof Theophilus Ndubuaku
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Board member, National Institute of Industrial Research( FIRO).
-            Ex Board member, National Board for Technology Incubation (NBTI).
-            National Secretary General, Academic Staff Union of Research Institutes 
-
+              Board member, National Institute of Industrial Research( FIRO). Ex
+              Board member, National Board for Technology Incubation (NBTI).
+              National Secretary General, Academic Staff Union of Research
+              Institutes
             </p>
           </div>
         </div>
@@ -259,14 +264,12 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-            Technical Assistance, Maintenance and Repairs
+              Technical Assistance, Maintenance and Repairs
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Engr Kelvin Inibehe Umoh, 
+              Engr Kelvin Inibehe Umoh,
             </h1>
-            <p className="text-center text-black text-1xl font-normal tracking-normal">
-              
-            </p>
+            <p className="text-center text-black text-1xl font-normal tracking-normal"></p>
           </div>
         </div>
 
@@ -276,13 +279,14 @@ export const Team = () => {
           </div>
           <div className="flex flex-col w-full  items-center justify-center">
             <h1 className="text-base uppercase font-bold text-green-600  py-2">
-            Director, Project implementation  & documentation
+              Director, Project implementation & documentation
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Barr Allwell Ndubuaku
+              Barr Allwell Ndubuaku
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Barrister and Solicitor of the Supreme Court of Nigeria, environmental law and renewable energy advocate.
+              Barrister and Solicitor of the Supreme Court of Nigeria,
+              environmental law and renewable energy advocate.
             </p>
           </div>
         </div>
@@ -296,10 +300,10 @@ export const Team = () => {
               Director
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Olumba Ejike Chinedu
+              Olumba Ejike Chinedu
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Green energy enforcement advocate and security professional.
+              Green energy enforcement advocate and security professional.
             </p>
           </div>
         </div>
@@ -313,10 +317,11 @@ export const Team = () => {
               Director
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Mrs Christiana Adanna
+              Mrs Christiana Adanna
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Senior Admin Officer of National Roots Crop Research Institute Umudike
+              Senior Admin Officer of National Roots Crop Research Institute
+              Umudike
             </p>
           </div>
         </div>
@@ -330,10 +335,10 @@ export const Team = () => {
               Company secretary / Legal Advisor
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Barr Onyete Olelewe
+              Barr Onyete Olelewe
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Barrister and Solicitor of the Supreme Court of Nigeria
+              Barrister and Solicitor of the Supreme Court of Nigeria
             </p>
           </div>
         </div>
@@ -347,10 +352,10 @@ export const Team = () => {
               Sales Supervisor
             </h1>
             <h1 className="text-1xl text-center uppercase py-1 font-bold">
-            Ann Chukwukadibia
+              Ann Chukwukadibia
             </h1>
             <p className="text-center text-black text-1xl font-normal tracking-normal">
-            Former Sales Manager at Dykon Solar Solutions Ltd
+              Former Sales Manager at Dykon Solar Solutions Ltd
             </p>
           </div>
         </div>
