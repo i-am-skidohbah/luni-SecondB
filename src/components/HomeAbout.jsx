@@ -364,23 +364,21 @@ export const Team = () => {
   );
 };
 
+
 export const Brands = () => {
   return (
-    <section className="common-padding md:block hidden bg-white  w-full ">
-      {" "}
-      <Headings tips="our brands" title="best of the bests" />
-      <div className="bg-white w-full flex justify-center common-padding items-center ">
-        <div className=" w-3/4 md:grid hidden gap-6 place-items-center justify-center md:grid-cols-7">
-          {Brand.map((e, i) => {
-            return (
-              <div key={i} className="w-full">
-                <img src={e} alt="" className="w-32" />
-              </div>
-            );
-          })}
+    <section className="common-padding md:block hidden bg-white w-full">
+      <Headings title="our partners" />
+      <div className="bg-white w-full flex justify-center common-padding items-center">
+        <div className="w-11/12 md:flex hidden gap-4 justify-between items-center">
+          {Brand.map((e, i) => (
+            <div key={i} className="w-1/4">
+              <img src={e} alt="" className="w-24 h-24 object-contain" />
+            </div>
+          ))}
         </div>
       </div>
     </section>
   );
-};
+}
 export default HomeAbout;

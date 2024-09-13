@@ -363,9 +363,9 @@ export const Brands = () => {
   return (
     <section className="common-padding md:block hidden bg-white  w-full ">
       {" "}
-      <Headings tips="our brands" title="best of the bests" />
+      <Headings tips="our partners"  />
       <div className="bg-white w-full flex justify-center common-padding items-center ">
-        <div className=" w-3/4 md:flex hidden gap-6 items-center justify-center ">
+        <div className=" w-5/6 md:flex hidden gap-1 items-center justify-center ">
           {Brand.map((e, i) => {
             return (
               <div key={i} className="w-full">

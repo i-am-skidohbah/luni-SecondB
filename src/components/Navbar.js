@@ -45,10 +45,6 @@ const Navbar = () => {
             {" "}
             Home
           </NavLink>
-
-          <NavLink to="/about" className="nav-item">
-            About Us
-          </NavLink>
           <NavLink to="/products" className="nav-item">
             Products
           </NavLink>
@@ -57,6 +53,9 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/traning" className="nav-item">
             Training
+          </NavLink>
+          <NavLink to="/about" className="nav-item">
+            Blog
           </NavLink>
           <NavLink to="/contact" className="nav-item">
             Contact Us

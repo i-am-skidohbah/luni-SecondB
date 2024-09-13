@@ -16,7 +16,7 @@ import ProductList from "./productList";
 
 import Fields from "./Fields";
 import Contact from "./contact";
-import { Brands } from "./AboutPageCaro";
+import { Brands } from "./HomeAbout";
 
 const Hero = () => {
   const { productCarousel } = useContext(ShopContext);
