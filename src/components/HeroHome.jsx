@@ -17,19 +17,19 @@ const HeroHome = () => {
               </h2>
 
               <div className=" w-3/4 ">
-                <p className="text-base text-justify  leading-normal">
+                {/*<p className="text-base text-justify  leading-normal">
                   5KVA inverter system on a 5Kwh lithium iron Phosphate
                   (LiFePO4) backup This module is an all-in-one solar module
                   that is scalable (upgradable) with sleek design.
-                </p>
+                </p>*/}
               </div>
               <div className=" w-full py-4 ">
-                <Link to="/projects">
+                {/*<Link to="/projects">*/}
                   <button className="text-center md:w-44 p-2 px-4 font-bold bg-white rounded-lg text-black text-xl capitalize">
                     {" "}
                     learn More
                   </button>
-                </Link>
+                {/*</Link>*/}
               </div>
             </div>
           </div>
@@ -48,19 +48,19 @@ const HeroHome = () => {
               </h2>
 
               <div className="w-3/4 ">
-                <p className="text-base text-justify  leading-normal">
+                {/*<p className="text-base text-justify  leading-normal">
                   We are proud to have since completed the 25kwh Alaoma solar
                   module at Peace College Junction, Alaoma Estate, off, KM5 Port
                   Harcourt Rd, New Owerri, Owerri.
-                </p>
+                </p>*/}
               </div>
               <div className=" w-full py-4 ">
-                <Link to="/projects">
+                {/*<Link to="/projects">*/}
                   <button className="text-center md:w-44 p-2 px-4 font-bold bg-white rounded-lg text-black text-xl capitalize">
                     {" "}
                     learn More
                   </button>
-                </Link>
+                {/*</Link>*/}
               </div>
             </div>
           </div>
@@ -77,19 +77,19 @@ const HeroHome = () => {
               </h2>
 
               <div className="w-3/4 ">
-                <p className="text-base text-justify  leading-normal">
+                {/*<p className="text-base text-justify  leading-normal">
                   We are proud to have since completed the 25kwh Alaoma solar
                   module at Peace College Junction, Alaoma Estate, off, KM5 Port
                   Harcourt Rd, New Owerri, Owerri.
-                </p>
+                </p>*/}
               </div>
               <div className=" w-full py-4 ">
-                <Link to="/projects">
+                 {/*<Link to="/projects">*/}
                   <button className="text-center md:w-44 p-2 px-4 font-bold bg-white rounded-lg text-black text-xl capitalize">
                     {" "}
                     learn More
                   </button>
-                </Link>
+                {/*</Link>*/}
               </div>
             </div>
           </div>

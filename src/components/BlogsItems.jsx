@@ -6,15 +6,15 @@ const BlogsItems = ({ title, subTitle, image, id }) => {
   const navigate = useNavigate();
   const trucateSubtitle = (text) => {
     if (text.length >= 23) {
-      return text.slice(0, 40) + `...`;
+      return text.slice(0, 30) + `...`;
     } else {
       return text;
     }
   };
   return (
-    <Link to={`blogs/${id}`}>
+   /* <Link to={`blogs/${id}`}>*/
       <div className="md:px-4 px-1">
-        <div className="w-[300px] h-[325px]  border boder-red-500">
+        <div className="w-[300px] h-[375px]  border boder-red-500">
           <div className="w-full h-2/4">
             <img src={image} className="w-full  h-full object-fill " alt="" />
           </div>
@@ -22,8 +22,8 @@ const BlogsItems = ({ title, subTitle, image, id }) => {
             <h1 className=" text-base  py-1 text-red-600 capitalize font-bold">
               Breaking News
             </h1>
-            <h1 className="text-xl  text-black py-1 uppercase font-bold">
-              {trucateSubtitle(title)}
+            <h1 className="text-1xl  text-black py-1 uppercase font-bold">
+              {(title)}
             </h1>
             <p className="text-sm py-2 text-black  font-normal capitalize">
               {trucateSubtitle(subTitle)}
@@ -34,7 +34,7 @@ const BlogsItems = ({ title, subTitle, image, id }) => {
           </div>
         </div>
       </div>
-    </Link>
+   /* </Link>*/
   );
 };
 

@@ -15,7 +15,7 @@ const Fields = () => {
   }, []);
 
   return (
-    <div className="md:pt-1 md:pb-10 md:px-12 py-10 px-5  bg-white">
+    <div className="md:pt-1 md:pb-10 md:px-40 py-10 px-5  bg-white">
       <div className="grid md:grid-cols-4 py-2 px-3 place-items-center gap-2 grid-cols-1">
         {blog &&
           blog.map((item, index) => {
