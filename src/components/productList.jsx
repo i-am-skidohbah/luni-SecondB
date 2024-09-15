@@ -8,7 +8,7 @@ const ProductList = () => {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    setList(ProductData.slice(0, 12));
+    setList(ProductData.slice(0, 6));
   }, []);
   return (
     <div className="w-full h-full flex items-center justify-center  bg-white py-6">
