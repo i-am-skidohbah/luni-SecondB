@@ -6,7 +6,7 @@ const HeroHome = () => {
     <section className="pt-16  px-2 md:px-8 bg-white">
       <Headings title="Our Projects" />
       <div className=" w-full grid grid-cols-1 md:grid-cols-3 justify-center pt-8 gap-6">
-        <div className="w-full flex items-center  h-[300px] banner ">
+        <div className="w-full flex items-center  md:h-[300px] h-[500px] banner ">
           <div className="flex justify-center items-center w-full ">
             <div className=" w-full px-6">
               <h3 className="  text-sm text-white uppercase py-2">
@@ -37,7 +37,7 @@ const HeroHome = () => {
 
         {/* the second banner */}
 
-        <div className="w-full flex items-center  h-[300px] banner2 ">
+        <div className="w-full flex items-center  md:h-[300px] h-[500px] banner2 ">
           <div className="flex justify-center items-center w-ful">
             <div className=" w-full px-6">
               <h3 className="  text-base text-white uppercase py-2">
@@ -66,7 +66,7 @@ const HeroHome = () => {
           </div>
         </div>
 
-        <div className="w-full flex items-center  h-[300px] banner2 ">
+        <div className="w-full flex items-center  md:h-[300px] h-[500px] banner2 ">
           <div className="flex justify-center items-center w-full">
             <div className=" w-full px-6">
               <h3 className="  text-base text-white uppercase">
