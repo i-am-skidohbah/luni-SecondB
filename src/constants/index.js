@@ -1085,7 +1085,7 @@ export const productCarousel = [
     title2: "WITH 30% DOWN PAYMENT",
     details: `Powered by`,
     qualities: ["ACCESS BANK", "in partnership with", "LIGHTUP NIGERIA"],
-    price: "UNLIMITED",
+    price: "",
     image: image1,
   },
 
@@ -1094,7 +1094,7 @@ export const productCarousel = [
     title1: "Compact Lithium Solarator",
     title2: "SMALL BODY BIG ENGINE!",
     details: `Get Solar Rest of Mind`,
-    qualities: ["1.2 kilo watt hour", "1.2 Back Up Battery", "DC & AC Output"],
+    qualities: ["1.2 kilowatts-hour", "1.2 BackUp Battery", "DC & AC Output"],
     price: "660,000",
     image: image,
   },
@@ -1103,7 +1103,7 @@ export const productCarousel = [
     title1: "Compact Lithium Solarator",
     title2: "SMALL BODY BIG ENGINE!",
     details: `Get Solar Rest of Mind`,
-    qualities: ["1.2 kilo watt hour", "1.2 Back Up Battery", "DC & AC Output"],
+    qualities: ["1.2 kilowatts-hour", "1.2 BackUp Battery", "DC & AC Output"],
     price: "660,000",
     image: image,
   },
@@ -1116,7 +1116,7 @@ export const BestOffer = [
     advert: "solar Pannel + LiFePO4 Solarator + free delivery",
     price: "#660,000",
 
-    Details: "1.2 kilo watt hour, 1.2 Back Up Battery, DC & AC Output",
+    Details: "1.2 kilowatts-hour, 1.2 BackUp Battery, DC & AC Output",
   },
   {
     image: image,

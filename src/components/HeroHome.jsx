@@ -9,9 +9,10 @@ const HeroHome = () => {
         <div className="w-full flex items-center  md:h-[300px] h-[500px] banner ">
           <div className="flex justify-center items-center w-full ">
             <div className=" w-full px-6">
-              <h3 className="  text-sm text-white uppercase py-2">
-                worry less satisfaction
-              </h3>
+              <h1 className="  text-2x1 text-yellow-600 uppercase leading-normal">
+              5KVA inverter system on a 5Kwh lithium iron Phosphate
+              (LiFePO4) backup
+              </h1>
               <h2 className="  text-xl  capitalize text-white">
                 Hon. Justice Nnodum's House
               </h2>
@@ -40,9 +41,9 @@ const HeroHome = () => {
         <div className="w-full flex items-center  md:h-[300px] h-[500px] banner2 ">
           <div className="flex justify-center items-center w-ful">
             <div className=" w-full px-6">
-              <h3 className="  text-base text-white uppercase py-2">
-                worry less satisfaction
-              </h3>
+              <h1 className="  text-2x1 text-yellow-600 uppercase leading-normal">
+              25kwh Alaoma solar module
+              </h1>
               <h2 className="  text-xl  capitalize text-white">
                 And the dead finally found a home to rest in peace
               </h2>
@@ -69,10 +70,10 @@ const HeroHome = () => {
         <div className="w-full flex items-center  md:h-[300px] h-[500px] banner2 ">
           <div className="flex justify-center items-center w-full">
             <div className=" w-full px-6">
-              <h3 className="  text-base text-white uppercase">
-                worry less satisfaction
-              </h3>
-              <h2 className="  text-2xl  capitalize text-white">
+              <h1 className="  text-2x1 text-yellow-600 uppercase leading-normal">
+              25kwh Alaoma solar module
+              </h1>
+              <h2 className="  text-xl  capitalize text-white">
                 And the dead finally found a home to rest in peace
               </h2>
 

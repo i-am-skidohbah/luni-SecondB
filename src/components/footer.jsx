@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <div className="w-full flex flex-col p-5  h-full items-center justify-center border  md:h-[300px] bg_footer">
       <section>
-        <div className=" flex justify-start    gap-10 w-3/4">
-          <div className="px-4 py-4 w-2/4">
+        <div className=" flex justify-start    gap-10 w-4/4">
+          <div className="px-4 py-4 w-4/4">
             <div className="flex items-center w-full justify-center md:flex-row flex-col">
               <img
                 src={logo}
@@ -21,7 +21,7 @@ const Footer = () => {
               </h2>
             </div>
           </div>
-          =======
+          
           <div className="flex  flex-col px-6 py-4  w-2/4  ">
             <div className="w-2/4 flex justify-start items-center  gap-6 ">
               <img src={logo1} className="md:w-8 w-4 h-4 md:h-8 " alt="" />

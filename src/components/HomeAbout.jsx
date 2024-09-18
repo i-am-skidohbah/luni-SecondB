@@ -56,7 +56,7 @@ const HomeAbout = () => {
 
             <div className=" w-2/4 ">
               <p className=" text-justify text-black text-xs md:text-lg py-1">
-                We offer innovative, afforable, and sustainable solar energy
+                We offer innovative, affordable, and sustainable solar energy
                 solutions to power homes and businesses across Nigeria, reducing
                 energy costs and promoting environmental responsibility with the
                 use of lithium phosphate technology
