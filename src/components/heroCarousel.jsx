@@ -8,7 +8,7 @@ const HeroCarousel = ({ title1, title2, details, price, qualities, image }) => {
           <h2 className="  md:text-xl text-sm uppercase text-black-600">
             {title1}
           </h2>
-          <h1 className="md:text-3xl text-xl text-white capitalize">
+          <h1 className="md:text-3xl text-xl text-red-600 capitalize">
             {title2}
           </h1>
           <div className=" ">
@@ -27,7 +27,7 @@ const HeroCarousel = ({ title1, title2, details, price, qualities, image }) => {
           <div className="flex justify-start md:items-center w-full  md:flex-row flex-col">
             <div className="w-2/4  ">
               <h3 className="text-white text-sm md:text-xl py-1 ">
-                Best Price:{price}
+                {price}
               </h3>
             </div>
 

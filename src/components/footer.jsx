@@ -45,7 +45,7 @@ const Footer = () => {
                 home
               </p>
               <p className="md:text-xl text-xs leading-normal capitalize ">
-                about
+                About Us
               </p>
               <p className="md:text-xl text-xs leading-normal capitalize ">
                 carts

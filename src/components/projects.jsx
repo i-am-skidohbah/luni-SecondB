@@ -4,6 +4,11 @@ const Projects = ({ image, title, details }) => {
   return (
     <div className="p-2 md:p-4">
       <div className="w-full h-[500px]  bg-black relative border rounded-xl border-red-500 flex flex-col items-center justify-center">
+        <div>
+          <h2 className="p-4 text-center text-white text-2xl">{title}</h2>
+          <p className="text-center px-4 text-xl text-white">{details}</p>
+        </div>
+        
         <div className="absolute  top-0 right-0 w-full h-full border rounded-xl border-green-400">
           <img
             src={image}
@@ -12,8 +17,7 @@ const Projects = ({ image, title, details }) => {
           />
         </div>
 
-        <h2 className="p-4 text-center text-white text-2xl">{title}</h2>
-        <p className="text-center px-4 text-xl text-white">{details}</p>
+        
       </div>
     </div>
   );

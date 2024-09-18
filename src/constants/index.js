@@ -1013,13 +1013,13 @@ export const ProductData = [
 
 export const projectsData = [
   {
-    title: "Project Title",
+    title: "5KVA inverter system on a 5Kwh lithium iron Phosphate(LiFePO4) backup",
     details:
       "As part of our LightUp the Judiciary campaign, we successfully installed and energized the residence of Hon Justice Paul Nnodum with our top notch compact hybrid lithium solator. This module is an all-in-one solar module that is scalable (upgradable) with sleek design. It's a single high efficiency indoor unit that does not occupy space.",
     image: solar2,
   },
   {
-    title: "And the dead finally found a home to rest in peace -",
+    title: "And the dead finally found a home to rest in peace ",
     details:
       "With the successful completion of the first ever comlpete offgrid solar powered morgue by Lightup Nigeria Solar Power Ltd, the dead finally found a perfect place to rest in peace. We are proud to have since completed  the 25kwh Alaoma solar module at Peace College Junction, Alaoma Estate, off, KM5 Port Harcourt Rd, New Owerri, Owerri.",
     image: morgue,
