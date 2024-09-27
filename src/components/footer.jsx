@@ -6,7 +6,7 @@ import logo3 from "../Assests/instagram.png";
 import logo4 from "../Assests/youtube.png";
 const Footer = () => {
   return (
-    <div className="w-full flex flex-col p-5  h-full items-center justify-center border  md:h-[300px] bg_footer">
+    <div className="w-full flex flex-col p-5  h-full items-center justify-center border  md:h-[310px] bg_footer">
       <section>
         <div className=" flex justify-start    gap-10 w-4/4">
           <div className="px-4 py-4 w-4/4">
@@ -29,7 +29,7 @@ const Footer = () => {
               <img src={logo3} className="md:w-8 w-4 h-4 md:h-8 " alt="" />
               <img
                 src={logo4}
-                className="md:w-8 w-4 h-4 md:h-8 rounded-full"
+                className="md:w-8 w-4 h-4 md:h-8 "
                 alt=""
               />
             </div>
@@ -38,17 +38,23 @@ const Footer = () => {
               <h2 className="text-white text-bold capitalize md:text-lg text-sm py-2">
                 important Links
               </h2>
+              <p className="md:text-xl text-xs leading-normal capitalize ">
+                home
+              </p>
               <p className="md:text-xl text-xs leading-normal capitalize">
                 product
               </p>
               <p className="md:text-xl text-xs leading-normal capitalize ">
-                home
+                projects
+              </p>
+              <p className="md:text-xl text-xs leading-normal capitalize ">
+                training
               </p>
               <p className="md:text-xl text-xs leading-normal capitalize ">
                 About Us
               </p>
               <p className="md:text-xl text-xs leading-normal capitalize ">
-                carts
+                contact Us
               </p>
             </div>
           </div>

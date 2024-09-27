@@ -9,14 +9,14 @@ const Traning = () => {
   };
   return (
     <section className="px-0 md:px-12 w-full h-screen  border bg-white">
-      <div className=" w-full h-[800px] ">
+      <div className=" w-full h-[600px] ">
         <div className="bg-white w-full h-full py-8 flex justify-center flex-col items-center">
           <div className="py-5 px-3 my-5">
-            <h2 className="md:text-4xl text-2xl italic text-center text-black uppercase leading-normal">
+            <h2 className="md:text-3xl text-2xl text-center text-black uppercase leading-normal">
               become a certified solar technician and solarpreneur
             </h2>
           </div>
-          <div className="w-[80%] h-[80%] border rounded-lg flex ">
+          <div className="w-[80%] h-[100%] border rounded-lg flex ">
             <div className="w-2/4 h-full hidden relative rounded-l-xl bg-green-600 border  md:flex justify-center items-center">
               <div className="w-full h-full absolute top-0 right-0 ">
                 <img
@@ -26,14 +26,14 @@ const Traning = () => {
                 />
               </div>
 
-              <h1 className="text-center text-white capitalize  text-5xl">
-                LIght Up Nigeria
+              <h1 className="text-center text-white capitalize  text-3xl">
+                LightUp Nigeria
               </h1>
             </div>
 
             {status ? (
               <div className=" w-full md:w-2/4 h-full flex items-center justify-center ">
-                <div className="w-[70%] h-[70%]  ">
+                <div className="w-[70%] h-[90%]  ">
                   <form action="">
                     <div className="py-6">
                       <input
